@@ -1,0 +1,2 @@
+verilog work "netgen/par/s_p_timesim.v"
+verilog work "s_p_tb.v"

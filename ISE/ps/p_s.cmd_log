@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/ise/ps/p_s.xst" -ofn "/home/ise/ps/p_s.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim p_s.ngc p_s_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7vx330t-ffg1157-2 p_s.ngc p_s.ngd  
+map -intstyle ise -p xc7vx330t-ffg1157-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o p_s_map.ncd p_s.ngd p_s.pcf 
+par -w -intstyle ise -ol high -mt off p_s_map.ncd p_s.ncd p_s.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml p_s.twx p_s.ncd -o p_s.twr p_s.pcf 
+netgen -intstyle ise -s 2  -pcf p_s.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim p_s.ncd p_s_timesim.v 

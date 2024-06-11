@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "simprims_ver" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/sp/s_p_tb_isim_par.exe" -prj "/home/ise/sp/s_p_tb_par.prj" "work.s_p_tb" "work.glbl" 

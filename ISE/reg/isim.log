@@ -1,0 +1,19 @@
+ISim log file
+Running: /home/ise/reg/reg1_tb_isim_par.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/reg/reg1_tb_isim_par.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+INFO: SDF backannotation was successful with SDF file netgen/par/reg1_timesim.sdf, for root module /reg1_tb/uut/.
+Finished circuit initialization process.
+Output data: 9e26af37b0f0f0f0f3c3c3c3c187654321
+Stopped at time : 200 ns : File "/home/ise/reg/reg1_tb.v" Line 80
+# exit 0

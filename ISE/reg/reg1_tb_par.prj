@@ -1,0 +1,2 @@
+verilog work "netgen/par/reg1_timesim.v"
+verilog work "reg1_tb.v"

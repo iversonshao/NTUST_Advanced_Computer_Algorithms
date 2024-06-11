@@ -1,0 +1,33 @@
+ISim log file
+Running: /home/ise/NTUST_Advanced_Computer_Algorithms/ps/p_s_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/NTUST_Advanced_Computer_Algorithms/ps/p_s_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Time=              125000, clk=1, rst_n=1, data_in_3=0000000000000000000000000012153524, p_s_flag_in=1, data_out_3=xxxxxxxxx
+Time=              130000, clk=0, rst_n=1, data_in_3=ffffffffffffffffffffffffffc0895e81, p_s_flag_in=0, data_out_3=xxxxxxxxx
+Time=              135000, clk=1, rst_n=1, data_in_3=ffffffffffffffffffffffffff8484d609, p_s_flag_in=1, data_out_3=xxxxxxxxx
+Time=              140000, clk=0, rst_n=1, data_in_3=ffffffffffffffffffffffffffb1f05663, p_s_flag_in=0, data_out_3=xxxxxxxxx
+Time=              145000, clk=1, rst_n=1, data_in_3=0000000000000000000000000006b97b0d, p_s_flag_in=1, data_out_3=3ffffffff
+Time=              150000, clk=0, rst_n=1, data_in_3=0000000000000000000000000046df998d, p_s_flag_in=0, data_out_3=3ffffffff
+Time=              155000, clk=1, rst_n=1, data_in_3=ffffffffffffffffffffffffffb2c28465, p_s_flag_in=1, data_out_3=3b1f05663
+Time=              160000, clk=0, rst_n=1, data_in_3=ffffffffffffffffffffffffff89375212, p_s_flag_in=0, data_out_3=3b1f05663
+Time=              165000, clk=1, rst_n=1, data_in_3=0000000000000000000000000000f3e301, p_s_flag_in=1, data_out_3=3ffffffff
+Time=              170000, clk=0, rst_n=1, data_in_3=0000000000000000000000000006d7cd0d, p_s_flag_in=0, data_out_3=3ffffffff
+Time=              175000, clk=1, rst_n=1, data_in_3=000000000000000000000000003b23f176, p_s_flag_in=1, data_out_3=3ffffffff
+Time=              180000, clk=0, rst_n=1, data_in_3=000000000000000000000000001e8dcd3d, p_s_flag_in=0, data_out_3=3ffffffff
+Time=              185000, clk=1, rst_n=1, data_in_3=0000000000000000000000000076d457ed, p_s_flag_in=1, data_out_3=3ffffffff
+Time=              190000, clk=0, rst_n=1, data_in_3=00000000000000000000000000462df78c, p_s_flag_in=0, data_out_3=3ffffffff
+Time=              195000, clk=1, rst_n=1, data_in_3=000000000000000000000000007cfde9f9, p_s_flag_in=1, data_out_3=046df998d
+Time=              200000, clk=0, rst_n=1, data_in_3=ffffffffffffffffffffffffffe33724c6, p_s_flag_in=0, data_out_3=046df998d
+Stopped at time : 200 ns : File "/home/ise/ps/p_s_tb.v" Line 79
+# exit 0
