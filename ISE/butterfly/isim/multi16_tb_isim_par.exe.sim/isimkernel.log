@@ -1,0 +1,28 @@
+Command line:
+   multi16_tb_isim_par.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  34313
+
+Tue May 21 17:10:07 2024
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 222.134 Meg
+
+ Total Signals          : 6604
+ Total Nets             : 4945
+ Total Signal Drivers   : 4765
+ Total Blocks           : 1100
+ Total Primitive Blocks : 695
+ Total Processes        : 5257
+ Total Traceable Variables  : 3043
+ Total Scalar Nets and Variables : 98929
+
+ Total Simulation Time: 0.09 sec
+
+ Current Memory Usage: 303.645 Meg
+
+Tue May 21 17:10:11 2024
+

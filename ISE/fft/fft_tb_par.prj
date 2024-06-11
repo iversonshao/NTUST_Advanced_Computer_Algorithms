@@ -1,0 +1,2 @@
+verilog work "netgen/par/fft_timesim.v"
+verilog work "fft_tb.v"

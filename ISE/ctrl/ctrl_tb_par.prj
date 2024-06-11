@@ -1,0 +1,2 @@
+verilog work "netgen/par/ctrl_timesim.v"
+verilog work "ctrl_tb.v"

@@ -1,0 +1,2 @@
+verilog work "netgen/par/butterfly_timesim.v"
+verilog work "butterfly_tb.v"

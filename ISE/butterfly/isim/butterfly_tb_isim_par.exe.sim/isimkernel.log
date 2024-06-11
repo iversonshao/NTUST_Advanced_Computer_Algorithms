@@ -1,0 +1,28 @@
+Command line:
+   butterfly_tb_isim_par.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  45275
+
+Tue May 21 17:12:32 2024
+
+
+ Elaboration Time: 0.38 sec
+
+ Current Memory Usage: 443.9 Meg
+
+ Total Signals          : 67784
+ Total Nets             : 53252
+ Total Signal Drivers   : 50689
+ Total Blocks           : 11722
+ Total Primitive Blocks : 7508
+ Total Processes        : 53511
+ Total Traceable Variables  : 30965
+ Total Scalar Nets and Variables : 1018055
+
+ Total Simulation Time: 3.34 sec
+
+ Current Memory Usage: 568.594 Meg
+
+Tue May 21 17:17:49 2024
+

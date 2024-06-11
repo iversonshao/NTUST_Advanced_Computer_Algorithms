@@ -1,0 +1,824 @@
+ISim log file
+Running: /home/ise/NTUST_Advanced_Computer_Algorithms/fft/fft_tb_isim_par.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/NTUST_Advanced_Computer_Algorithms/fft/fft_tb_isim_par.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+INFO: SDF backannotation was successful with SDF file netgen/par/fft_timesim.sdf, for root module /fft_tb/uut/.
+Finished circuit initialization process.
+Time = 0, clk = 0, rst_n = 0, data_in = 012345678, data_out = xxxxxxxxx
+Time = 4000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xxxxxxxxX
+Time = 4000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xxxxxxxxX
+Time = 4000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xxxxxxxxX
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xxxxxxxXX
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xxxxxxxXX
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xxxxxxXXX
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xxxXxxXXX
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xxxXxXXXX
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xxxXxXXX0
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xXxXxXXX0
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xXxXXXXX0
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xXxXXXXX0
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xXXXXXXX0
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xXXXXXXX0
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xXXXXXXX0
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xXXXXXXX0
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xXXXXXXX0
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xXXXXXXX0
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xXXXXXXX0
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xXXXXXXX0
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xXXXXXXX0
+Time = 5000, clk = 0, rst_n = 0, data_in = 012345678, data_out = xXXXXXX00
+Time = 5000, clk = 1, rst_n = 0, data_in = 012345678, data_out = xXXXXXX00
+Time = 5000, clk = 1, rst_n = 0, data_in = 012345678, data_out = xXXXXXX00
+Time = 5000, clk = 1, rst_n = 0, data_in = 012345678, data_out = xXXXXXX00
+Time = 5000, clk = 1, rst_n = 0, data_in = 012345678, data_out = xXXXX0X00
+Time = 5000, clk = 1, rst_n = 0, data_in = 012345678, data_out = xXXXX0X00
+Time = 5000, clk = 1, rst_n = 0, data_in = 012345678, data_out = xXXXX0000
+Time = 5000, clk = 1, rst_n = 0, data_in = 012345678, data_out = xXXXX0000
+Time = 5000, clk = 1, rst_n = 0, data_in = 012345678, data_out = xXX0X0000
+Time = 5000, clk = 1, rst_n = 0, data_in = 012345678, data_out = xXX000000
+Time = 5000, clk = 1, rst_n = 0, data_in = 012345678, data_out = xX0000000
+Time = 5000, clk = 1, rst_n = 0, data_in = 012345678, data_out = x00000000
+Time = 5000, clk = 1, rst_n = 0, data_in = 012345678, data_out = X00000000
+Time = 6000, clk = 1, rst_n = 0, data_in = 012345678, data_out = 000000000
+Time = 10000, clk = 0, rst_n = 0, data_in = 012345678, data_out = 000000000
+Time = 15000, clk = 1, rst_n = 0, data_in = 012345678, data_out = 000000000
+Time = 20000, clk = 0, rst_n = 1, data_in = 087654321, data_out = 000000000
+Time = 25000, clk = 1, rst_n = 1, data_in = 087654321, data_out = 000000000
+Time = 30000, clk = 0, rst_n = 1, data_in = 087654321, data_out = 000000000
+Time = 35000, clk = 1, rst_n = 1, data_in = 087654321, data_out = 000000000
+Time = 40000, clk = 0, rst_n = 1, data_in = 087654321, data_out = 000000000
+Time = 45000, clk = 1, rst_n = 1, data_in = 087654321, data_out = 000000000
+Time = 50000, clk = 0, rst_n = 1, data_in = 087654321, data_out = 000000000
+Time = 55000, clk = 1, rst_n = 1, data_in = 087654321, data_out = 000000000
+Time = 60000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 65000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 70000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 75000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 80000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 85000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 90000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 95000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 100000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 105000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 110000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 115000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 120000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 125000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 130000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 135000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 140000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 145000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 150000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 155000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 160000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 165000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 170000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 175000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 180000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 185000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 190000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 195000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 200000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 205000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 210000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 215000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 220000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 225000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 230000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 235000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 240000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 245000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 250000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 255000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 260000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 265000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 270000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 275000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 280000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 285000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+WARNING: at 289224 ps: Timing violation in /fft_tb/uut/\p_s0/R12_33 /  $setuphold( CLK:289183 ps, I:289224 ps,-40 ps,136 ps)
+
+
+WARNING: at 289240 ps: Timing violation in /fft_tb/uut/\p_s0/R0_8 /  $setuphold( CLK:289189 ps, I:289240 ps,-40 ps,136 ps)
+
+
+WARNING: at 289244 ps: Timing violation in /fft_tb/uut/\p_s0/R4_11 /  $setuphold( CLK:289197 ps, I:289244 ps,-40 ps,136 ps)
+
+
+WARNING: at 289271 ps: Timing violation in /fft_tb/uut/\p_s0/R0_33 /  $setuphold( CLK:289192 ps, I:289271 ps,-40 ps,136 ps)
+
+
+WARNING: at 289292 ps: Timing violation in /fft_tb/uut/\p_s0/R0_21 /  $setuphold( CLK:289227 ps, I:289292 ps,-47 ps,143 ps)
+
+
+WARNING: at 289308 ps: Timing violation in /fft_tb/uut/\p_s0/R8_11 /  $setuphold( CLK:289247 ps, I:289308 ps,-40 ps,136 ps)
+
+
+WARNING: at 289309 ps: Timing violation in /fft_tb/uut/\p_s0/R8_23 /  $setuphold( CLK:289264 ps, I:289309 ps,-40 ps,136 ps)
+
+
+WARNING: at 289310 ps: Timing violation in /fft_tb/uut/\p_s0/R8_24 /  $setuphold( CLK:289261 ps, I:289310 ps,-40 ps,136 ps)
+
+
+WARNING: at 289312 ps: Timing violation in /fft_tb/uut/\p_s0/R8_20 /  $setuphold( CLK:289264 ps, I:289312 ps,-40 ps,136 ps)
+
+
+WARNING: at 289316 ps: Timing violation in /fft_tb/uut/\p_s0/R12_25 /  $setuphold( CLK:289224 ps, I:289316 ps,-47 ps,143 ps)
+
+
+WARNING: at 289317 ps: Timing violation in /fft_tb/uut/\p_s0/R4_4 /  $setuphold( CLK:289226 ps, I:289317 ps,-47 ps,143 ps)
+
+
+WARNING: at 289321 ps: Timing violation in /fft_tb/uut/\p_s0/R8_21 /  $setuphold( CLK:289264 ps, I:289321 ps,-40 ps,136 ps)
+
+
+WARNING: at 289339 ps: Timing violation in /fft_tb/uut/\p_s0/R8_25 /  $setuphold( CLK:289261 ps, I:289339 ps,-40 ps,136 ps)
+
+
+WARNING: at 289348 ps: Timing violation in /fft_tb/uut/\p_s0/R8_30 /  $setuphold( CLK:289257 ps, I:289348 ps,-40 ps,136 ps)
+
+
+WARNING: at 289353 ps: Timing violation in /fft_tb/uut/\p_s0/R12_11 /  $setuphold( CLK:289251 ps, I:289353 ps,-40 ps,136 ps)
+
+
+WARNING: at 289360 ps: Timing violation in /fft_tb/uut/\p_s0/R4_25 /  $setuphold( CLK:289249 ps, I:289360 ps,-40 ps,136 ps)
+
+
+WARNING: at 289371 ps: Timing violation in /fft_tb/uut/\p_s0/R8_4 /  $setuphold( CLK:289257 ps, I:289371 ps,-42 ps,126 ps)
+
+
+WARNING: at 289393 ps: Timing violation in /fft_tb/uut/\p_s0/R12_4 /  $setuphold( CLK:289260 ps, I:289393 ps,-40 ps,136 ps)
+
+
+WARNING: at 289415 ps: Timing violation in /fft_tb/uut/\p_s0/R12_6 /  $setuphold( CLK:289281 ps, I:289415 ps,-47 ps,143 ps)
+
+
+Time = 290000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 295000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+WARNING: at 299295 ps: Timing violation in /fft_tb/uut/\p_s0/R13_31 /  $setuphold( CLK:299182 ps, I:299295 ps,-40 ps,136 ps)
+
+
+WARNING: at 299308 ps: Timing violation in /fft_tb/uut/\p_s0/R9_31 /  $setuphold( CLK:299257 ps, I:299308 ps,-42 ps,126 ps)
+
+
+WARNING: at 299320 ps: Timing violation in /fft_tb/uut/\p_s0/R5_10 /  $setuphold( CLK:299194 ps, I:299320 ps,-40 ps,136 ps)
+
+
+Time = 300000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000000
+Time = 304000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000002
+Time = 304000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000042
+Time = 304000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000000052
+Time = 304000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000X00052
+Time = 304000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000X02052
+Time = 304000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000X0a052
+Time = 304000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000X0a0d2
+Time = 304000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000X0b0d2
+Time = 305000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000X0b0d2
+Time = 305000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000X0bXd2
+Time = 305000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 020X0bXd2
+Time = 305000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 021X0bXd2
+Time = 305000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X21X0bXd2
+Time = 305000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = X21X0bXd2
+WARNING: at 309228 ps: Timing violation in /fft_tb/uut/\p_s0/R2_1 /  $setuphold( CLK:309125 ps, I:309228 ps,-47 ps,143 ps)
+
+
+WARNING: at 309245 ps: Timing violation in /fft_tb/uut/\p_s0/R14_15 /  $setuphold( CLK:309194 ps, I:309245 ps,-40 ps,136 ps)
+
+
+WARNING: at 309284 ps: Timing violation in /fft_tb/uut/\p_s0/R10_16 /  $setuphold( CLK:309242 ps, I:309284 ps,-40 ps,136 ps)
+
+
+WARNING: at 309302 ps: Timing violation in /fft_tb/uut/\p_s0/R10_20 /  $setuphold( CLK:309261 ps, I:309302 ps,-40 ps,136 ps)
+
+
+WARNING: at 309307 ps: Timing violation in /fft_tb/uut/\p_s0/R10_15 /  $setuphold( CLK:309243 ps, I:309307 ps,-40 ps,136 ps)
+
+
+WARNING: at 309311 ps: Timing violation in /fft_tb/uut/\p_s0/R2_20 /  $setuphold( CLK:309226 ps, I:309311 ps,-47 ps,143 ps)
+
+
+WARNING: at 309316 ps: Timing violation in /fft_tb/uut/\p_s0/R14_8 /  $setuphold( CLK:309194 ps, I:309316 ps,-42 ps,126 ps)
+
+
+WARNING: at 309318 ps: Timing violation in /fft_tb/uut/\p_s0/R10_4 /  $setuphold( CLK:309251 ps, I:309318 ps,-40 ps,136 ps)
+
+
+WARNING: at 309319 ps: Timing violation in /fft_tb/uut/\p_s0/R14_5 /  $setuphold( CLK:309257 ps, I:309319 ps,-40 ps,136 ps)
+
+
+WARNING: at 309343 ps: Timing violation in /fft_tb/uut/\p_s0/R14_23 /  $setuphold( CLK:309259 ps, I:309343 ps,-40 ps,136 ps)
+
+
+WARNING: at 309347 ps: Timing violation in /fft_tb/uut/\p_s0/R14_6 /  $setuphold( CLK:309257 ps, I:309347 ps,-40 ps,136 ps)
+
+
+WARNING: at 309384 ps: Timing violation in /fft_tb/uut/\p_s0/R10_5 /  $setuphold( CLK:309251 ps, I:309384 ps,-40 ps,136 ps)
+
+
+Time = 310000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X21X0bXd2
+Time = 314000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X21X0bXd0
+Time = 314000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X21X0bXX0
+Time = 314000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X2110bXX0
+Time = 314000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X2110bXX8
+Time = 314000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X21103XX8
+Time = 314000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X2X113XX8
+Time = 314000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X3X113XX8
+Time = 314000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X3X113XX8
+Time = 315000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X3X117XX8
+Time = 315000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X3X017XX8
+Time = 315000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X3X0171X8
+Time = 315000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X3X017XX8
+Time = 315000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X7X017XX8
+Time = 315000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X5X017XX8
+Time = 315000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X5X017XX8
+Time = 315000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 05X017XX8
+Time = 315000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 05X017XX8
+WARNING: at 319274 ps: Timing violation in /fft_tb/uut/\p_s0/R7_14 /  $setuphold( CLK:319222 ps, I:319274 ps,-47 ps,143 ps)
+
+
+WARNING: at 319295 ps: Timing violation in /fft_tb/uut/\p_s0/R3_22 /  $setuphold( CLK:319201 ps, I:319295 ps,-40 ps,136 ps)
+
+
+WARNING: at 319297 ps: Timing violation in /fft_tb/uut/\p_s0/R7_13 /  $setuphold( CLK:319222 ps, I:319297 ps,-47 ps,143 ps)
+
+
+WARNING: at 319308 ps: Timing violation in /fft_tb/uut/\p_s0/R7_23 /  $setuphold( CLK:319250 ps, I:319308 ps,-40 ps,136 ps)
+
+
+WARNING: at 319310 ps: Timing violation in /fft_tb/uut/\p_s0/R3_7 /  $setuphold( CLK:319257 ps, I:319310 ps,-40 ps,136 ps)
+
+
+WARNING: at 319336 ps: Timing violation in /fft_tb/uut/\p_s0/R15_20 /  $setuphold( CLK:319226 ps, I:319336 ps,-47 ps,143 ps)
+
+
+WARNING: at 319342 ps: Timing violation in /fft_tb/uut/\p_s0/R15_22 /  $setuphold( CLK:319226 ps, I:319342 ps,-47 ps,143 ps)
+
+
+WARNING: at 319351 ps: Timing violation in /fft_tb/uut/\p_s0/R7_24 /  $setuphold( CLK:319250 ps, I:319351 ps,-40 ps,136 ps)
+
+
+WARNING: at 319352 ps: Timing violation in /fft_tb/uut/\p_s0/R7_22 /  $setuphold( CLK:319250 ps, I:319352 ps,-40 ps,136 ps)
+
+
+WARNING: at 319360 ps: Timing violation in /fft_tb/uut/\p_s0/R11_19 /  $setuphold( CLK:319245 ps, I:319360 ps,-40 ps,136 ps)
+
+
+WARNING: at 319371 ps: Timing violation in /fft_tb/uut/\p_s0/R7_4 /  $setuphold( CLK:319260 ps, I:319371 ps,-40 ps,136 ps)
+
+
+WARNING: at 319385 ps: Timing violation in /fft_tb/uut/\p_s0/R7_25 /  $setuphold( CLK:319250 ps, I:319385 ps,-40 ps,136 ps)
+
+
+Time = 320000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 05X017XX8
+Time = 324000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 05X017XX8
+Time = 324000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 05XX17XX8
+Time = 324000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 05XX17XX0
+Time = 324000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0dXX17XX0
+Time = 324000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0dXX15XX0
+Time = 324000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0dXX15XX0
+Time = 324000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0dXX05XX0
+Time = 324000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0dXX05XX0
+Time = 324000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0cXX05XX0
+Time = 324000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0cXX05XX0
+Time = 324000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0cXX05XX0
+Time = 325000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0cXX01XX0
+Time = 325000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0cXX01XX0
+Time = 325000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0cXX01XX0
+Time = 325000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01XX0
+Time = 325000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01XX0
+Time = 325000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01XX0
+Time = 325000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01XX0
+Time = 325000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01XX0
+Time = 330000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01XX0
+Time = 334000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01XX2
+Time = 334000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01XX6
+Time = 334000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01XX6
+Time = 334000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01XX6
+Time = 334000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01XXe
+Time = 334000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01XXe
+Time = 334000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01XXe
+Time = 334000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01XXe
+Time = 334000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01XXe
+Time = 334000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01XXe
+Time = 335000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01XXe
+Time = 335000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 06XX01XXe
+Time = 335000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 06X001XXe
+Time = 335000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 04X001XXe
+Time = 335000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 04X001XXe
+Time = 335000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X4X001XXe
+Time = 335000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = X4X001XXe
+Time = 340000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X4X001XXe
+Time = 344000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X4X001XXc
+Time = 344000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X4X001XX8
+Time = 344000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X4X001XX8
+Time = 344000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X4X001X88
+Time = 344000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X4X001X88
+Time = 344000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X4X001X80
+Time = 344000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X41001X80
+Time = 344000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X41001X00
+Time = 344000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X41000X00
+Time = 344000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X51000X00
+Time = 344000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X51000X00
+Time = 345000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X51000000
+Time = 345000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X11000000
+Time = 345000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X10000000
+Time = 345000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 010000000
+Time = 345000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 010000000
+Time = 350000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 010000000
+Time = 354000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 010002000
+Time = 354000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 010012000
+Time = 354000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 010013000
+Time = 354000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000013000
+Time = 354000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000013X00
+Time = 355000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000017X00
+Time = 355000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000017X00
+Time = 355000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 100017X00
+Time = 355000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 100017X00
+Time = 360000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 100017X00
+Time = 364000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 100217X00
+Time = 364000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0217X00
+Time = 364000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0617X00
+Time = 364000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0607X00
+Time = 364000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0607500
+Time = 365000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0607400
+Time = 365000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0607c00
+Time = 365000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0e07c00
+Time = 365000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0e07c00
+Time = 365000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0e07c00
+Time = 370000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0e07c00
+Time = 374000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0c07c00
+Time = 374000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0c05c00
+Time = 374000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0805c00
+Time = 374000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X080dc00
+Time = 374000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X081dc00
+Time = 374000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X081cc00
+Time = 374000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X081c800
+Time = 375000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0818800
+Time = 375000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0818000
+Time = 375000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0018000
+Time = 375000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0018000
+Time = 375000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0018000
+Time = 380000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0018000
+Time = 384000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X001800X
+Time = 384000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X001800X
+Time = 384000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X021800X
+Time = 384000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 18021800X
+Time = 384000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 18021000X
+Time = 384000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 18421000X
+Time = 384000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 18620000X
+Time = 384000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 19620000X
+Time = 384000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 19e20000X
+Time = 385000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 19eX0000X
+Time = 385000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1deX0000X
+Time = 385000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1deX0000X
+Time = 385000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1dfX0000X
+Time = 385000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 1dfX0000X
+Time = 390000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1dfX0000X
+Time = 394000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1dfX00004
+Time = 394000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1dfX00000
+Time = 394000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1dfX00040
+Time = 394000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1dfX00240
+Time = 394000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1dfX00240
+Time = 394000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 15fX00240
+Time = 394000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 15fX08240
+Time = 394000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 15bX08240
+Time = 394000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 159X08240
+Time = 394000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 159X082c0
+Time = 394000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 159X092c0
+Time = 394000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 149X092c0
+Time = 394000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 149X096c0
+Time = 394000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 141X096c0
+Time = 395000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1418096c0
+Time = 395000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1418097c0
+Time = 395000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 141809fc0
+Time = 395000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 101809fc0
+Time = 395000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 101009fc0
+Time = 395000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 001009fc0
+Time = 395000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000009fc0
+Time = 395000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 200009fc0
+Time = 395000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 200009fc0
+Time = 400000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 200009fc0
+Time = 404000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 200009f80
+Time = 404000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 200009fX0
+Time = 404000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 200009dX0
+Time = 404000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 200009dX8
+Time = 404000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 200409dX8
+Time = 404000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 20040XdX8
+Time = 404000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 2004XXdX8
+Time = 404000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 2004XXdX8
+Time = 404000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 2004XX9X8
+Time = 404000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 2004XX9X8
+Time = 405000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 200XXX9X8
+Time = 405000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 200XXX1X8
+Time = 405000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000XXX1X8
+Time = 405000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 000XXX1X8
+Time = 410000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000XXX1X8
+Time = 414000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000XXX1X8
+Time = 414000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000XXX1X8
+Time = 414000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000XXX1X8
+Time = 414000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 002X1X1X8
+Time = 414000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 002X1X1X8
+Time = 414000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 00aX1X1X8
+Time = 415000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 00aX1X1X8
+Time = 415000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 00a01X1X8
+Time = 415000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 00a01XXX8
+Time = 415000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 00aX1XXX8
+Time = 415000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 10aX1XXX8
+Time = 415000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 10aX1XXX8
+Time = 420000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 10aX1XXX8
+Time = 424000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 10aX1XXX8
+Time = 424000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 10aX1XXX8
+Time = 424000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 10aX14XX8
+Time = 424000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 10eX14XX8
+Time = 424000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 10cX04XX8
+Time = 424000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 10cX04XX8
+Time = 424000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 10cX04XX8
+Time = 424000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 104X04XX8
+Time = 425000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 104X00XX8
+Time = 425000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 104X00XX8
+Time = 425000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 104X000X8
+Time = 425000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 104X000X8
+Time = 425000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 004X000X8
+Time = 425000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 004X000X8
+Time = 430000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 004X000X8
+Time = 434000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 004X000X8
+Time = 434000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 004X002X8
+Time = 434000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 004X002X8
+Time = 434000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 004X002X0
+Time = 434000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 004X0X2X0
+Time = 434000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 004X0X2X0
+Time = 434000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000X0X2X0
+Time = 434000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 00XX1X2X0
+Time = 434000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 00XX1X2X0
+Time = 434000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 00XX1X2X0
+Time = 434000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 00XX1X2X0
+Time = 435000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 00XX1X2X0
+Time = 435000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 00XX1X2X0
+Time = 435000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 00XX1XaX0
+Time = 435000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 04XX1XaX0
+Time = 435000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 04XX1XaX0
+Time = 435000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 04XX1XaX0
+Time = 435000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 24XX1XaX0
+Time = 435000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 24XX1XaX0
+Time = 440000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 24XX1XaX0
+Time = 444000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 24XX1Xa20
+Time = 444000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 24XX1X820
+Time = 444000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 24XX1X820
+Time = 444000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 24XX1X820
+Time = 444000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 24XX1X820
+Time = 444000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 24XX0X820
+Time = 444000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 24XX0X820
+Time = 444000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 24XX0X800
+Time = 445000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 24XX08800
+Time = 445000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 24XX08000
+Time = 445000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 20XX08000
+Time = 445000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 20XXX8000
+Time = 445000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 20X2X8000
+Time = 445000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 2052X8000
+Time = 445000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0052X8000
+Time = 445000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 0052X8000
+WARNING: at 449224 ps: Timing violation in /fft_tb/uut/\p_s0/R12_33 /  $setuphold( CLK:449183 ps, I:449224 ps,-40 ps,136 ps)
+
+
+WARNING: at 449240 ps: Timing violation in /fft_tb/uut/\p_s0/R0_8 /  $setuphold( CLK:449189 ps, I:449240 ps,-40 ps,136 ps)
+
+
+WARNING: at 449244 ps: Timing violation in /fft_tb/uut/\p_s0/R4_11 /  $setuphold( CLK:449197 ps, I:449244 ps,-40 ps,136 ps)
+
+
+WARNING: at 449271 ps: Timing violation in /fft_tb/uut/\p_s0/R0_33 /  $setuphold( CLK:449192 ps, I:449271 ps,-40 ps,136 ps)
+
+
+WARNING: at 449292 ps: Timing violation in /fft_tb/uut/\p_s0/R0_21 /  $setuphold( CLK:449227 ps, I:449292 ps,-47 ps,143 ps)
+
+
+WARNING: at 449298 ps: Timing violation in /fft_tb/uut/\p_s0/R4_6 /  $setuphold( CLK:449226 ps, I:449298 ps,-47 ps,143 ps)
+
+
+WARNING: at 449306 ps: Timing violation in /fft_tb/uut/\p_s0/R4_8 /  $setuphold( CLK:449197 ps, I:449306 ps,-40 ps,136 ps)
+
+
+WARNING: at 449309 ps: Timing violation in /fft_tb/uut/\p_s0/R8_23 /  $setuphold( CLK:449264 ps, I:449309 ps,-40 ps,136 ps)
+
+
+WARNING: at 449310 ps: Timing violation in /fft_tb/uut/\p_s0/R8_24 /  $setuphold( CLK:449261 ps, I:449310 ps,-40 ps,136 ps)
+
+
+WARNING: at 449312 ps: Timing violation in /fft_tb/uut/\p_s0/R8_20 /  $setuphold( CLK:449264 ps, I:449312 ps,-40 ps,136 ps)
+
+
+WARNING: at 449316 ps: Timing violation in /fft_tb/uut/\p_s0/R12_25 /  $setuphold( CLK:449224 ps, I:449316 ps,-47 ps,143 ps)
+
+
+WARNING: at 449317 ps: Timing violation in /fft_tb/uut/\p_s0/R4_4 /  $setuphold( CLK:449226 ps, I:449317 ps,-47 ps,143 ps)
+
+
+WARNING: at 449321 ps: Timing violation in /fft_tb/uut/\p_s0/R8_21 /  $setuphold( CLK:449264 ps, I:449321 ps,-40 ps,136 ps)
+
+
+WARNING: at 449339 ps: Timing violation in /fft_tb/uut/\p_s0/R8_25 /  $setuphold( CLK:449261 ps, I:449339 ps,-40 ps,136 ps)
+
+
+WARNING: at 449348 ps: Timing violation in /fft_tb/uut/\p_s0/R8_30 /  $setuphold( CLK:449257 ps, I:449348 ps,-40 ps,136 ps)
+
+
+WARNING: at 449353 ps: Timing violation in /fft_tb/uut/\p_s0/R12_11 /  $setuphold( CLK:449251 ps, I:449353 ps,-40 ps,136 ps)
+
+
+WARNING: at 449360 ps: Timing violation in /fft_tb/uut/\p_s0/R4_25 /  $setuphold( CLK:449249 ps, I:449360 ps,-40 ps,136 ps)
+
+
+WARNING: at 449367 ps: Timing violation in /fft_tb/uut/\p_s0/R4_28 /  $setuphold( CLK:449242 ps, I:449367 ps,-40 ps,136 ps)
+
+
+WARNING: at 449371 ps: Timing violation in /fft_tb/uut/\p_s0/R8_4 /  $setuphold( CLK:449257 ps, I:449371 ps,-42 ps,126 ps)
+
+
+WARNING: at 449393 ps: Timing violation in /fft_tb/uut/\p_s0/R12_4 /  $setuphold( CLK:449260 ps, I:449393 ps,-40 ps,136 ps)
+
+
+WARNING: at 449415 ps: Timing violation in /fft_tb/uut/\p_s0/R12_6 /  $setuphold( CLK:449281 ps, I:449415 ps,-47 ps,143 ps)
+
+
+Time = 450000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0052X8000
+Time = 454000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0052X8004
+Time = 454000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0052X8044
+Time = 454000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0052X8054
+Time = 454000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0052X8254
+Time = 454000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0052Xa254
+Time = 454000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 005XXa254
+Time = 454000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 001XXa254
+Time = 454000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 001XXa254
+Time = 454000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 001XXa2d4
+Time = 454000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 001XXb2d4
+Time = 454000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 011XXb2d4
+Time = 454000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 011XXb6d4
+Time = 455000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 011XXf6d4
+Time = 455000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 011XXf6d4
+Time = 455000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 011XXf7d4
+Time = 455000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 011XXffd4
+Time = 455000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 051XXffd4
+Time = 455000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 051X1ffd4
+Time = 455000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 050X1ffd4
+Time = 455000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 050X1ffd4
+WARNING: at 459295 ps: Timing violation in /fft_tb/uut/\p_s0/R13_31 /  $setuphold( CLK:459182 ps, I:459295 ps,-40 ps,136 ps)
+
+
+WARNING: at 459308 ps: Timing violation in /fft_tb/uut/\p_s0/R9_31 /  $setuphold( CLK:459257 ps, I:459308 ps,-42 ps,126 ps)
+
+
+WARNING: at 459320 ps: Timing violation in /fft_tb/uut/\p_s0/R5_10 /  $setuphold( CLK:459194 ps, I:459320 ps,-40 ps,136 ps)
+
+
+Time = 460000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 050X1ffd4
+Time = 464000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 050X1ffd6
+Time = 464000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 050X1ffd2
+Time = 464000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 050X1fdd2
+Time = 464000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 050X1fdd2
+Time = 464000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 050X1fdd2
+Time = 464000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 050X0fdd2
+Time = 464000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 040X0fdd2
+Time = 464000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 040X0f9d2
+Time = 465000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 040X0b9d2
+Time = 465000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 040X0b9d2
+Time = 465000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 040X0bXd2
+Time = 465000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 040X0bXd2
+Time = 465000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000X0bXd2
+Time = 465000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 020X0bXd2
+Time = 465000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 021X0bXd2
+Time = 465000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X21X0bXd2
+Time = 465000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = X21X0bXd2
+WARNING: at 469228 ps: Timing violation in /fft_tb/uut/\p_s0/R2_1 /  $setuphold( CLK:469125 ps, I:469228 ps,-47 ps,143 ps)
+
+
+WARNING: at 469245 ps: Timing violation in /fft_tb/uut/\p_s0/R14_15 /  $setuphold( CLK:469194 ps, I:469245 ps,-40 ps,136 ps)
+
+
+WARNING: at 469284 ps: Timing violation in /fft_tb/uut/\p_s0/R10_16 /  $setuphold( CLK:469242 ps, I:469284 ps,-40 ps,136 ps)
+
+
+WARNING: at 469302 ps: Timing violation in /fft_tb/uut/\p_s0/R10_20 /  $setuphold( CLK:469261 ps, I:469302 ps,-40 ps,136 ps)
+
+
+WARNING: at 469307 ps: Timing violation in /fft_tb/uut/\p_s0/R10_15 /  $setuphold( CLK:469243 ps, I:469307 ps,-40 ps,136 ps)
+
+
+WARNING: at 469311 ps: Timing violation in /fft_tb/uut/\p_s0/R2_20 /  $setuphold( CLK:469226 ps, I:469311 ps,-47 ps,143 ps)
+
+
+WARNING: at 469316 ps: Timing violation in /fft_tb/uut/\p_s0/R14_8 /  $setuphold( CLK:469194 ps, I:469316 ps,-42 ps,126 ps)
+
+
+WARNING: at 469318 ps: Timing violation in /fft_tb/uut/\p_s0/R10_4 /  $setuphold( CLK:469251 ps, I:469318 ps,-40 ps,136 ps)
+
+
+WARNING: at 469319 ps: Timing violation in /fft_tb/uut/\p_s0/R14_5 /  $setuphold( CLK:469257 ps, I:469319 ps,-40 ps,136 ps)
+
+
+WARNING: at 469343 ps: Timing violation in /fft_tb/uut/\p_s0/R14_23 /  $setuphold( CLK:469259 ps, I:469343 ps,-40 ps,136 ps)
+
+
+WARNING: at 469347 ps: Timing violation in /fft_tb/uut/\p_s0/R14_6 /  $setuphold( CLK:469257 ps, I:469347 ps,-40 ps,136 ps)
+
+
+WARNING: at 469384 ps: Timing violation in /fft_tb/uut/\p_s0/R10_5 /  $setuphold( CLK:469251 ps, I:469384 ps,-40 ps,136 ps)
+
+
+Time = 470000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X21X0bXd2
+Time = 474000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X21X0bXd0
+Time = 474000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X21X0bXX0
+Time = 474000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X21X0bXX0
+Time = 474000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X21X0bXX0
+Time = 474000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X2110bXX0
+Time = 474000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X2110bXX8
+Time = 474000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X21103XX8
+Time = 474000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X25103XX8
+Time = 474000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X2X113XX8
+Time = 474000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X2X113XX8
+Time = 474000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = XXX113XX8
+Time = 474000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = XXX113XX8
+Time = 475000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = XXX117XX8
+Time = 475000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = XXX017XX8
+Time = 475000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = XXX017XX8
+Time = 475000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = XXX017XX8
+Time = 475000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = XXX017XX8
+Time = 475000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = XXX017XX8
+Time = 475000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XX017XX8
+Time = 475000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XX017XX8
+WARNING: at 479274 ps: Timing violation in /fft_tb/uut/\p_s0/R7_14 /  $setuphold( CLK:479222 ps, I:479274 ps,-47 ps,143 ps)
+
+
+WARNING: at 479295 ps: Timing violation in /fft_tb/uut/\p_s0/R3_22 /  $setuphold( CLK:479201 ps, I:479295 ps,-40 ps,136 ps)
+
+
+WARNING: at 479297 ps: Timing violation in /fft_tb/uut/\p_s0/R7_13 /  $setuphold( CLK:479222 ps, I:479297 ps,-47 ps,143 ps)
+
+
+WARNING: at 479308 ps: Timing violation in /fft_tb/uut/\p_s0/R7_23 /  $setuphold( CLK:479250 ps, I:479308 ps,-40 ps,136 ps)
+
+
+WARNING: at 479310 ps: Timing violation in /fft_tb/uut/\p_s0/R3_7 /  $setuphold( CLK:479257 ps, I:479310 ps,-40 ps,136 ps)
+
+
+WARNING: at 479336 ps: Timing violation in /fft_tb/uut/\p_s0/R15_20 /  $setuphold( CLK:479226 ps, I:479336 ps,-47 ps,143 ps)
+
+
+WARNING: at 479342 ps: Timing violation in /fft_tb/uut/\p_s0/R15_22 /  $setuphold( CLK:479226 ps, I:479342 ps,-47 ps,143 ps)
+
+
+WARNING: at 479351 ps: Timing violation in /fft_tb/uut/\p_s0/R7_24 /  $setuphold( CLK:479250 ps, I:479351 ps,-40 ps,136 ps)
+
+
+WARNING: at 479352 ps: Timing violation in /fft_tb/uut/\p_s0/R7_22 /  $setuphold( CLK:479250 ps, I:479352 ps,-40 ps,136 ps)
+
+
+WARNING: at 479360 ps: Timing violation in /fft_tb/uut/\p_s0/R11_19 /  $setuphold( CLK:479245 ps, I:479360 ps,-40 ps,136 ps)
+
+
+WARNING: at 479371 ps: Timing violation in /fft_tb/uut/\p_s0/R7_4 /  $setuphold( CLK:479260 ps, I:479371 ps,-40 ps,136 ps)
+
+
+WARNING: at 479385 ps: Timing violation in /fft_tb/uut/\p_s0/R7_25 /  $setuphold( CLK:479250 ps, I:479385 ps,-40 ps,136 ps)
+
+
+Time = 480000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XX017XX8
+Time = 484000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XX017XX8
+Time = 484000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX17XX8
+Time = 484000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX17XX0
+Time = 484000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX17XX0
+Time = 484000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX15XX0
+Time = 484000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX15XX0
+Time = 484000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX15XX0
+Time = 484000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX05XX0
+Time = 484000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0cXX05XX0
+Time = 484000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0cXX05XX0
+Time = 484000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0cXX05XX0
+Time = 485000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0cXX01XX0
+Time = 485000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0cXX01XX0
+Time = 485000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0cXX01XX0
+Time = 485000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0cXX01bX0
+Time = 485000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01bX0
+Time = 485000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01bX0
+Time = 485000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01bX0
+Time = 485000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01bX0
+Time = 485000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01bX0
+Time = 490000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01bX0
+Time = 494000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01bX2
+Time = 494000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01bX6
+Time = 494000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01bX6
+Time = 494000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01bX6
+Time = 494000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01bXe
+Time = 494000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01bXe
+Time = 494000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01bXe
+Time = 494000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01bXe
+Time = 494000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01bXe
+Time = 495000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01bXe
+Time = 495000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01aXe
+Time = 495000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 0XXX01XXe
+Time = 495000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 06XX01XXe
+Time = 495000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 06X001XXe
+Time = 495000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 04X001XXe
+Time = 495000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 04X001XXe
+Time = 495000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X4X001XXe
+Time = 495000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = X4X001XXe
+Time = 500000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X4X001XXe
+Time = 504000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X4X001XXc
+Time = 504000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X4X001XX8
+Time = 504000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X4X001XX8
+Time = 504000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X4X001X88
+Time = 504000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X4X001X88
+Time = 504000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X4X001X80
+Time = 504000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X41001X80
+Time = 504000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X41001X00
+Time = 504000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X41000X00
+Time = 504000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X51000X00
+Time = 505000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X51000000
+Time = 505000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X11000000
+Time = 505000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = X10000000
+Time = 505000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 010000000
+Time = 505000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 010000000
+Time = 510000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 010000000
+Time = 514000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 010002000
+Time = 514000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 010012000
+Time = 514000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 010013000
+Time = 514000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000013000
+Time = 514000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000013X00
+Time = 515000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000017X00
+Time = 515000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000017X00
+Time = 515000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 100017X00
+Time = 515000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 100017X00
+Time = 520000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 100017X00
+Time = 524000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 100217X00
+Time = 524000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0217X00
+Time = 524000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0617X00
+Time = 524000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0607X00
+Time = 524000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0607500
+Time = 525000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0607400
+Time = 525000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0607c00
+Time = 525000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0e07c00
+Time = 525000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0e07c00
+Time = 525000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0e07c00
+Time = 530000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0e07c00
+Time = 534000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0c07c00
+Time = 534000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0c05c00
+Time = 534000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0805c00
+Time = 534000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X080dc00
+Time = 534000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X081dc00
+Time = 534000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X081cc00
+Time = 534000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X081c800
+Time = 535000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0818800
+Time = 535000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0818000
+Time = 535000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0018000
+Time = 535000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0018000
+Time = 535000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0018000
+Time = 540000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X0018000
+Time = 544000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X001800X
+Time = 544000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X001800X
+Time = 544000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1X021800X
+Time = 544000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 18021800X
+Time = 544000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 18021000X
+Time = 544000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 18421000X
+Time = 544000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 18620000X
+Time = 544000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 19620000X
+Time = 544000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 19e20000X
+Time = 545000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 19eX0000X
+Time = 545000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1deX0000X
+Time = 545000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1deX0000X
+Time = 545000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1dfX0000X
+Time = 545000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 1dfX0000X
+Time = 550000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1dfX0000X
+Time = 554000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1dfX00004
+Time = 554000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1dfX00000
+Time = 554000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1dfX00040
+Time = 554000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1dfX00240
+Time = 554000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1dfX00240
+Time = 554000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 15fX00240
+Time = 554000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 15fX08240
+Time = 554000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 15bX08240
+Time = 554000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 159X08240
+Time = 554000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 159X082c0
+Time = 554000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 159X092c0
+Time = 554000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 149X092c0
+Time = 554000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 149X096c0
+Time = 554000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 141X096c0
+Time = 555000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1418096c0
+Time = 555000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 1418097c0
+Time = 555000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 141809fc0
+Time = 555000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 101809fc0
+Time = 555000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 101009fc0
+Time = 555000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 001009fc0
+Time = 555000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 000009fc0
+Time = 555000, clk = 0, rst_n = 1, data_in = 00a0b0c0d, data_out = 200009fc0
+Time = 555000, clk = 1, rst_n = 1, data_in = 00a0b0c0d, data_out = 200009fc0
+Stopped at time : 560 ns : File "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/fft_tb.v" Line 72
+# exit 0

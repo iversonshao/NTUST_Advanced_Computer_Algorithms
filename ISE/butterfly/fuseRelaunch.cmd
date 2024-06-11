@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "simprims_ver" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/butterfly/butterfly_tb_isim_par.exe" -prj "/home/ise/butterfly/butterfly_tb_par.prj" "work.butterfly_tb" "work.glbl" 
