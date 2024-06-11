@@ -1,0 +1,28 @@
+Command line:
+   smux_tb_isim_par.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49248
+
+Wed May 22 06:46:27 2024
+
+
+ Elaboration Time: 0.06 sec
+
+ Current Memory Usage: 224.379 Meg
+
+ Total Signals          : 5810
+ Total Nets             : 3627
+ Total Signal Drivers   : 3347
+ Total Blocks           : 1638
+ Total Primitive Blocks : 1432
+ Total Processes        : 3623
+ Total Traceable Variables  : 3837
+ Total Scalar Nets and Variables : 185180
+
+ Total Simulation Time: 0.09 sec
+
+ Current Memory Usage: 302.105 Meg
+
+Wed May 22 06:51:56 2024
+

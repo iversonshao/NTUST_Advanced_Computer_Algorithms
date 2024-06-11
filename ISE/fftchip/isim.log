@@ -1,0 +1,1980 @@
+ISim log file
+Running: /home/ise/NTUST_Advanced_Computer_Algorithms/fftchip/fft_chip_tb_isim_par.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/NTUST_Advanced_Computer_Algorithms/fftchip/fft_chip_tb_isim_par.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+INFO: SDF backannotation was successful with SDF file netgen/par/fft_chip_timesim.sdf, for root module /fft_chip_tb/uut/.
+
+Load Data
+
+Finished circuit initialization process.
+[        13] 0_00000000_00000000 0_00000000_00000000
+
+[        14] 0_00000000_00000000 0_00000000_00000000
+
+[        15] 0_00000000_00000000 0_00000000_00000000
+
+[         0] 0_00000000_00000000 0_00000000_00000000
+
+[         1] 0_00000000_00000000 0_00000000_00000000
+
+[         2] 0_00000000_00000000 0_00000000_00000000
+
+[         3] 0_00000000_00000000 0_00000000_00000000
+
+[         4] 0_00000000_00000000 0_00000000_00000000
+
+[         5] 0_00000000_00000000 0_00000000_00000000
+
+[         6] 0_00000000_00000000 0_00000000_00000000
+
+[         7] 0_00000000_00000000 0_00000000_00000000
+
+[         8] 0_00000000_00000000 0_00000000_00000000
+
+[         9] 0_00000000_00000000 0_00000000_00000000
+
+WARNING: at 116397 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_16 /  $width( CLK:116328 ps, :116397 ps, 350 ps)
+
+
+WARNING: at 116551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_11 /  $width( CLK:116482 ps, :116551 ps, 350 ps)
+
+
+WARNING: at 116551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_10 /  $width( CLK:116482 ps, :116551 ps, 350 ps)
+
+
+WARNING: at 116551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_9 /  $width( CLK:116482 ps, :116551 ps, 350 ps)
+
+
+WARNING: at 116551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_8 /  $width( CLK:116482 ps, :116551 ps, 350 ps)
+
+
+WARNING: at 116553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_31 /  $width( CLK:116484 ps, :116553 ps, 350 ps)
+
+
+WARNING: at 116553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_30 /  $width( CLK:116484 ps, :116553 ps, 350 ps)
+
+
+WARNING: at 116553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_29 /  $width( CLK:116484 ps, :116553 ps, 350 ps)
+
+
+WARNING: at 116553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_28 /  $width( CLK:116484 ps, :116553 ps, 350 ps)
+
+
+WARNING: at 116556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_33 /  $width( CLK:116487 ps, :116556 ps, 350 ps)
+
+
+WARNING: at 116556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_32 /  $width( CLK:116487 ps, :116556 ps, 350 ps)
+
+
+WARNING: at 116618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_19 /  $width( CLK:116549 ps, :116618 ps, 350 ps)
+
+
+WARNING: at 116618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_18 /  $width( CLK:116549 ps, :116618 ps, 350 ps)
+
+
+WARNING: at 116618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_17 /  $width( CLK:116549 ps, :116618 ps, 350 ps)
+
+
+[        10] 0_00000000_00000000 0_00000000_00000000
+
+[        11] 0_00000000_00000000 0_00000000_00000000
+
+[        12] 0_00000000_00000000 0_00000000_00000000
+
+[        13] 0_00000000_00000000 0_00000000_00000000
+
+[        14] 0_00000000_00000000 0_00000000_00000000
+
+[        15] 0_00000000_00000000 0_00000000_00000000
+
+WARNING: at 162969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_27 /  $width( CLK:162900 ps, :162969 ps, 350 ps)
+
+
+WARNING: at 162969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_26 /  $width( CLK:162900 ps, :162969 ps, 350 ps)
+
+
+WARNING: at 162969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_25 /  $width( CLK:162900 ps, :162969 ps, 350 ps)
+
+
+WARNING: at 162969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_24 /  $width( CLK:162900 ps, :162969 ps, 350 ps)
+
+
+WARNING: at 163119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_15 /  $width( CLK:163050 ps, :163119 ps, 350 ps)
+
+
+WARNING: at 163119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_14 /  $width( CLK:163050 ps, :163119 ps, 350 ps)
+
+
+WARNING: at 163119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_13 /  $width( CLK:163050 ps, :163119 ps, 350 ps)
+
+
+WARNING: at 163119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_12 /  $width( CLK:163050 ps, :163119 ps, 350 ps)
+
+
+WARNING: at 163128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_31 /  $width( CLK:163059 ps, :163128 ps, 350 ps)
+
+
+WARNING: at 163128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_30 /  $width( CLK:163059 ps, :163128 ps, 350 ps)
+
+
+WARNING: at 163128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_29 /  $width( CLK:163059 ps, :163128 ps, 350 ps)
+
+
+WARNING: at 163128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_28 /  $width( CLK:163059 ps, :163128 ps, 350 ps)
+
+
+WARNING: at 163129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_7 /  $width( CLK:163060 ps, :163129 ps, 350 ps)
+
+
+WARNING: at 163129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_6 /  $width( CLK:163060 ps, :163129 ps, 350 ps)
+
+
+WARNING: at 163129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_5 /  $width( CLK:163060 ps, :163129 ps, 350 ps)
+
+
+WARNING: at 163129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_4 /  $width( CLK:163060 ps, :163129 ps, 350 ps)
+
+
+WARNING: at 163129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_11 /  $width( CLK:163060 ps, :163129 ps, 350 ps)
+
+
+WARNING: at 163129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_10 /  $width( CLK:163060 ps, :163129 ps, 350 ps)
+
+
+WARNING: at 163129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_9 /  $width( CLK:163060 ps, :163129 ps, 350 ps)
+
+
+WARNING: at 163129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_8 /  $width( CLK:163060 ps, :163129 ps, 350 ps)
+
+
+WARNING: at 163133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_19 /  $width( CLK:163064 ps, :163133 ps, 350 ps)
+
+
+WARNING: at 163133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_18 /  $width( CLK:163064 ps, :163133 ps, 350 ps)
+
+
+WARNING: at 163133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_17 /  $width( CLK:163064 ps, :163133 ps, 350 ps)
+
+
+WARNING: at 163133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_16 /  $width( CLK:163064 ps, :163133 ps, 350 ps)
+
+
+WARNING: at 163135 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_33 /  $width( CLK:163066 ps, :163135 ps, 350 ps)
+
+
+WARNING: at 163135 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_32 /  $width( CLK:163066 ps, :163135 ps, 350 ps)
+
+
+[         0] 0_00000000_00000000 0_00000000_00000000
+
+[         1] 0_00000000_00000000 0_00000000_00000000
+
+[         2] 0_00000000_00000000 0_00000000_00000000
+
+[         3] 0_00000000_00000000 0_00000000_00000000
+
+[         4] 0_00000000_00000000 0_00000000_00000000
+
+[         5] 0_00000000_00000000 0_00000000_00000000
+
+[         6] 0_00000000_00000000 0_00000000_00000000
+
+[         7] 0_00000000_00000000 0_00000000_00000000
+
+[         8] 0_00000000_00000000 0_00000000_00000000
+
+[         9] 0_00000000_00000000 0_00000000_00000000
+
+WARNING: at 244397 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_16 /  $width( CLK:244328 ps, :244397 ps, 350 ps)
+
+
+WARNING: at 244551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_11 /  $width( CLK:244482 ps, :244551 ps, 350 ps)
+
+
+WARNING: at 244551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_10 /  $width( CLK:244482 ps, :244551 ps, 350 ps)
+
+
+WARNING: at 244551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_9 /  $width( CLK:244482 ps, :244551 ps, 350 ps)
+
+
+WARNING: at 244551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_8 /  $width( CLK:244482 ps, :244551 ps, 350 ps)
+
+
+WARNING: at 244553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_31 /  $width( CLK:244484 ps, :244553 ps, 350 ps)
+
+
+WARNING: at 244553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_30 /  $width( CLK:244484 ps, :244553 ps, 350 ps)
+
+
+WARNING: at 244553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_29 /  $width( CLK:244484 ps, :244553 ps, 350 ps)
+
+
+WARNING: at 244553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_28 /  $width( CLK:244484 ps, :244553 ps, 350 ps)
+
+
+WARNING: at 244556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_33 /  $width( CLK:244487 ps, :244556 ps, 350 ps)
+
+
+WARNING: at 244556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_32 /  $width( CLK:244487 ps, :244556 ps, 350 ps)
+
+
+WARNING: at 244618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_19 /  $width( CLK:244549 ps, :244618 ps, 350 ps)
+
+
+WARNING: at 244618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_18 /  $width( CLK:244549 ps, :244618 ps, 350 ps)
+
+
+WARNING: at 244618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_17 /  $width( CLK:244549 ps, :244618 ps, 350 ps)
+
+
+[        10] 0_00000000_00000000 0_00000000_00000000
+
+WARNING: at 248264 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R12_32 /  $setuphold( CLK:248186 ps, I:248264 ps,-40 ps,136 ps)
+
+
+WARNING: at 248273 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R0_33 /  $setuphold( CLK:248197 ps, I:248273 ps,-40 ps,136 ps)
+
+
+WARNING: at 248275 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R0_30 /  $setuphold( CLK:248201 ps, I:248275 ps,-40 ps,136 ps)
+
+
+WARNING: at 248279 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R12_29 /  $setuphold( CLK:248182 ps, I:248279 ps,-40 ps,136 ps)
+
+
+WARNING: at 248305 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R12_31 /  $setuphold( CLK:248186 ps, I:248305 ps,-40 ps,136 ps)
+
+
+WARNING: at 248312 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R4_31 /  $setuphold( CLK:248251 ps, I:248312 ps,-42 ps,126 ps)
+
+
+WARNING: at 248316 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R4_29 /  $setuphold( CLK:248251 ps, I:248316 ps,-42 ps,126 ps)
+
+
+WARNING: at 248357 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R4_30 /  $setuphold( CLK:248251 ps, I:248357 ps,-42 ps,126 ps)
+
+
+WARNING: at 248503 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R12_15 /  $setuphold( CLK:248444 ps, I:248503 ps,-47 ps,143 ps)
+
+
+WARNING: at 248512 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R12_16 /  $setuphold( CLK:248444 ps, I:248512 ps,-47 ps,143 ps)
+
+
+WARNING: at 248583 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R12_14 /  $setuphold( CLK:248444 ps, I:248583 ps,-47 ps,143 ps)
+
+
+[        11] 0_00000000_00000000 0_00000000_00000000
+
+WARNING: at 256308 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R1_5 /  $setuphold( CLK:256201 ps, I:256308 ps,-40 ps,136 ps)
+
+
+WARNING: at 256310 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R1_31 /  $setuphold( CLK:256227 ps, I:256310 ps,-47 ps,143 ps)
+
+
+WARNING: at 256311 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_23 /  $setuphold( CLK:256252 ps, I:256311 ps,-40 ps,136 ps)
+
+
+WARNING: at 256327 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R1_4 /  $setuphold( CLK:256201 ps, I:256327 ps,-40 ps,136 ps)
+
+
+WARNING: at 256327 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_23 /  $setuphold( CLK:256248 ps, I:256327 ps,-40 ps,136 ps)
+
+
+WARNING: at 256338 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_3 /  $setuphold( CLK:256261 ps, I:256338 ps,-40 ps,136 ps)
+
+
+WARNING: at 256380 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_14 /  $setuphold( CLK:256267 ps, I:256380 ps,-40 ps,136 ps)
+
+
+WARNING: at 256382 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_19 /  $setuphold( CLK:256253 ps, I:256382 ps,-40 ps,136 ps)
+
+
+WARNING: at 256386 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_12 /  $setuphold( CLK:256267 ps, I:256386 ps,-40 ps,136 ps)
+
+
+WARNING: at 256391 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_26 /  $setuphold( CLK:256256 ps, I:256391 ps,-40 ps,136 ps)
+
+
+WARNING: at 256456 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R1_32 /  $setuphold( CLK:256387 ps, I:256456 ps,-47 ps,143 ps)
+
+
+WARNING: at 256494 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_6 /  $setuphold( CLK:256446 ps, I:256494 ps,-47 ps,143 ps)
+
+
+WARNING: at 256554 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_13 /  $setuphold( CLK:256446 ps, I:256554 ps,-47 ps,143 ps)
+
+
+WARNING: at 256566 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_14 /  $setuphold( CLK:256446 ps, I:256566 ps,-47 ps,143 ps)
+
+
+WARNING: at 256584 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_15 /  $setuphold( CLK:256446 ps, I:256584 ps,-47 ps,143 ps)
+
+
+[        12] x_00x11111_00000000 0_00000000_00000000
+
+WARNING: at 264261 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R2_25 /  $setuphold( CLK:264201 ps, I:264261 ps,-40 ps,136 ps)
+
+
+WARNING: at 264272 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_23 /  $setuphold( CLK:264189 ps, I:264272 ps,-40 ps,136 ps)
+
+
+WARNING: at 264274 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R2_26 /  $setuphold( CLK:264201 ps, I:264274 ps,-40 ps,136 ps)
+
+
+WARNING: at 264314 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_33 /  $setuphold( CLK:264257 ps, I:264314 ps,-40 ps,136 ps)
+
+
+WARNING: at 264330 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_0 /  $setuphold( CLK:264282 ps, I:264330 ps,-47 ps,143 ps)
+
+
+WARNING: at 264368 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_3 /  $setuphold( CLK:264262 ps, I:264368 ps,-40 ps,136 ps)
+
+
+WARNING: at 264371 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_2 /  $setuphold( CLK:264282 ps, I:264371 ps,-47 ps,143 ps)
+
+
+WARNING: at 264375 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_8 /  $setuphold( CLK:264265 ps, I:264375 ps,-40 ps,136 ps)
+
+
+WARNING: at 264376 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_14 /  $setuphold( CLK:264266 ps, I:264376 ps,-40 ps,136 ps)
+
+
+WARNING: at 264385 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_26 /  $setuphold( CLK:264253 ps, I:264385 ps,-40 ps,136 ps)
+
+
+WARNING: at 264392 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_2 /  $setuphold( CLK:264258 ps, I:264392 ps,-40 ps,136 ps)
+
+
+WARNING: at 264397 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_4 /  $setuphold( CLK:264262 ps, I:264397 ps,-40 ps,136 ps)
+
+
+WARNING: at 264470 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_10 /  $setuphold( CLK:264421 ps, I:264470 ps,-40 ps,136 ps)
+
+
+WARNING: at 264473 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_5 /  $setuphold( CLK:264422 ps, I:264473 ps,-40 ps,136 ps)
+
+
+WARNING: at 264479 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_9 /  $setuphold( CLK:264421 ps, I:264479 ps,-40 ps,136 ps)
+
+
+WARNING: at 264499 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_15 /  $setuphold( CLK:264421 ps, I:264499 ps,-42 ps,126 ps)
+
+
+WARNING: at 264502 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_9 /  $setuphold( CLK:264420 ps, I:264502 ps,-40 ps,136 ps)
+
+
+WARNING: at 264551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_18 /  $setuphold( CLK:264419 ps, I:264551 ps,-40 ps,136 ps)
+
+
+WARNING: at 264556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_12 /  $setuphold( CLK:264421 ps, I:264556 ps,-40 ps,136 ps)
+
+
+[        13] 1_0xxx1111_00000000 0_01100000_00000000
+
+WARNING: at 272265 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R15_25 /  $setuphold( CLK:272179 ps, I:272265 ps,-40 ps,136 ps)
+
+
+WARNING: at 272277 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R15_27 /  $setuphold( CLK:272182 ps, I:272277 ps,-40 ps,136 ps)
+
+
+WARNING: at 272315 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R11_16 /  $setuphold( CLK:272266 ps, I:272315 ps,-40 ps,136 ps)
+
+
+[        14] 1_10000111_00000000 0_00000000_00000000
+
+WARNING: at 280232 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_24 /  $setuphold( CLK:280179 ps, I:280232 ps,-40 ps,136 ps)
+
+
+WARNING: at 280239 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_22 /  $setuphold( CLK:280179 ps, I:280239 ps,-40 ps,136 ps)
+
+
+WARNING: at 280284 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_30 /  $setuphold( CLK:280213 ps, I:280284 ps,-47 ps,143 ps)
+
+
+WARNING: at 280288 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_21 /  $setuphold( CLK:280189 ps, I:280288 ps,-40 ps,136 ps)
+
+
+WARNING: at 280292 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R2_33 /  $setuphold( CLK:280227 ps, I:280292 ps,-47 ps,143 ps)
+
+
+WARNING: at 280300 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_31 /  $setuphold( CLK:280187 ps, I:280300 ps,-40 ps,136 ps)
+
+
+WARNING: at 280324 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R2_24 /  $setuphold( CLK:280200 ps, I:280324 ps,-40 ps,136 ps)
+
+
+WARNING: at 280358 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R2_4 /  $setuphold( CLK:280265 ps, I:280358 ps,-40 ps,136 ps)
+
+
+WARNING: at 280365 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_3 /  $setuphold( CLK:280260 ps, I:280365 ps,-40 ps,136 ps)
+
+
+WARNING: at 280490 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_8 /  $setuphold( CLK:280425 ps, I:280490 ps,-40 ps,136 ps)
+
+
+WARNING: at 280494 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_10 /  $setuphold( CLK:280425 ps, I:280494 ps,-40 ps,136 ps)
+
+
+WARNING: at 280524 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_11 /  $setuphold( CLK:280425 ps, I:280524 ps,-40 ps,136 ps)
+
+
+WARNING: at 280543 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_9 /  $setuphold( CLK:280425 ps, I:280543 ps,-40 ps,136 ps)
+
+
+[        15] 1_xx1x0011_00000000 x_xx000000_00000000
+
+WARNING: at 290969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_27 /  $width( CLK:290900 ps, :290969 ps, 350 ps)
+
+
+WARNING: at 290969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_26 /  $width( CLK:290900 ps, :290969 ps, 350 ps)
+
+
+WARNING: at 290969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_25 /  $width( CLK:290900 ps, :290969 ps, 350 ps)
+
+
+WARNING: at 290969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_24 /  $width( CLK:290900 ps, :290969 ps, 350 ps)
+
+
+WARNING: at 291119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_15 /  $width( CLK:291050 ps, :291119 ps, 350 ps)
+
+
+WARNING: at 291119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_14 /  $width( CLK:291050 ps, :291119 ps, 350 ps)
+
+
+WARNING: at 291119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_13 /  $width( CLK:291050 ps, :291119 ps, 350 ps)
+
+
+WARNING: at 291119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_12 /  $width( CLK:291050 ps, :291119 ps, 350 ps)
+
+
+WARNING: at 291128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_31 /  $width( CLK:291059 ps, :291128 ps, 350 ps)
+
+
+WARNING: at 291128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_30 /  $width( CLK:291059 ps, :291128 ps, 350 ps)
+
+
+WARNING: at 291128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_29 /  $width( CLK:291059 ps, :291128 ps, 350 ps)
+
+
+WARNING: at 291128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_28 /  $width( CLK:291059 ps, :291128 ps, 350 ps)
+
+
+WARNING: at 291129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_7 /  $width( CLK:291060 ps, :291129 ps, 350 ps)
+
+
+WARNING: at 291129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_6 /  $width( CLK:291060 ps, :291129 ps, 350 ps)
+
+
+WARNING: at 291129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_5 /  $width( CLK:291060 ps, :291129 ps, 350 ps)
+
+
+WARNING: at 291129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_4 /  $width( CLK:291060 ps, :291129 ps, 350 ps)
+
+
+WARNING: at 291129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_11 /  $width( CLK:291060 ps, :291129 ps, 350 ps)
+
+
+WARNING: at 291129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_10 /  $width( CLK:291060 ps, :291129 ps, 350 ps)
+
+
+WARNING: at 291129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_9 /  $width( CLK:291060 ps, :291129 ps, 350 ps)
+
+
+WARNING: at 291129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_8 /  $width( CLK:291060 ps, :291129 ps, 350 ps)
+
+
+WARNING: at 291133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_19 /  $width( CLK:291064 ps, :291133 ps, 350 ps)
+
+
+WARNING: at 291133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_18 /  $width( CLK:291064 ps, :291133 ps, 350 ps)
+
+
+WARNING: at 291133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_17 /  $width( CLK:291064 ps, :291133 ps, 350 ps)
+
+
+WARNING: at 291133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_16 /  $width( CLK:291064 ps, :291133 ps, 350 ps)
+
+
+WARNING: at 291135 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_33 /  $width( CLK:291066 ps, :291135 ps, 350 ps)
+
+
+WARNING: at 291135 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_32 /  $width( CLK:291066 ps, :291135 ps, 350 ps)
+
+
+[         0] 1_xx000000_00010000 1_01111110_00xx0000
+
+[         1] 1_10000110_1x000x00 0_00000010_00001100
+
+[         2] 0_010101x1_0x001100 1_0x0x0000_0100x000
+
+[         3] 1_11111011_11000010 1_xxx00011_0x100010
+
+[         4] 0_111110xx_11111000 0_00000000_00000000
+
+[         5] x_111010x1_00000000 1_x00x0xx1_11xxx00x
+
+[         6] 0_10111111_00000110 0_0x00000x_00000x00
+
+[         7] 0_00000101_1x1100x0 1_000000x0_00001x0x
+
+[         8] 1_11111111_00000000 1_11001000_00000000
+
+[         9] 1_10010111_00000000 1_00000000_00000000
+
+WARNING: at 372397 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_16 /  $width( CLK:372328 ps, :372397 ps, 350 ps)
+
+
+WARNING: at 372551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_11 /  $width( CLK:372482 ps, :372551 ps, 350 ps)
+
+
+WARNING: at 372551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_10 /  $width( CLK:372482 ps, :372551 ps, 350 ps)
+
+
+WARNING: at 372551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_9 /  $width( CLK:372482 ps, :372551 ps, 350 ps)
+
+
+WARNING: at 372551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_8 /  $width( CLK:372482 ps, :372551 ps, 350 ps)
+
+
+WARNING: at 372553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_31 /  $width( CLK:372484 ps, :372553 ps, 350 ps)
+
+
+WARNING: at 372553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_30 /  $width( CLK:372484 ps, :372553 ps, 350 ps)
+
+
+WARNING: at 372553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_29 /  $width( CLK:372484 ps, :372553 ps, 350 ps)
+
+
+WARNING: at 372553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_28 /  $width( CLK:372484 ps, :372553 ps, 350 ps)
+
+
+WARNING: at 372556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_33 /  $width( CLK:372487 ps, :372556 ps, 350 ps)
+
+
+WARNING: at 372556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_32 /  $width( CLK:372487 ps, :372556 ps, 350 ps)
+
+
+WARNING: at 372618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_19 /  $width( CLK:372549 ps, :372618 ps, 350 ps)
+
+
+WARNING: at 372618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_18 /  $width( CLK:372549 ps, :372618 ps, 350 ps)
+
+
+WARNING: at 372618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_17 /  $width( CLK:372549 ps, :372618 ps, 350 ps)
+
+
+[        10] 1_11111111_00000000 x_00100000_00000000
+
+WARNING: at 376250 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R12_31 /  $setuphold( CLK:376186 ps, I:376250 ps,-40 ps,136 ps)
+
+
+WARNING: at 376371 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R8_25 /  $setuphold( CLK:376256 ps, I:376371 ps,-40 ps,136 ps)
+
+
+[        11] 0_00000x1x_11111110 0_00000000_00000000
+
+WARNING: at 384231 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_32 /  $setuphold( CLK:384180 ps, I:384231 ps,-40 ps,136 ps)
+
+
+WARNING: at 384240 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_33 /  $setuphold( CLK:384188 ps, I:384240 ps,-40 ps,136 ps)
+
+
+WARNING: at 384242 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R1_26 /  $setuphold( CLK:384192 ps, I:384242 ps,-40 ps,136 ps)
+
+
+WARNING: at 384266 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_25 /  $setuphold( CLK:384206 ps, I:384266 ps,-47 ps,143 ps)
+
+
+WARNING: at 384315 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R1_7 /  $setuphold( CLK:384201 ps, I:384315 ps,-40 ps,136 ps)
+
+
+WARNING: at 384331 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_29 /  $setuphold( CLK:384251 ps, I:384331 ps,-42 ps,126 ps)
+
+
+WARNING: at 384382 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_19 /  $setuphold( CLK:384253 ps, I:384382 ps,-40 ps,136 ps)
+
+
+WARNING: at 384388 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_32 /  $setuphold( CLK:384259 ps, I:384388 ps,-40 ps,136 ps)
+
+
+WARNING: at 384530 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_13 /  $setuphold( CLK:384446 ps, I:384530 ps,-47 ps,143 ps)
+
+
+WARNING: at 384573 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_14 /  $setuphold( CLK:384446 ps, I:384573 ps,-47 ps,143 ps)
+
+
+WARNING: at 384587 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_9 /  $setuphold( CLK:384445 ps, I:384587 ps,-47 ps,143 ps)
+
+
+WARNING: at 392264 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_22 /  $setuphold( CLK:392189 ps, I:392264 ps,-40 ps,136 ps)
+
+
+WARNING: at 392266 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R2_24 /  $setuphold( CLK:392201 ps, I:392266 ps,-40 ps,136 ps)
+
+
+WARNING: at 392288 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R2_23 /  $setuphold( CLK:392214 ps, I:392288 ps,-47 ps,143 ps)
+
+
+WARNING: at 392294 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_20 /  $setuphold( CLK:392250 ps, I:392294 ps,-40 ps,136 ps)
+
+
+WARNING: at 392307 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_21 /  $setuphold( CLK:392189 ps, I:392307 ps,-40 ps,136 ps)
+
+
+WARNING: at 392330 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_0 /  $setuphold( CLK:392282 ps, I:392330 ps,-47 ps,143 ps)
+
+
+WARNING: at 392358 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R2_15 /  $setuphold( CLK:392224 ps, I:392358 ps,-47 ps,143 ps)
+
+
+WARNING: at 392368 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_3 /  $setuphold( CLK:392262 ps, I:392368 ps,-40 ps,136 ps)
+
+
+WARNING: at 392371 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_2 /  $setuphold( CLK:392282 ps, I:392371 ps,-47 ps,143 ps)
+
+
+WARNING: at 392392 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_2 /  $setuphold( CLK:392258 ps, I:392392 ps,-40 ps,136 ps)
+
+
+WARNING: at 392408 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_31 /  $setuphold( CLK:392277 ps, I:392408 ps,-47 ps,143 ps)
+
+
+WARNING: at 392474 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R2_32 /  $setuphold( CLK:392387 ps, I:392474 ps,-47 ps,143 ps)
+
+
+WARNING: at 392551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_18 /  $setuphold( CLK:392419 ps, I:392551 ps,-40 ps,136 ps)
+
+
+WARNING: at 400254 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R3_24 /  $setuphold( CLK:400196 ps, I:400254 ps,-40 ps,136 ps)
+
+
+WARNING: at 400360 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R7_22 /  $setuphold( CLK:400273 ps, I:400360 ps,-47 ps,143 ps)
+
+
+WARNING: at 408252 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R0_30 /  $setuphold( CLK:408201 ps, I:408252 ps,-40 ps,136 ps)
+
+
+WARNING: at 408280 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_23 /  $setuphold( CLK:408219 ps, I:408280 ps,-47 ps,143 ps)
+
+
+WARNING: at 408288 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_21 /  $setuphold( CLK:408189 ps, I:408288 ps,-40 ps,136 ps)
+
+
+WARNING: at 408298 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R0_29 /  $setuphold( CLK:408201 ps, I:408298 ps,-40 ps,136 ps)
+
+
+WARNING: at 408306 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R2_32 /  $setuphold( CLK:408227 ps, I:408306 ps,-47 ps,143 ps)
+
+
+WARNING: at 408343 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_22 /  $setuphold( CLK:408219 ps, I:408343 ps,-47 ps,143 ps)
+
+
+WARNING: at 408353 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R0_26 /  $setuphold( CLK:408224 ps, I:408353 ps,-47 ps,143 ps)
+
+
+WARNING: at 408358 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R2_4 /  $setuphold( CLK:408265 ps, I:408358 ps,-40 ps,136 ps)
+
+
+WARNING: at 408365 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_3 /  $setuphold( CLK:408260 ps, I:408365 ps,-40 ps,136 ps)
+
+
+WARNING: at 408370 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_29 /  $setuphold( CLK:408252 ps, I:408370 ps,-40 ps,136 ps)
+
+
+WARNING: at 408388 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_24 /  $setuphold( CLK:408256 ps, I:408388 ps,-40 ps,136 ps)
+
+
+WARNING: at 408391 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_25 /  $setuphold( CLK:408256 ps, I:408391 ps,-40 ps,136 ps)
+
+
+WARNING: at 408462 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_12 /  $setuphold( CLK:408420 ps, I:408462 ps,-40 ps,136 ps)
+
+
+WARNING: at 408468 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_10 /  $setuphold( CLK:408420 ps, I:408468 ps,-40 ps,136 ps)
+
+
+WARNING: at 408490 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_8 /  $setuphold( CLK:408425 ps, I:408490 ps,-40 ps,136 ps)
+
+
+WARNING: at 408494 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_10 /  $setuphold( CLK:408425 ps, I:408494 ps,-40 ps,136 ps)
+
+
+WARNING: at 408513 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_16 /  $setuphold( CLK:408445 ps, I:408513 ps,-47 ps,143 ps)
+
+
+WARNING: at 408524 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_11 /  $setuphold( CLK:408425 ps, I:408524 ps,-40 ps,136 ps)
+
+
+WARNING: at 408529 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_14 /  $setuphold( CLK:408445 ps, I:408529 ps,-47 ps,143 ps)
+
+
+WARNING: at 408537 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_15 /  $setuphold( CLK:408445 ps, I:408537 ps,-47 ps,143 ps)
+
+
+WARNING: at 408543 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_9 /  $setuphold( CLK:408425 ps, I:408543 ps,-40 ps,136 ps)
+
+
+WARNING: at 418969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_27 /  $width( CLK:418900 ps, :418969 ps, 350 ps)
+
+
+WARNING: at 418969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_26 /  $width( CLK:418900 ps, :418969 ps, 350 ps)
+
+
+WARNING: at 418969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_25 /  $width( CLK:418900 ps, :418969 ps, 350 ps)
+
+
+WARNING: at 418969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_24 /  $width( CLK:418900 ps, :418969 ps, 350 ps)
+
+
+WARNING: at 419119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_15 /  $width( CLK:419050 ps, :419119 ps, 350 ps)
+
+
+WARNING: at 419119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_14 /  $width( CLK:419050 ps, :419119 ps, 350 ps)
+
+
+WARNING: at 419119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_13 /  $width( CLK:419050 ps, :419119 ps, 350 ps)
+
+
+WARNING: at 419119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_12 /  $width( CLK:419050 ps, :419119 ps, 350 ps)
+
+
+WARNING: at 419128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_31 /  $width( CLK:419059 ps, :419128 ps, 350 ps)
+
+
+WARNING: at 419128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_30 /  $width( CLK:419059 ps, :419128 ps, 350 ps)
+
+
+WARNING: at 419128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_29 /  $width( CLK:419059 ps, :419128 ps, 350 ps)
+
+
+WARNING: at 419128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_28 /  $width( CLK:419059 ps, :419128 ps, 350 ps)
+
+
+WARNING: at 419129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_7 /  $width( CLK:419060 ps, :419129 ps, 350 ps)
+
+
+WARNING: at 419129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_6 /  $width( CLK:419060 ps, :419129 ps, 350 ps)
+
+
+WARNING: at 419129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_5 /  $width( CLK:419060 ps, :419129 ps, 350 ps)
+
+
+WARNING: at 419129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_4 /  $width( CLK:419060 ps, :419129 ps, 350 ps)
+
+
+WARNING: at 419129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_11 /  $width( CLK:419060 ps, :419129 ps, 350 ps)
+
+
+WARNING: at 419129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_10 /  $width( CLK:419060 ps, :419129 ps, 350 ps)
+
+
+WARNING: at 419129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_9 /  $width( CLK:419060 ps, :419129 ps, 350 ps)
+
+
+WARNING: at 419129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_8 /  $width( CLK:419060 ps, :419129 ps, 350 ps)
+
+
+WARNING: at 419133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_19 /  $width( CLK:419064 ps, :419133 ps, 350 ps)
+
+
+WARNING: at 419133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_18 /  $width( CLK:419064 ps, :419133 ps, 350 ps)
+
+
+WARNING: at 419133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_17 /  $width( CLK:419064 ps, :419133 ps, 350 ps)
+
+
+WARNING: at 419133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_16 /  $width( CLK:419064 ps, :419133 ps, 350 ps)
+
+
+WARNING: at 419135 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_33 /  $width( CLK:419066 ps, :419135 ps, 350 ps)
+
+
+WARNING: at 419135 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_32 /  $width( CLK:419066 ps, :419135 ps, 350 ps)
+
+
+WARNING: at 500397 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_16 /  $width( CLK:500328 ps, :500397 ps, 350 ps)
+
+
+WARNING: at 500551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_11 /  $width( CLK:500482 ps, :500551 ps, 350 ps)
+
+
+WARNING: at 500551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_10 /  $width( CLK:500482 ps, :500551 ps, 350 ps)
+
+
+WARNING: at 500551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_9 /  $width( CLK:500482 ps, :500551 ps, 350 ps)
+
+
+WARNING: at 500551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_8 /  $width( CLK:500482 ps, :500551 ps, 350 ps)
+
+
+WARNING: at 500553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_31 /  $width( CLK:500484 ps, :500553 ps, 350 ps)
+
+
+WARNING: at 500553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_30 /  $width( CLK:500484 ps, :500553 ps, 350 ps)
+
+
+WARNING: at 500553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_29 /  $width( CLK:500484 ps, :500553 ps, 350 ps)
+
+
+WARNING: at 500553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_28 /  $width( CLK:500484 ps, :500553 ps, 350 ps)
+
+
+WARNING: at 500556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_33 /  $width( CLK:500487 ps, :500556 ps, 350 ps)
+
+
+WARNING: at 500556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_32 /  $width( CLK:500487 ps, :500556 ps, 350 ps)
+
+
+WARNING: at 500618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_19 /  $width( CLK:500549 ps, :500618 ps, 350 ps)
+
+
+WARNING: at 500618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_18 /  $width( CLK:500549 ps, :500618 ps, 350 ps)
+
+
+WARNING: at 500618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_17 /  $width( CLK:500549 ps, :500618 ps, 350 ps)
+
+
+WARNING: at 504381 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R8_29 /  $setuphold( CLK:504258 ps, I:504381 ps,-40 ps,136 ps)
+
+
+WARNING: at 504573 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R4_14 /  $setuphold( CLK:504445 ps, I:504573 ps,-47 ps,143 ps)
+
+
+WARNING: at 512224 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_31 /  $setuphold( CLK:512183 ps, I:512224 ps,-40 ps,136 ps)
+
+
+WARNING: at 512258 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_27 /  $setuphold( CLK:512206 ps, I:512258 ps,-47 ps,143 ps)
+
+
+WARNING: at 512298 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_29 /  $setuphold( CLK:512183 ps, I:512298 ps,-40 ps,136 ps)
+
+
+WARNING: at 512310 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R1_31 /  $setuphold( CLK:512227 ps, I:512310 ps,-47 ps,143 ps)
+
+
+WARNING: at 512311 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_27 /  $setuphold( CLK:512250 ps, I:512311 ps,-40 ps,136 ps)
+
+
+WARNING: at 512316 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_30 /  $setuphold( CLK:512183 ps, I:512316 ps,-40 ps,136 ps)
+
+
+WARNING: at 512330 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_24 /  $setuphold( CLK:512256 ps, I:512330 ps,-40 ps,136 ps)
+
+
+WARNING: at 512335 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_21 /  $setuphold( CLK:512248 ps, I:512335 ps,-40 ps,136 ps)
+
+
+WARNING: at 512338 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_3 /  $setuphold( CLK:512261 ps, I:512338 ps,-40 ps,136 ps)
+
+
+WARNING: at 512345 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_23 /  $setuphold( CLK:512252 ps, I:512345 ps,-40 ps,136 ps)
+
+
+WARNING: at 512372 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_7 /  $setuphold( CLK:512265 ps, I:512372 ps,-40 ps,136 ps)
+
+
+WARNING: at 512373 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_11 /  $setuphold( CLK:512265 ps, I:512373 ps,-40 ps,136 ps)
+
+
+WARNING: at 512382 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_19 /  $setuphold( CLK:512253 ps, I:512382 ps,-40 ps,136 ps)
+
+
+WARNING: at 512470 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_12 /  $setuphold( CLK:512422 ps, I:512470 ps,-40 ps,136 ps)
+
+
+WARNING: at 512523 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_16 /  $setuphold( CLK:512445 ps, I:512523 ps,-47 ps,143 ps)
+
+
+WARNING: at 512536 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_15 /  $setuphold( CLK:512446 ps, I:512536 ps,-47 ps,143 ps)
+
+
+WARNING: at 520261 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R2_25 /  $setuphold( CLK:520201 ps, I:520261 ps,-40 ps,136 ps)
+
+
+WARNING: at 520272 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_23 /  $setuphold( CLK:520189 ps, I:520272 ps,-40 ps,136 ps)
+
+
+WARNING: at 520274 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R2_26 /  $setuphold( CLK:520201 ps, I:520274 ps,-40 ps,136 ps)
+
+
+WARNING: at 520324 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_31 /  $setuphold( CLK:520212 ps, I:520324 ps,-50 ps,133 ps)
+
+
+WARNING: at 520327 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R2_29 /  $setuphold( CLK:520197 ps, I:520327 ps,-40 ps,136 ps)
+
+
+WARNING: at 520330 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_0 /  $setuphold( CLK:520282 ps, I:520330 ps,-47 ps,143 ps)
+
+
+WARNING: at 520367 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_29 /  $setuphold( CLK:520256 ps, I:520367 ps,-40 ps,136 ps)
+
+
+WARNING: at 520368 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_3 /  $setuphold( CLK:520262 ps, I:520368 ps,-40 ps,136 ps)
+
+
+WARNING: at 520371 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_2 /  $setuphold( CLK:520282 ps, I:520371 ps,-47 ps,143 ps)
+
+
+WARNING: at 520375 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_8 /  $setuphold( CLK:520265 ps, I:520375 ps,-40 ps,136 ps)
+
+
+WARNING: at 520376 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_14 /  $setuphold( CLK:520266 ps, I:520376 ps,-40 ps,136 ps)
+
+
+WARNING: at 520378 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_31 /  $setuphold( CLK:520277 ps, I:520378 ps,-47 ps,143 ps)
+
+
+WARNING: at 520392 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_2 /  $setuphold( CLK:520258 ps, I:520392 ps,-40 ps,136 ps)
+
+
+WARNING: at 520397 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_4 /  $setuphold( CLK:520262 ps, I:520397 ps,-40 ps,136 ps)
+
+
+WARNING: at 520470 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_10 /  $setuphold( CLK:520421 ps, I:520470 ps,-40 ps,136 ps)
+
+
+WARNING: at 520473 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_5 /  $setuphold( CLK:520422 ps, I:520473 ps,-40 ps,136 ps)
+
+
+WARNING: at 520479 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_9 /  $setuphold( CLK:520421 ps, I:520479 ps,-40 ps,136 ps)
+
+
+WARNING: at 520499 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_15 /  $setuphold( CLK:520421 ps, I:520499 ps,-42 ps,126 ps)
+
+
+WARNING: at 520502 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_9 /  $setuphold( CLK:520420 ps, I:520502 ps,-40 ps,136 ps)
+
+
+WARNING: at 520551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_18 /  $setuphold( CLK:520419 ps, I:520551 ps,-40 ps,136 ps)
+
+
+WARNING: at 520556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_12 /  $setuphold( CLK:520421 ps, I:520556 ps,-40 ps,136 ps)
+
+
+WARNING: at 528265 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R15_25 /  $setuphold( CLK:528179 ps, I:528265 ps,-40 ps,136 ps)
+
+
+WARNING: at 528315 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R11_16 /  $setuphold( CLK:528266 ps, I:528315 ps,-40 ps,136 ps)
+
+
+WARNING: at 536232 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_24 /  $setuphold( CLK:536179 ps, I:536232 ps,-40 ps,136 ps)
+
+
+WARNING: at 536239 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_22 /  $setuphold( CLK:536179 ps, I:536239 ps,-40 ps,136 ps)
+
+
+WARNING: at 536252 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R0_30 /  $setuphold( CLK:536201 ps, I:536252 ps,-40 ps,136 ps)
+
+
+WARNING: at 536288 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_21 /  $setuphold( CLK:536189 ps, I:536288 ps,-40 ps,136 ps)
+
+
+WARNING: at 536313 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_29 /  $setuphold( CLK:536252 ps, I:536313 ps,-40 ps,136 ps)
+
+
+WARNING: at 536324 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R2_24 /  $setuphold( CLK:536200 ps, I:536324 ps,-40 ps,136 ps)
+
+
+WARNING: at 536358 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R2_4 /  $setuphold( CLK:536265 ps, I:536358 ps,-40 ps,136 ps)
+
+
+WARNING: at 536365 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_3 /  $setuphold( CLK:536260 ps, I:536365 ps,-40 ps,136 ps)
+
+
+WARNING: at 536387 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_26 /  $setuphold( CLK:536256 ps, I:536387 ps,-40 ps,136 ps)
+
+
+WARNING: at 536462 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_12 /  $setuphold( CLK:536420 ps, I:536462 ps,-40 ps,136 ps)
+
+
+WARNING: at 536468 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_10 /  $setuphold( CLK:536420 ps, I:536468 ps,-40 ps,136 ps)
+
+
+WARNING: at 536490 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_8 /  $setuphold( CLK:536425 ps, I:536490 ps,-40 ps,136 ps)
+
+
+WARNING: at 536494 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_10 /  $setuphold( CLK:536425 ps, I:536494 ps,-40 ps,136 ps)
+
+
+WARNING: at 536513 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_16 /  $setuphold( CLK:536445 ps, I:536513 ps,-47 ps,143 ps)
+
+
+WARNING: at 536524 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_11 /  $setuphold( CLK:536425 ps, I:536524 ps,-40 ps,136 ps)
+
+
+WARNING: at 536543 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_9 /  $setuphold( CLK:536425 ps, I:536543 ps,-40 ps,136 ps)
+
+
+WARNING: at 536576 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_14 /  $setuphold( CLK:536445 ps, I:536576 ps,-47 ps,143 ps)
+
+
+WARNING: at 546969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_27 /  $width( CLK:546900 ps, :546969 ps, 350 ps)
+
+
+WARNING: at 546969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_26 /  $width( CLK:546900 ps, :546969 ps, 350 ps)
+
+
+WARNING: at 546969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_25 /  $width( CLK:546900 ps, :546969 ps, 350 ps)
+
+
+WARNING: at 546969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_24 /  $width( CLK:546900 ps, :546969 ps, 350 ps)
+
+
+WARNING: at 547119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_15 /  $width( CLK:547050 ps, :547119 ps, 350 ps)
+
+
+WARNING: at 547119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_14 /  $width( CLK:547050 ps, :547119 ps, 350 ps)
+
+
+WARNING: at 547119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_13 /  $width( CLK:547050 ps, :547119 ps, 350 ps)
+
+
+WARNING: at 547119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_12 /  $width( CLK:547050 ps, :547119 ps, 350 ps)
+
+
+WARNING: at 547128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_31 /  $width( CLK:547059 ps, :547128 ps, 350 ps)
+
+
+WARNING: at 547128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_30 /  $width( CLK:547059 ps, :547128 ps, 350 ps)
+
+
+WARNING: at 547128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_29 /  $width( CLK:547059 ps, :547128 ps, 350 ps)
+
+
+WARNING: at 547128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_28 /  $width( CLK:547059 ps, :547128 ps, 350 ps)
+
+
+WARNING: at 547129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_7 /  $width( CLK:547060 ps, :547129 ps, 350 ps)
+
+
+WARNING: at 547129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_6 /  $width( CLK:547060 ps, :547129 ps, 350 ps)
+
+
+WARNING: at 547129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_5 /  $width( CLK:547060 ps, :547129 ps, 350 ps)
+
+
+WARNING: at 547129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_4 /  $width( CLK:547060 ps, :547129 ps, 350 ps)
+
+
+WARNING: at 547129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_11 /  $width( CLK:547060 ps, :547129 ps, 350 ps)
+
+
+WARNING: at 547129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_10 /  $width( CLK:547060 ps, :547129 ps, 350 ps)
+
+
+WARNING: at 547129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_9 /  $width( CLK:547060 ps, :547129 ps, 350 ps)
+
+
+WARNING: at 547129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_8 /  $width( CLK:547060 ps, :547129 ps, 350 ps)
+
+
+WARNING: at 547133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_19 /  $width( CLK:547064 ps, :547133 ps, 350 ps)
+
+
+WARNING: at 547133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_18 /  $width( CLK:547064 ps, :547133 ps, 350 ps)
+
+
+WARNING: at 547133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_17 /  $width( CLK:547064 ps, :547133 ps, 350 ps)
+
+
+WARNING: at 547133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_16 /  $width( CLK:547064 ps, :547133 ps, 350 ps)
+
+
+WARNING: at 547135 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_33 /  $width( CLK:547066 ps, :547135 ps, 350 ps)
+
+
+WARNING: at 547135 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_32 /  $width( CLK:547066 ps, :547135 ps, 350 ps)
+
+
+WARNING: at 628397 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_16 /  $width( CLK:628328 ps, :628397 ps, 350 ps)
+
+
+WARNING: at 628551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_11 /  $width( CLK:628482 ps, :628551 ps, 350 ps)
+
+
+WARNING: at 628551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_10 /  $width( CLK:628482 ps, :628551 ps, 350 ps)
+
+
+WARNING: at 628551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_9 /  $width( CLK:628482 ps, :628551 ps, 350 ps)
+
+
+WARNING: at 628551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_8 /  $width( CLK:628482 ps, :628551 ps, 350 ps)
+
+
+WARNING: at 628553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_31 /  $width( CLK:628484 ps, :628553 ps, 350 ps)
+
+
+WARNING: at 628553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_30 /  $width( CLK:628484 ps, :628553 ps, 350 ps)
+
+
+WARNING: at 628553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_29 /  $width( CLK:628484 ps, :628553 ps, 350 ps)
+
+
+WARNING: at 628553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_28 /  $width( CLK:628484 ps, :628553 ps, 350 ps)
+
+
+WARNING: at 628556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_33 /  $width( CLK:628487 ps, :628556 ps, 350 ps)
+
+
+WARNING: at 628556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_32 /  $width( CLK:628487 ps, :628556 ps, 350 ps)
+
+
+WARNING: at 628618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_19 /  $width( CLK:628549 ps, :628618 ps, 350 ps)
+
+
+WARNING: at 628618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_18 /  $width( CLK:628549 ps, :628618 ps, 350 ps)
+
+
+WARNING: at 628618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_17 /  $width( CLK:628549 ps, :628618 ps, 350 ps)
+
+
+WARNING: at 632381 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R8_29 /  $setuphold( CLK:632258 ps, I:632381 ps,-40 ps,136 ps)
+
+
+WARNING: at 632573 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R4_14 /  $setuphold( CLK:632445 ps, I:632573 ps,-47 ps,143 ps)
+
+
+WARNING: at 640224 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_31 /  $setuphold( CLK:640183 ps, I:640224 ps,-40 ps,136 ps)
+
+
+WARNING: at 640258 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_27 /  $setuphold( CLK:640206 ps, I:640258 ps,-47 ps,143 ps)
+
+
+WARNING: at 640298 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_29 /  $setuphold( CLK:640183 ps, I:640298 ps,-40 ps,136 ps)
+
+
+WARNING: at 640310 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R1_31 /  $setuphold( CLK:640227 ps, I:640310 ps,-47 ps,143 ps)
+
+
+WARNING: at 640311 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_27 /  $setuphold( CLK:640250 ps, I:640311 ps,-40 ps,136 ps)
+
+
+WARNING: at 640316 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_30 /  $setuphold( CLK:640183 ps, I:640316 ps,-40 ps,136 ps)
+
+
+WARNING: at 640330 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_24 /  $setuphold( CLK:640256 ps, I:640330 ps,-40 ps,136 ps)
+
+
+WARNING: at 640335 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_21 /  $setuphold( CLK:640248 ps, I:640335 ps,-40 ps,136 ps)
+
+
+WARNING: at 640338 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_3 /  $setuphold( CLK:640261 ps, I:640338 ps,-40 ps,136 ps)
+
+
+WARNING: at 640345 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_23 /  $setuphold( CLK:640252 ps, I:640345 ps,-40 ps,136 ps)
+
+
+WARNING: at 640372 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_7 /  $setuphold( CLK:640265 ps, I:640372 ps,-40 ps,136 ps)
+
+
+WARNING: at 640373 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_11 /  $setuphold( CLK:640265 ps, I:640373 ps,-40 ps,136 ps)
+
+
+WARNING: at 640382 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_19 /  $setuphold( CLK:640253 ps, I:640382 ps,-40 ps,136 ps)
+
+
+WARNING: at 640470 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_12 /  $setuphold( CLK:640422 ps, I:640470 ps,-40 ps,136 ps)
+
+
+WARNING: at 640523 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_16 /  $setuphold( CLK:640445 ps, I:640523 ps,-47 ps,143 ps)
+
+
+WARNING: at 640536 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_15 /  $setuphold( CLK:640446 ps, I:640536 ps,-47 ps,143 ps)
+
+
+WARNING: at 648261 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R2_25 /  $setuphold( CLK:648201 ps, I:648261 ps,-40 ps,136 ps)
+
+
+WARNING: at 648272 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_23 /  $setuphold( CLK:648189 ps, I:648272 ps,-40 ps,136 ps)
+
+
+WARNING: at 648274 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R2_26 /  $setuphold( CLK:648201 ps, I:648274 ps,-40 ps,136 ps)
+
+
+WARNING: at 648324 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_31 /  $setuphold( CLK:648212 ps, I:648324 ps,-50 ps,133 ps)
+
+
+WARNING: at 648327 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R2_29 /  $setuphold( CLK:648197 ps, I:648327 ps,-40 ps,136 ps)
+
+
+WARNING: at 648330 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_0 /  $setuphold( CLK:648282 ps, I:648330 ps,-47 ps,143 ps)
+
+
+WARNING: at 648367 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_29 /  $setuphold( CLK:648256 ps, I:648367 ps,-40 ps,136 ps)
+
+
+WARNING: at 648368 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_3 /  $setuphold( CLK:648262 ps, I:648368 ps,-40 ps,136 ps)
+
+
+WARNING: at 648371 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_2 /  $setuphold( CLK:648282 ps, I:648371 ps,-47 ps,143 ps)
+
+
+WARNING: at 648375 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_8 /  $setuphold( CLK:648265 ps, I:648375 ps,-40 ps,136 ps)
+
+
+WARNING: at 648376 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_14 /  $setuphold( CLK:648266 ps, I:648376 ps,-40 ps,136 ps)
+
+
+WARNING: at 648378 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_31 /  $setuphold( CLK:648277 ps, I:648378 ps,-47 ps,143 ps)
+
+
+WARNING: at 648392 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_2 /  $setuphold( CLK:648258 ps, I:648392 ps,-40 ps,136 ps)
+
+
+WARNING: at 648397 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_4 /  $setuphold( CLK:648262 ps, I:648397 ps,-40 ps,136 ps)
+
+
+WARNING: at 648470 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_10 /  $setuphold( CLK:648421 ps, I:648470 ps,-40 ps,136 ps)
+
+
+WARNING: at 648473 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_5 /  $setuphold( CLK:648422 ps, I:648473 ps,-40 ps,136 ps)
+
+
+WARNING: at 648479 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_9 /  $setuphold( CLK:648421 ps, I:648479 ps,-40 ps,136 ps)
+
+
+WARNING: at 648499 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_15 /  $setuphold( CLK:648421 ps, I:648499 ps,-42 ps,126 ps)
+
+
+WARNING: at 648502 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_9 /  $setuphold( CLK:648420 ps, I:648502 ps,-40 ps,136 ps)
+
+
+WARNING: at 648551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_18 /  $setuphold( CLK:648419 ps, I:648551 ps,-40 ps,136 ps)
+
+
+WARNING: at 648556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_12 /  $setuphold( CLK:648421 ps, I:648556 ps,-40 ps,136 ps)
+
+
+WARNING: at 656265 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R15_25 /  $setuphold( CLK:656179 ps, I:656265 ps,-40 ps,136 ps)
+
+
+WARNING: at 656315 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R11_16 /  $setuphold( CLK:656266 ps, I:656315 ps,-40 ps,136 ps)
+
+
+WARNING: at 664232 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_24 /  $setuphold( CLK:664179 ps, I:664232 ps,-40 ps,136 ps)
+
+
+WARNING: at 664239 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_22 /  $setuphold( CLK:664179 ps, I:664239 ps,-40 ps,136 ps)
+
+
+WARNING: at 664252 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R0_30 /  $setuphold( CLK:664201 ps, I:664252 ps,-40 ps,136 ps)
+
+
+WARNING: at 664288 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_21 /  $setuphold( CLK:664189 ps, I:664288 ps,-40 ps,136 ps)
+
+
+WARNING: at 664313 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_29 /  $setuphold( CLK:664252 ps, I:664313 ps,-40 ps,136 ps)
+
+
+WARNING: at 664324 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R2_24 /  $setuphold( CLK:664200 ps, I:664324 ps,-40 ps,136 ps)
+
+
+WARNING: at 664358 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R2_4 /  $setuphold( CLK:664265 ps, I:664358 ps,-40 ps,136 ps)
+
+
+WARNING: at 664365 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_3 /  $setuphold( CLK:664260 ps, I:664365 ps,-40 ps,136 ps)
+
+
+WARNING: at 664387 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_26 /  $setuphold( CLK:664256 ps, I:664387 ps,-40 ps,136 ps)
+
+
+WARNING: at 664462 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_12 /  $setuphold( CLK:664420 ps, I:664462 ps,-40 ps,136 ps)
+
+
+WARNING: at 664468 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_10 /  $setuphold( CLK:664420 ps, I:664468 ps,-40 ps,136 ps)
+
+
+WARNING: at 664490 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_8 /  $setuphold( CLK:664425 ps, I:664490 ps,-40 ps,136 ps)
+
+
+WARNING: at 664494 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_10 /  $setuphold( CLK:664425 ps, I:664494 ps,-40 ps,136 ps)
+
+
+WARNING: at 664513 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_16 /  $setuphold( CLK:664445 ps, I:664513 ps,-47 ps,143 ps)
+
+
+WARNING: at 664524 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_11 /  $setuphold( CLK:664425 ps, I:664524 ps,-40 ps,136 ps)
+
+
+WARNING: at 664543 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_9 /  $setuphold( CLK:664425 ps, I:664543 ps,-40 ps,136 ps)
+
+
+WARNING: at 664576 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_14 /  $setuphold( CLK:664445 ps, I:664576 ps,-47 ps,143 ps)
+
+
+WARNING: at 674969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_27 /  $width( CLK:674900 ps, :674969 ps, 350 ps)
+
+
+WARNING: at 674969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_26 /  $width( CLK:674900 ps, :674969 ps, 350 ps)
+
+
+WARNING: at 674969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_25 /  $width( CLK:674900 ps, :674969 ps, 350 ps)
+
+
+WARNING: at 674969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_24 /  $width( CLK:674900 ps, :674969 ps, 350 ps)
+
+
+WARNING: at 675119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_15 /  $width( CLK:675050 ps, :675119 ps, 350 ps)
+
+
+WARNING: at 675119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_14 /  $width( CLK:675050 ps, :675119 ps, 350 ps)
+
+
+WARNING: at 675119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_13 /  $width( CLK:675050 ps, :675119 ps, 350 ps)
+
+
+WARNING: at 675119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_12 /  $width( CLK:675050 ps, :675119 ps, 350 ps)
+
+
+WARNING: at 675128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_31 /  $width( CLK:675059 ps, :675128 ps, 350 ps)
+
+
+WARNING: at 675128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_30 /  $width( CLK:675059 ps, :675128 ps, 350 ps)
+
+
+WARNING: at 675128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_29 /  $width( CLK:675059 ps, :675128 ps, 350 ps)
+
+
+WARNING: at 675128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_28 /  $width( CLK:675059 ps, :675128 ps, 350 ps)
+
+
+WARNING: at 675129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_7 /  $width( CLK:675060 ps, :675129 ps, 350 ps)
+
+
+WARNING: at 675129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_6 /  $width( CLK:675060 ps, :675129 ps, 350 ps)
+
+
+WARNING: at 675129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_5 /  $width( CLK:675060 ps, :675129 ps, 350 ps)
+
+
+WARNING: at 675129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_4 /  $width( CLK:675060 ps, :675129 ps, 350 ps)
+
+
+WARNING: at 675129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_11 /  $width( CLK:675060 ps, :675129 ps, 350 ps)
+
+
+WARNING: at 675129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_10 /  $width( CLK:675060 ps, :675129 ps, 350 ps)
+
+
+WARNING: at 675129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_9 /  $width( CLK:675060 ps, :675129 ps, 350 ps)
+
+
+WARNING: at 675129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_8 /  $width( CLK:675060 ps, :675129 ps, 350 ps)
+
+
+WARNING: at 675133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_19 /  $width( CLK:675064 ps, :675133 ps, 350 ps)
+
+
+WARNING: at 675133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_18 /  $width( CLK:675064 ps, :675133 ps, 350 ps)
+
+
+WARNING: at 675133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_17 /  $width( CLK:675064 ps, :675133 ps, 350 ps)
+
+
+WARNING: at 675133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_16 /  $width( CLK:675064 ps, :675133 ps, 350 ps)
+
+
+WARNING: at 675135 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_33 /  $width( CLK:675066 ps, :675135 ps, 350 ps)
+
+
+WARNING: at 675135 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_32 /  $width( CLK:675066 ps, :675135 ps, 350 ps)
+
+
+WARNING: at 756397 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_16 /  $width( CLK:756328 ps, :756397 ps, 350 ps)
+
+
+WARNING: at 756551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_11 /  $width( CLK:756482 ps, :756551 ps, 350 ps)
+
+
+WARNING: at 756551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_10 /  $width( CLK:756482 ps, :756551 ps, 350 ps)
+
+
+WARNING: at 756551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_9 /  $width( CLK:756482 ps, :756551 ps, 350 ps)
+
+
+WARNING: at 756551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_8 /  $width( CLK:756482 ps, :756551 ps, 350 ps)
+
+
+WARNING: at 756553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_31 /  $width( CLK:756484 ps, :756553 ps, 350 ps)
+
+
+WARNING: at 756553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_30 /  $width( CLK:756484 ps, :756553 ps, 350 ps)
+
+
+WARNING: at 756553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_29 /  $width( CLK:756484 ps, :756553 ps, 350 ps)
+
+
+WARNING: at 756553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_28 /  $width( CLK:756484 ps, :756553 ps, 350 ps)
+
+
+WARNING: at 756556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_33 /  $width( CLK:756487 ps, :756556 ps, 350 ps)
+
+
+WARNING: at 756556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_32 /  $width( CLK:756487 ps, :756556 ps, 350 ps)
+
+
+WARNING: at 756618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_19 /  $width( CLK:756549 ps, :756618 ps, 350 ps)
+
+
+WARNING: at 756618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_18 /  $width( CLK:756549 ps, :756618 ps, 350 ps)
+
+
+WARNING: at 756618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_17 /  $width( CLK:756549 ps, :756618 ps, 350 ps)
+
+
+WARNING: at 760381 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R8_29 /  $setuphold( CLK:760258 ps, I:760381 ps,-40 ps,136 ps)
+
+
+WARNING: at 760573 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R4_14 /  $setuphold( CLK:760445 ps, I:760573 ps,-47 ps,143 ps)
+
+
+WARNING: at 768224 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_31 /  $setuphold( CLK:768183 ps, I:768224 ps,-40 ps,136 ps)
+
+
+WARNING: at 768258 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_27 /  $setuphold( CLK:768206 ps, I:768258 ps,-47 ps,143 ps)
+
+
+WARNING: at 768298 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_29 /  $setuphold( CLK:768183 ps, I:768298 ps,-40 ps,136 ps)
+
+
+WARNING: at 768310 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R1_31 /  $setuphold( CLK:768227 ps, I:768310 ps,-47 ps,143 ps)
+
+
+WARNING: at 768311 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_27 /  $setuphold( CLK:768250 ps, I:768311 ps,-40 ps,136 ps)
+
+
+WARNING: at 768316 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_30 /  $setuphold( CLK:768183 ps, I:768316 ps,-40 ps,136 ps)
+
+
+WARNING: at 768330 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_24 /  $setuphold( CLK:768256 ps, I:768330 ps,-40 ps,136 ps)
+
+
+WARNING: at 768335 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_21 /  $setuphold( CLK:768248 ps, I:768335 ps,-40 ps,136 ps)
+
+
+WARNING: at 768338 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_3 /  $setuphold( CLK:768261 ps, I:768338 ps,-40 ps,136 ps)
+
+
+WARNING: at 768345 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_23 /  $setuphold( CLK:768252 ps, I:768345 ps,-40 ps,136 ps)
+
+
+WARNING: at 768372 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_7 /  $setuphold( CLK:768265 ps, I:768372 ps,-40 ps,136 ps)
+
+
+WARNING: at 768373 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_11 /  $setuphold( CLK:768265 ps, I:768373 ps,-40 ps,136 ps)
+
+
+WARNING: at 768382 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_19 /  $setuphold( CLK:768253 ps, I:768382 ps,-40 ps,136 ps)
+
+
+WARNING: at 768470 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_12 /  $setuphold( CLK:768422 ps, I:768470 ps,-40 ps,136 ps)
+
+
+WARNING: at 768523 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_16 /  $setuphold( CLK:768445 ps, I:768523 ps,-47 ps,143 ps)
+
+
+WARNING: at 768536 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_15 /  $setuphold( CLK:768446 ps, I:768536 ps,-47 ps,143 ps)
+
+
+WARNING: at 776261 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R2_25 /  $setuphold( CLK:776201 ps, I:776261 ps,-40 ps,136 ps)
+
+
+WARNING: at 776272 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_23 /  $setuphold( CLK:776189 ps, I:776272 ps,-40 ps,136 ps)
+
+
+WARNING: at 776274 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R2_26 /  $setuphold( CLK:776201 ps, I:776274 ps,-40 ps,136 ps)
+
+
+WARNING: at 776324 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_31 /  $setuphold( CLK:776212 ps, I:776324 ps,-50 ps,133 ps)
+
+
+WARNING: at 776327 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R2_29 /  $setuphold( CLK:776197 ps, I:776327 ps,-40 ps,136 ps)
+
+
+WARNING: at 776330 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_0 /  $setuphold( CLK:776282 ps, I:776330 ps,-47 ps,143 ps)
+
+
+WARNING: at 776367 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_29 /  $setuphold( CLK:776256 ps, I:776367 ps,-40 ps,136 ps)
+
+
+WARNING: at 776368 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_3 /  $setuphold( CLK:776262 ps, I:776368 ps,-40 ps,136 ps)
+
+
+WARNING: at 776371 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_2 /  $setuphold( CLK:776282 ps, I:776371 ps,-47 ps,143 ps)
+
+
+WARNING: at 776375 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_8 /  $setuphold( CLK:776265 ps, I:776375 ps,-40 ps,136 ps)
+
+
+WARNING: at 776376 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_14 /  $setuphold( CLK:776266 ps, I:776376 ps,-40 ps,136 ps)
+
+
+WARNING: at 776378 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_31 /  $setuphold( CLK:776277 ps, I:776378 ps,-47 ps,143 ps)
+
+
+WARNING: at 776392 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_2 /  $setuphold( CLK:776258 ps, I:776392 ps,-40 ps,136 ps)
+
+
+WARNING: at 776397 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_4 /  $setuphold( CLK:776262 ps, I:776397 ps,-40 ps,136 ps)
+
+
+WARNING: at 776470 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_10 /  $setuphold( CLK:776421 ps, I:776470 ps,-40 ps,136 ps)
+
+
+WARNING: at 776473 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_5 /  $setuphold( CLK:776422 ps, I:776473 ps,-40 ps,136 ps)
+
+
+WARNING: at 776479 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_9 /  $setuphold( CLK:776421 ps, I:776479 ps,-40 ps,136 ps)
+
+
+WARNING: at 776499 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_15 /  $setuphold( CLK:776421 ps, I:776499 ps,-42 ps,126 ps)
+
+
+WARNING: at 776502 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_9 /  $setuphold( CLK:776420 ps, I:776502 ps,-40 ps,136 ps)
+
+
+WARNING: at 776551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_18 /  $setuphold( CLK:776419 ps, I:776551 ps,-40 ps,136 ps)
+
+
+WARNING: at 776556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_12 /  $setuphold( CLK:776421 ps, I:776556 ps,-40 ps,136 ps)
+
+
+WARNING: at 784265 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R15_25 /  $setuphold( CLK:784179 ps, I:784265 ps,-40 ps,136 ps)
+
+
+WARNING: at 784315 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R11_16 /  $setuphold( CLK:784266 ps, I:784315 ps,-40 ps,136 ps)
+
+
+WARNING: at 792232 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_24 /  $setuphold( CLK:792179 ps, I:792232 ps,-40 ps,136 ps)
+
+
+WARNING: at 792239 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_22 /  $setuphold( CLK:792179 ps, I:792239 ps,-40 ps,136 ps)
+
+
+WARNING: at 792252 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R0_30 /  $setuphold( CLK:792201 ps, I:792252 ps,-40 ps,136 ps)
+
+
+WARNING: at 792288 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_21 /  $setuphold( CLK:792189 ps, I:792288 ps,-40 ps,136 ps)
+
+
+WARNING: at 792313 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_29 /  $setuphold( CLK:792252 ps, I:792313 ps,-40 ps,136 ps)
+
+
+WARNING: at 792324 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R2_24 /  $setuphold( CLK:792200 ps, I:792324 ps,-40 ps,136 ps)
+
+
+WARNING: at 792358 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R2_4 /  $setuphold( CLK:792265 ps, I:792358 ps,-40 ps,136 ps)
+
+
+WARNING: at 792365 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_3 /  $setuphold( CLK:792260 ps, I:792365 ps,-40 ps,136 ps)
+
+
+WARNING: at 792387 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_26 /  $setuphold( CLK:792256 ps, I:792387 ps,-40 ps,136 ps)
+
+
+WARNING: at 792462 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_12 /  $setuphold( CLK:792420 ps, I:792462 ps,-40 ps,136 ps)
+
+
+WARNING: at 792468 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_10 /  $setuphold( CLK:792420 ps, I:792468 ps,-40 ps,136 ps)
+
+
+WARNING: at 792490 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_8 /  $setuphold( CLK:792425 ps, I:792490 ps,-40 ps,136 ps)
+
+
+WARNING: at 792494 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_10 /  $setuphold( CLK:792425 ps, I:792494 ps,-40 ps,136 ps)
+
+
+WARNING: at 792513 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_16 /  $setuphold( CLK:792445 ps, I:792513 ps,-47 ps,143 ps)
+
+
+WARNING: at 792524 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_11 /  $setuphold( CLK:792425 ps, I:792524 ps,-40 ps,136 ps)
+
+
+WARNING: at 792543 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_9 /  $setuphold( CLK:792425 ps, I:792543 ps,-40 ps,136 ps)
+
+
+WARNING: at 792576 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_14 /  $setuphold( CLK:792445 ps, I:792576 ps,-47 ps,143 ps)
+
+
+WARNING: at 802969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_27 /  $width( CLK:802900 ps, :802969 ps, 350 ps)
+
+
+WARNING: at 802969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_26 /  $width( CLK:802900 ps, :802969 ps, 350 ps)
+
+
+WARNING: at 802969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_25 /  $width( CLK:802900 ps, :802969 ps, 350 ps)
+
+
+WARNING: at 802969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_24 /  $width( CLK:802900 ps, :802969 ps, 350 ps)
+
+
+WARNING: at 803119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_15 /  $width( CLK:803050 ps, :803119 ps, 350 ps)
+
+
+WARNING: at 803119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_14 /  $width( CLK:803050 ps, :803119 ps, 350 ps)
+
+
+WARNING: at 803119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_13 /  $width( CLK:803050 ps, :803119 ps, 350 ps)
+
+
+WARNING: at 803119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_12 /  $width( CLK:803050 ps, :803119 ps, 350 ps)
+
+
+WARNING: at 803128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_31 /  $width( CLK:803059 ps, :803128 ps, 350 ps)
+
+
+WARNING: at 803128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_30 /  $width( CLK:803059 ps, :803128 ps, 350 ps)
+
+
+WARNING: at 803128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_29 /  $width( CLK:803059 ps, :803128 ps, 350 ps)
+
+
+WARNING: at 803128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_28 /  $width( CLK:803059 ps, :803128 ps, 350 ps)
+
+
+WARNING: at 803129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_7 /  $width( CLK:803060 ps, :803129 ps, 350 ps)
+
+
+WARNING: at 803129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_6 /  $width( CLK:803060 ps, :803129 ps, 350 ps)
+
+
+WARNING: at 803129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_5 /  $width( CLK:803060 ps, :803129 ps, 350 ps)
+
+
+WARNING: at 803129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_4 /  $width( CLK:803060 ps, :803129 ps, 350 ps)
+
+
+WARNING: at 803129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_11 /  $width( CLK:803060 ps, :803129 ps, 350 ps)
+
+
+WARNING: at 803129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_10 /  $width( CLK:803060 ps, :803129 ps, 350 ps)
+
+
+WARNING: at 803129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_9 /  $width( CLK:803060 ps, :803129 ps, 350 ps)
+
+
+WARNING: at 803129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_8 /  $width( CLK:803060 ps, :803129 ps, 350 ps)
+
+
+WARNING: at 803133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_19 /  $width( CLK:803064 ps, :803133 ps, 350 ps)
+
+
+WARNING: at 803133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_18 /  $width( CLK:803064 ps, :803133 ps, 350 ps)
+
+
+WARNING: at 803133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_17 /  $width( CLK:803064 ps, :803133 ps, 350 ps)
+
+
+WARNING: at 803133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_16 /  $width( CLK:803064 ps, :803133 ps, 350 ps)
+
+
+WARNING: at 803135 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_33 /  $width( CLK:803066 ps, :803135 ps, 350 ps)
+
+
+WARNING: at 803135 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_32 /  $width( CLK:803066 ps, :803135 ps, 350 ps)
+
+
+WARNING: at 884397 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_16 /  $width( CLK:884328 ps, :884397 ps, 350 ps)
+
+
+WARNING: at 884551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_11 /  $width( CLK:884482 ps, :884551 ps, 350 ps)
+
+
+WARNING: at 884551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_10 /  $width( CLK:884482 ps, :884551 ps, 350 ps)
+
+
+WARNING: at 884551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_9 /  $width( CLK:884482 ps, :884551 ps, 350 ps)
+
+
+WARNING: at 884551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_8 /  $width( CLK:884482 ps, :884551 ps, 350 ps)
+
+
+WARNING: at 884553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_31 /  $width( CLK:884484 ps, :884553 ps, 350 ps)
+
+
+WARNING: at 884553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_30 /  $width( CLK:884484 ps, :884553 ps, 350 ps)
+
+
+WARNING: at 884553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_29 /  $width( CLK:884484 ps, :884553 ps, 350 ps)
+
+
+WARNING: at 884553 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_28 /  $width( CLK:884484 ps, :884553 ps, 350 ps)
+
+
+WARNING: at 884556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_33 /  $width( CLK:884487 ps, :884556 ps, 350 ps)
+
+
+WARNING: at 884556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_32 /  $width( CLK:884487 ps, :884556 ps, 350 ps)
+
+
+WARNING: at 884618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_19 /  $width( CLK:884549 ps, :884618 ps, 350 ps)
+
+
+WARNING: at 884618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_18 /  $width( CLK:884549 ps, :884618 ps, 350 ps)
+
+
+WARNING: at 884618 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R3_17 /  $width( CLK:884549 ps, :884618 ps, 350 ps)
+
+
+WARNING: at 888381 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R8_29 /  $setuphold( CLK:888258 ps, I:888381 ps,-40 ps,136 ps)
+
+
+WARNING: at 888573 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R4_14 /  $setuphold( CLK:888445 ps, I:888573 ps,-47 ps,143 ps)
+
+
+WARNING: at 896224 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_31 /  $setuphold( CLK:896183 ps, I:896224 ps,-40 ps,136 ps)
+
+
+WARNING: at 896258 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_27 /  $setuphold( CLK:896206 ps, I:896258 ps,-47 ps,143 ps)
+
+
+WARNING: at 896298 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_29 /  $setuphold( CLK:896183 ps, I:896298 ps,-40 ps,136 ps)
+
+
+WARNING: at 896310 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R1_31 /  $setuphold( CLK:896227 ps, I:896310 ps,-47 ps,143 ps)
+
+
+WARNING: at 896311 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_27 /  $setuphold( CLK:896250 ps, I:896311 ps,-40 ps,136 ps)
+
+
+WARNING: at 896316 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_30 /  $setuphold( CLK:896183 ps, I:896316 ps,-40 ps,136 ps)
+
+
+WARNING: at 896330 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_24 /  $setuphold( CLK:896256 ps, I:896330 ps,-40 ps,136 ps)
+
+
+WARNING: at 896335 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_21 /  $setuphold( CLK:896248 ps, I:896335 ps,-40 ps,136 ps)
+
+
+WARNING: at 896338 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_3 /  $setuphold( CLK:896261 ps, I:896338 ps,-40 ps,136 ps)
+
+
+WARNING: at 896345 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_23 /  $setuphold( CLK:896252 ps, I:896345 ps,-40 ps,136 ps)
+
+
+WARNING: at 896372 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_7 /  $setuphold( CLK:896265 ps, I:896372 ps,-40 ps,136 ps)
+
+
+WARNING: at 896373 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R9_11 /  $setuphold( CLK:896265 ps, I:896373 ps,-40 ps,136 ps)
+
+
+WARNING: at 896382 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_19 /  $setuphold( CLK:896253 ps, I:896382 ps,-40 ps,136 ps)
+
+
+WARNING: at 896470 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R5_12 /  $setuphold( CLK:896422 ps, I:896470 ps,-40 ps,136 ps)
+
+
+WARNING: at 896523 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_16 /  $setuphold( CLK:896445 ps, I:896523 ps,-47 ps,143 ps)
+
+
+WARNING: at 896536 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R13_15 /  $setuphold( CLK:896446 ps, I:896536 ps,-47 ps,143 ps)
+
+
+WARNING: at 904261 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R2_25 /  $setuphold( CLK:904201 ps, I:904261 ps,-40 ps,136 ps)
+
+
+WARNING: at 904272 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_23 /  $setuphold( CLK:904189 ps, I:904272 ps,-40 ps,136 ps)
+
+
+WARNING: at 904274 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R2_26 /  $setuphold( CLK:904201 ps, I:904274 ps,-40 ps,136 ps)
+
+
+WARNING: at 904324 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_31 /  $setuphold( CLK:904212 ps, I:904324 ps,-50 ps,133 ps)
+
+
+WARNING: at 904327 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R2_29 /  $setuphold( CLK:904197 ps, I:904327 ps,-40 ps,136 ps)
+
+
+WARNING: at 904330 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_0 /  $setuphold( CLK:904282 ps, I:904330 ps,-47 ps,143 ps)
+
+
+WARNING: at 904367 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_29 /  $setuphold( CLK:904256 ps, I:904367 ps,-40 ps,136 ps)
+
+
+WARNING: at 904368 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_3 /  $setuphold( CLK:904262 ps, I:904368 ps,-40 ps,136 ps)
+
+
+WARNING: at 904371 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_2 /  $setuphold( CLK:904282 ps, I:904371 ps,-47 ps,143 ps)
+
+
+WARNING: at 904375 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_8 /  $setuphold( CLK:904265 ps, I:904375 ps,-40 ps,136 ps)
+
+
+WARNING: at 904376 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_14 /  $setuphold( CLK:904266 ps, I:904376 ps,-40 ps,136 ps)
+
+
+WARNING: at 904378 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_31 /  $setuphold( CLK:904277 ps, I:904378 ps,-47 ps,143 ps)
+
+
+WARNING: at 904392 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R10_2 /  $setuphold( CLK:904258 ps, I:904392 ps,-40 ps,136 ps)
+
+
+WARNING: at 904397 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_4 /  $setuphold( CLK:904262 ps, I:904397 ps,-40 ps,136 ps)
+
+
+WARNING: at 904470 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_10 /  $setuphold( CLK:904421 ps, I:904470 ps,-40 ps,136 ps)
+
+
+WARNING: at 904473 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_5 /  $setuphold( CLK:904422 ps, I:904473 ps,-40 ps,136 ps)
+
+
+WARNING: at 904479 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_9 /  $setuphold( CLK:904421 ps, I:904479 ps,-40 ps,136 ps)
+
+
+WARNING: at 904499 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_15 /  $setuphold( CLK:904421 ps, I:904499 ps,-42 ps,126 ps)
+
+
+WARNING: at 904502 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_9 /  $setuphold( CLK:904420 ps, I:904502 ps,-40 ps,136 ps)
+
+
+WARNING: at 904551 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R14_18 /  $setuphold( CLK:904419 ps, I:904551 ps,-40 ps,136 ps)
+
+
+WARNING: at 904556 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R6_12 /  $setuphold( CLK:904421 ps, I:904556 ps,-40 ps,136 ps)
+
+
+WARNING: at 912265 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R15_25 /  $setuphold( CLK:912179 ps, I:912265 ps,-40 ps,136 ps)
+
+
+WARNING: at 912315 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/p_s0/R11_16 /  $setuphold( CLK:912266 ps, I:912315 ps,-40 ps,136 ps)
+
+
+WARNING: at 920232 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_24 /  $setuphold( CLK:920179 ps, I:920232 ps,-40 ps,136 ps)
+
+
+WARNING: at 920239 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_22 /  $setuphold( CLK:920179 ps, I:920239 ps,-40 ps,136 ps)
+
+
+WARNING: at 920252 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R0_30 /  $setuphold( CLK:920201 ps, I:920252 ps,-40 ps,136 ps)
+
+
+WARNING: at 920288 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_21 /  $setuphold( CLK:920189 ps, I:920288 ps,-40 ps,136 ps)
+
+
+WARNING: at 920313 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_29 /  $setuphold( CLK:920252 ps, I:920313 ps,-40 ps,136 ps)
+
+
+WARNING: at 920324 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R2_24 /  $setuphold( CLK:920200 ps, I:920324 ps,-40 ps,136 ps)
+
+
+WARNING: at 920358 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R2_4 /  $setuphold( CLK:920265 ps, I:920358 ps,-40 ps,136 ps)
+
+
+WARNING: at 920365 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_3 /  $setuphold( CLK:920260 ps, I:920365 ps,-40 ps,136 ps)
+
+
+WARNING: at 920387 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_26 /  $setuphold( CLK:920256 ps, I:920387 ps,-40 ps,136 ps)
+
+
+WARNING: at 920462 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_12 /  $setuphold( CLK:920420 ps, I:920462 ps,-40 ps,136 ps)
+
+
+WARNING: at 920468 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_10 /  $setuphold( CLK:920420 ps, I:920468 ps,-40 ps,136 ps)
+
+
+WARNING: at 920490 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_8 /  $setuphold( CLK:920425 ps, I:920490 ps,-40 ps,136 ps)
+
+
+WARNING: at 920494 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_10 /  $setuphold( CLK:920425 ps, I:920494 ps,-40 ps,136 ps)
+
+
+WARNING: at 920513 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_16 /  $setuphold( CLK:920445 ps, I:920513 ps,-47 ps,143 ps)
+
+
+WARNING: at 920524 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_11 /  $setuphold( CLK:920425 ps, I:920524 ps,-40 ps,136 ps)
+
+
+WARNING: at 920543 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R1_9 /  $setuphold( CLK:920425 ps, I:920543 ps,-40 ps,136 ps)
+
+
+WARNING: at 920576 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/reg10/R3_14 /  $setuphold( CLK:920445 ps, I:920576 ps,-47 ps,143 ps)
+
+
+WARNING: at 930969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_27 /  $width( CLK:930900 ps, :930969 ps, 350 ps)
+
+
+WARNING: at 930969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_26 /  $width( CLK:930900 ps, :930969 ps, 350 ps)
+
+
+WARNING: at 930969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_25 /  $width( CLK:930900 ps, :930969 ps, 350 ps)
+
+
+WARNING: at 930969 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_24 /  $width( CLK:930900 ps, :930969 ps, 350 ps)
+
+
+WARNING: at 931119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_15 /  $width( CLK:931050 ps, :931119 ps, 350 ps)
+
+
+WARNING: at 931119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_14 /  $width( CLK:931050 ps, :931119 ps, 350 ps)
+
+
+WARNING: at 931119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_13 /  $width( CLK:931050 ps, :931119 ps, 350 ps)
+
+
+WARNING: at 931119 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_12 /  $width( CLK:931050 ps, :931119 ps, 350 ps)
+
+
+WARNING: at 931128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_31 /  $width( CLK:931059 ps, :931128 ps, 350 ps)
+
+
+WARNING: at 931128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_30 /  $width( CLK:931059 ps, :931128 ps, 350 ps)
+
+
+WARNING: at 931128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_29 /  $width( CLK:931059 ps, :931128 ps, 350 ps)
+
+
+WARNING: at 931128 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_28 /  $width( CLK:931059 ps, :931128 ps, 350 ps)
+
+
+WARNING: at 931129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_7 /  $width( CLK:931060 ps, :931129 ps, 350 ps)
+
+
+WARNING: at 931129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_6 /  $width( CLK:931060 ps, :931129 ps, 350 ps)
+
+
+WARNING: at 931129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_5 /  $width( CLK:931060 ps, :931129 ps, 350 ps)
+
+
+WARNING: at 931129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_4 /  $width( CLK:931060 ps, :931129 ps, 350 ps)
+
+
+WARNING: at 931129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_11 /  $width( CLK:931060 ps, :931129 ps, 350 ps)
+
+
+WARNING: at 931129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_10 /  $width( CLK:931060 ps, :931129 ps, 350 ps)
+
+
+WARNING: at 931129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_9 /  $width( CLK:931060 ps, :931129 ps, 350 ps)
+
+
+WARNING: at 931129 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_8 /  $width( CLK:931060 ps, :931129 ps, 350 ps)
+
+
+WARNING: at 931133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_19 /  $width( CLK:931064 ps, :931133 ps, 350 ps)
+
+
+WARNING: at 931133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_18 /  $width( CLK:931064 ps, :931133 ps, 350 ps)
+
+
+WARNING: at 931133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_17 /  $width( CLK:931064 ps, :931133 ps, 350 ps)
+
+
+WARNING: at 931133 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_16 /  $width( CLK:931064 ps, :931133 ps, 350 ps)
+
+
+WARNING: at 931135 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_33 /  $width( CLK:931066 ps, :931135 ps, 350 ps)
+
+
+WARNING: at 931135 ps: Timing violation in /fft_chip_tb/uut/\inst_fft/mux0/R1_32 /  $width( CLK:931066 ps, :931135 ps, 350 ps)
+
+
+# exit 0

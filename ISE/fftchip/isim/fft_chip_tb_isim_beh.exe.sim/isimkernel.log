@@ -1,0 +1,28 @@
+Command line:
+   fft_chip_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  37765
+
+Wed May 22 09:42:41 2024
+
+
+ Elaboration Time: 0.05 sec
+
+ Current Memory Usage: 202.179 Meg
+
+ Total Signals          : 373
+ Total Nets             : 2349
+ Total Signal Drivers   : 249
+ Total Blocks           : 92
+ Total Primitive Blocks : 88
+ Total Processes        : 331
+ Total Traceable Variables  : 452
+ Total Scalar Nets and Variables : 20511
+
+ Total Simulation Time: 0.06 sec
+
+ Current Memory Usage: 279.777 Meg
+
+Wed May 22 09:43:21 2024
+

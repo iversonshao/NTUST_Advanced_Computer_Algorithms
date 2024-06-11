@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "simprims_ver" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/mux/smux_tb_isim_par.exe" -prj "/home/ise/mux/smux_tb_par.prj" "work.smux_tb" "work.glbl" 

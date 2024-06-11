@@ -1,0 +1,459 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml mux.twx mux.ncd -o mux.twr mux.pcf
+
+Design file:              mux.ncd
+Physical constraint file: mux.pcf
+Device,package,speed:     xc7vx330t,ffg1157,C,-2 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+data_in_1<0>   |data_out<0>    |    6.659|
+data_in_1<1>   |data_out<1>    |    7.004|
+data_in_1<2>   |data_out<2>    |    7.180|
+data_in_1<3>   |data_out<3>    |    7.451|
+data_in_1<4>   |data_out<4>    |    6.640|
+data_in_1<5>   |data_out<5>    |    7.008|
+data_in_1<6>   |data_out<6>    |    6.720|
+data_in_1<7>   |data_out<7>    |    7.024|
+data_in_1<8>   |data_out<8>    |    6.742|
+data_in_1<9>   |data_out<9>    |    6.992|
+data_in_1<10>  |data_out<10>   |    6.843|
+data_in_1<11>  |data_out<11>   |    7.512|
+data_in_1<12>  |data_out<12>   |    7.425|
+data_in_1<13>  |data_out<13>   |    8.872|
+data_in_1<14>  |data_out<14>   |    8.103|
+data_in_1<15>  |data_out<15>   |    9.228|
+data_in_1<16>  |data_out<16>   |    8.853|
+data_in_1<17>  |data_out<17>   |    9.214|
+data_in_1<18>  |data_out<18>   |    9.039|
+data_in_1<19>  |data_out<19>   |    8.873|
+data_in_1<20>  |data_out<20>   |    8.939|
+data_in_1<21>  |data_out<21>   |    8.773|
+data_in_1<22>  |data_out<22>   |    8.736|
+data_in_1<23>  |data_out<23>   |    8.830|
+data_in_1<24>  |data_out<24>   |    9.031|
+data_in_1<25>  |data_out<25>   |    9.101|
+data_in_1<26>  |data_out<26>   |    8.647|
+data_in_1<27>  |data_out<27>   |    8.051|
+data_in_1<28>  |data_out<28>   |    7.819|
+data_in_1<29>  |data_out<29>   |    7.988|
+data_in_1<30>  |data_out<30>   |    7.714|
+data_in_1<31>  |data_out<31>   |    8.794|
+data_in_1<32>  |data_out<32>   |    8.784|
+data_in_1<33>  |data_out<33>   |    8.746|
+data_in_1<34>  |data_out<34>   |    7.606|
+data_in_1<35>  |data_out<35>   |    8.217|
+data_in_1<36>  |data_out<36>   |    7.650|
+data_in_1<37>  |data_out<37>   |    7.946|
+data_in_1<38>  |data_out<38>   |    7.618|
+data_in_1<39>  |data_out<39>   |    7.870|
+data_in_1<40>  |data_out<40>   |    7.984|
+data_in_1<41>  |data_out<41>   |    8.478|
+data_in_1<42>  |data_out<42>   |    8.584|
+data_in_1<43>  |data_out<43>   |    8.831|
+data_in_1<44>  |data_out<44>   |    8.355|
+data_in_1<45>  |data_out<45>   |    8.275|
+data_in_1<46>  |data_out<46>   |    7.165|
+data_in_1<47>  |data_out<47>   |    7.348|
+data_in_1<48>  |data_out<48>   |    8.213|
+data_in_1<49>  |data_out<49>   |    7.900|
+data_in_1<50>  |data_out<50>   |    8.775|
+data_in_1<51>  |data_out<51>   |    8.139|
+data_in_1<52>  |data_out<52>   |    8.710|
+data_in_1<53>  |data_out<53>   |    8.144|
+data_in_1<54>  |data_out<54>   |    8.731|
+data_in_1<55>  |data_out<55>   |    8.125|
+data_in_1<56>  |data_out<56>   |    7.599|
+data_in_1<57>  |data_out<57>   |    9.047|
+data_in_1<58>  |data_out<58>   |    7.774|
+data_in_1<59>  |data_out<59>   |    8.625|
+data_in_1<60>  |data_out<60>   |    9.286|
+data_in_1<61>  |data_out<61>   |    8.538|
+data_in_1<62>  |data_out<62>   |    7.868|
+data_in_1<63>  |data_out<63>   |    8.382|
+data_in_1<64>  |data_out<64>   |    8.765|
+data_in_1<65>  |data_out<65>   |    8.014|
+data_in_1<66>  |data_out<66>   |    6.970|
+data_in_1<67>  |data_out<67>   |    7.223|
+data_in_1<68>  |data_out<68>   |    9.045|
+data_in_1<69>  |data_out<69>   |    8.386|
+data_in_1<70>  |data_out<70>   |    8.147|
+data_in_1<71>  |data_out<71>   |    8.170|
+data_in_1<72>  |data_out<72>   |    7.906|
+data_in_1<73>  |data_out<73>   |    8.385|
+data_in_1<74>  |data_out<74>   |    7.478|
+data_in_1<75>  |data_out<75>   |    7.758|
+data_in_1<76>  |data_out<76>   |    8.346|
+data_in_1<77>  |data_out<77>   |    8.188|
+data_in_1<78>  |data_out<78>   |    5.801|
+data_in_1<79>  |data_out<79>   |    7.405|
+data_in_1<80>  |data_out<80>   |    5.693|
+data_in_1<81>  |data_out<81>   |    7.449|
+data_in_1<82>  |data_out<82>   |    5.681|
+data_in_1<83>  |data_out<83>   |    7.321|
+data_in_1<84>  |data_out<84>   |    6.035|
+data_in_1<85>  |data_out<85>   |    7.456|
+data_in_1<86>  |data_out<86>   |    5.649|
+data_in_1<87>  |data_out<87>   |    7.482|
+data_in_1<88>  |data_out<88>   |    6.997|
+data_in_1<89>  |data_out<89>   |    6.071|
+data_in_1<90>  |data_out<90>   |    7.707|
+data_in_1<91>  |data_out<91>   |    5.932|
+data_in_1<92>  |data_out<92>   |    9.525|
+data_in_1<93>  |data_out<93>   |    6.124|
+data_in_1<94>  |data_out<94>   |    5.613|
+data_in_1<95>  |data_out<95>   |    8.180|
+data_in_1<96>  |data_out<96>   |    6.033|
+data_in_1<97>  |data_out<97>   |    6.384|
+data_in_1<98>  |data_out<98>   |    6.266|
+data_in_1<99>  |data_out<99>   |    6.185|
+data_in_1<100> |data_out<100>  |    7.920|
+data_in_1<101> |data_out<101>  |    7.971|
+data_in_1<102> |data_out<102>  |    8.073|
+data_in_1<103> |data_out<103>  |    8.062|
+data_in_1<104> |data_out<104>  |    7.351|
+data_in_1<105> |data_out<105>  |    7.769|
+data_in_1<106> |data_out<106>  |    7.863|
+data_in_1<107> |data_out<107>  |    8.081|
+data_in_1<108> |data_out<108>  |    7.435|
+data_in_1<109> |data_out<109>  |    7.564|
+data_in_1<110> |data_out<110>  |    7.621|
+data_in_1<111> |data_out<111>  |    7.815|
+data_in_1<112> |data_out<112>  |    7.833|
+data_in_1<113> |data_out<113>  |    7.836|
+data_in_1<114> |data_out<114>  |    6.979|
+data_in_1<115> |data_out<115>  |    6.323|
+data_in_1<116> |data_out<116>  |    7.409|
+data_in_1<117> |data_out<117>  |    7.883|
+data_in_1<118> |data_out<118>  |    6.690|
+data_in_1<119> |data_out<119>  |    6.792|
+data_in_1<120> |data_out<120>  |    7.554|
+data_in_1<121> |data_out<121>  |    7.311|
+data_in_1<122> |data_out<122>  |    6.863|
+data_in_1<123> |data_out<123>  |    6.934|
+data_in_1<124> |data_out<124>  |    8.556|
+data_in_1<125> |data_out<125>  |    6.731|
+data_in_1<126> |data_out<126>  |    8.532|
+data_in_1<127> |data_out<127>  |    8.426|
+data_in_1<128> |data_out<128>  |    6.486|
+data_in_1<129> |data_out<129>  |    6.980|
+data_in_1<130> |data_out<130>  |    7.033|
+data_in_1<131> |data_out<131>  |    7.355|
+data_in_1<132> |data_out<132>  |    9.201|
+data_in_1<133> |data_out<133>  |    7.328|
+data_in_1<134> |data_out<134>  |    6.600|
+data_in_1<135> |data_out<135>  |    6.870|
+data_in_2<0>   |data_out<0>    |    6.802|
+data_in_2<1>   |data_out<1>    |    7.246|
+data_in_2<2>   |data_out<2>    |    7.390|
+data_in_2<3>   |data_out<3>    |    7.684|
+data_in_2<4>   |data_out<4>    |    6.963|
+data_in_2<5>   |data_out<5>    |    7.265|
+data_in_2<6>   |data_out<6>    |    6.935|
+data_in_2<7>   |data_out<7>    |    7.252|
+data_in_2<8>   |data_out<8>    |    6.969|
+data_in_2<9>   |data_out<9>    |    7.245|
+data_in_2<10>  |data_out<10>   |    6.994|
+data_in_2<11>  |data_out<11>   |    7.661|
+data_in_2<12>  |data_out<12>   |    7.848|
+data_in_2<13>  |data_out<13>   |    7.331|
+data_in_2<14>  |data_out<14>   |    7.491|
+data_in_2<15>  |data_out<15>   |    8.520|
+data_in_2<16>  |data_out<16>   |    8.191|
+data_in_2<17>  |data_out<17>   |    8.565|
+data_in_2<18>  |data_out<18>   |    8.252|
+data_in_2<19>  |data_out<19>   |    7.976|
+data_in_2<20>  |data_out<20>   |    8.129|
+data_in_2<21>  |data_out<21>   |    7.912|
+data_in_2<22>  |data_out<22>   |    7.923|
+data_in_2<23>  |data_out<23>   |    7.952|
+data_in_2<24>  |data_out<24>   |    8.183|
+data_in_2<25>  |data_out<25>   |    8.237|
+data_in_2<26>  |data_out<26>   |    7.229|
+data_in_2<27>  |data_out<27>   |    6.692|
+data_in_2<28>  |data_out<28>   |    6.679|
+data_in_2<29>  |data_out<29>   |    6.557|
+data_in_2<30>  |data_out<30>   |    6.436|
+data_in_2<31>  |data_out<31>   |    6.536|
+data_in_2<32>  |data_out<32>   |    6.493|
+data_in_2<33>  |data_out<33>   |    7.080|
+data_in_2<34>  |data_out<34>   |    6.121|
+data_in_2<35>  |data_out<35>   |    6.520|
+data_in_2<36>  |data_out<36>   |    6.374|
+data_in_2<37>  |data_out<37>   |    6.479|
+data_in_2<38>  |data_out<38>   |    6.385|
+data_in_2<39>  |data_out<39>   |    6.397|
+data_in_2<40>  |data_out<40>   |    6.290|
+data_in_2<41>  |data_out<41>   |    7.097|
+data_in_2<42>  |data_out<42>   |    6.287|
+data_in_2<43>  |data_out<43>   |    6.633|
+data_in_2<44>  |data_out<44>   |    6.214|
+data_in_2<45>  |data_out<45>   |    6.308|
+data_in_2<46>  |data_out<46>   |    6.212|
+data_in_2<47>  |data_out<47>   |    6.226|
+data_in_2<48>  |data_out<48>   |    6.318|
+data_in_2<49>  |data_out<49>   |    6.284|
+data_in_2<50>  |data_out<50>   |    7.474|
+data_in_2<51>  |data_out<51>   |    8.290|
+data_in_2<52>  |data_out<52>   |    7.695|
+data_in_2<53>  |data_out<53>   |    7.864|
+data_in_2<54>  |data_out<54>   |    7.562|
+data_in_2<55>  |data_out<55>   |    8.089|
+data_in_2<56>  |data_out<56>   |    8.006|
+data_in_2<57>  |data_out<57>   |    7.794|
+data_in_2<58>  |data_out<58>   |    7.478|
+data_in_2<59>  |data_out<59>   |    7.729|
+data_in_2<60>  |data_out<60>   |    8.941|
+data_in_2<61>  |data_out<61>   |    8.107|
+data_in_2<62>  |data_out<62>   |    7.767|
+data_in_2<63>  |data_out<63>   |    7.803|
+data_in_2<64>  |data_out<64>   |    8.230|
+data_in_2<65>  |data_out<65>   |    8.354|
+data_in_2<66>  |data_out<66>   |    8.654|
+data_in_2<67>  |data_out<67>   |    8.764|
+data_in_2<68>  |data_out<68>   |    8.297|
+data_in_2<69>  |data_out<69>   |    7.896|
+data_in_2<70>  |data_out<70>   |    8.016|
+data_in_2<71>  |data_out<71>   |    8.411|
+data_in_2<72>  |data_out<72>   |    7.858|
+data_in_2<73>  |data_out<73>   |    8.357|
+data_in_2<74>  |data_out<74>   |    7.897|
+data_in_2<75>  |data_out<75>   |    8.150|
+data_in_2<76>  |data_out<76>   |    8.201|
+data_in_2<77>  |data_out<77>   |    8.041|
+data_in_2<78>  |data_out<78>   |    5.785|
+data_in_2<79>  |data_out<79>   |    5.836|
+data_in_2<80>  |data_out<80>   |    5.796|
+data_in_2<81>  |data_out<81>   |    6.034|
+data_in_2<82>  |data_out<82>   |    5.855|
+data_in_2<83>  |data_out<83>   |    5.990|
+data_in_2<84>  |data_out<84>   |    6.398|
+data_in_2<85>  |data_out<85>   |    6.360|
+data_in_2<86>  |data_out<86>   |    5.795|
+data_in_2<87>  |data_out<87>   |    6.035|
+data_in_2<88>  |data_out<88>   |    6.379|
+data_in_2<89>  |data_out<89>   |    6.184|
+data_in_2<90>  |data_out<90>   |    6.414|
+data_in_2<91>  |data_out<91>   |    6.284|
+data_in_2<92>  |data_out<92>   |    6.243|
+data_in_2<93>  |data_out<93>   |    6.885|
+data_in_2<94>  |data_out<94>   |    5.861|
+data_in_2<95>  |data_out<95>   |    5.953|
+data_in_2<96>  |data_out<96>   |    6.246|
+data_in_2<97>  |data_out<97>   |    6.125|
+data_in_2<98>  |data_out<98>   |    6.107|
+data_in_2<99>  |data_out<99>   |    6.180|
+data_in_2<100> |data_out<100>  |    7.666|
+data_in_2<101> |data_out<101>  |    7.489|
+data_in_2<102> |data_out<102>  |    7.469|
+data_in_2<103> |data_out<103>  |    7.817|
+data_in_2<104> |data_out<104>  |    7.327|
+data_in_2<105> |data_out<105>  |    7.202|
+data_in_2<106> |data_out<106>  |    7.628|
+data_in_2<107> |data_out<107>  |    7.807|
+data_in_2<108> |data_out<108>  |    7.022|
+data_in_2<109> |data_out<109>  |    7.309|
+data_in_2<110> |data_out<110>  |    7.498|
+data_in_2<111> |data_out<111>  |    7.464|
+data_in_2<112> |data_out<112>  |    7.457|
+data_in_2<113> |data_out<113>  |    7.672|
+data_in_2<114> |data_out<114>  |    6.161|
+data_in_2<115> |data_out<115>  |    6.115|
+data_in_2<116> |data_out<116>  |    7.054|
+data_in_2<117> |data_out<117>  |    6.871|
+data_in_2<118> |data_out<118>  |    8.499|
+data_in_2<119> |data_out<119>  |    6.367|
+data_in_2<120> |data_out<120>  |    7.534|
+data_in_2<121> |data_out<121>  |    8.399|
+data_in_2<122> |data_out<122>  |    6.644|
+data_in_2<123> |data_out<123>  |    8.010|
+data_in_2<124> |data_out<124>  |    6.485|
+data_in_2<125> |data_out<125>  |    8.108|
+data_in_2<126> |data_out<126>  |    8.086|
+data_in_2<127> |data_out<127>  |    8.105|
+data_in_2<128> |data_out<128>  |    6.216|
+data_in_2<129> |data_out<129>  |    6.332|
+data_in_2<130> |data_out<130>  |    6.684|
+data_in_2<131> |data_out<131>  |    6.763|
+data_in_2<132> |data_out<132>  |    7.012|
+data_in_2<133> |data_out<133>  |    6.867|
+data_in_2<134> |data_out<134>  |    6.320|
+data_in_2<135> |data_out<135>  |    6.443|
+mux_flag       |data_out<0>    |    8.472|
+mux_flag       |data_out<1>    |    8.920|
+mux_flag       |data_out<2>    |    9.075|
+mux_flag       |data_out<3>    |    9.381|
+mux_flag       |data_out<4>    |    8.653|
+mux_flag       |data_out<5>    |    9.121|
+mux_flag       |data_out<6>    |    8.739|
+mux_flag       |data_out<7>    |    9.218|
+mux_flag       |data_out<8>    |    8.942|
+mux_flag       |data_out<9>    |    9.304|
+mux_flag       |data_out<10>   |    9.068|
+mux_flag       |data_out<11>   |    9.757|
+mux_flag       |data_out<12>   |    9.111|
+mux_flag       |data_out<13>   |    8.613|
+mux_flag       |data_out<14>   |    7.083|
+mux_flag       |data_out<15>   |    8.122|
+mux_flag       |data_out<16>   |    7.905|
+mux_flag       |data_out<17>   |    8.238|
+mux_flag       |data_out<18>   |    8.309|
+mux_flag       |data_out<19>   |    8.075|
+mux_flag       |data_out<20>   |    8.292|
+mux_flag       |data_out<21>   |    8.111|
+mux_flag       |data_out<22>   |    8.197|
+mux_flag       |data_out<23>   |    8.255|
+mux_flag       |data_out<24>   |    8.523|
+mux_flag       |data_out<25>   |    8.624|
+mux_flag       |data_out<26>   |    8.705|
+mux_flag       |data_out<27>   |    8.062|
+mux_flag       |data_out<28>   |    8.686|
+mux_flag       |data_out<29>   |    8.372|
+mux_flag       |data_out<30>   |    8.339|
+mux_flag       |data_out<31>   |    8.528|
+mux_flag       |data_out<32>   |    8.901|
+mux_flag       |data_out<33>   |    9.073|
+mux_flag       |data_out<34>   |    8.731|
+mux_flag       |data_out<35>   |    8.902|
+mux_flag       |data_out<36>   |    8.855|
+mux_flag       |data_out<37>   |    8.969|
+mux_flag       |data_out<38>   |    8.947|
+mux_flag       |data_out<39>   |    9.011|
+mux_flag       |data_out<40>   |    9.044|
+mux_flag       |data_out<41>   |    9.701|
+mux_flag       |data_out<42>   |    9.043|
+mux_flag       |data_out<43>   |    9.425|
+mux_flag       |data_out<44>   |    9.225|
+mux_flag       |data_out<45>   |    9.213|
+mux_flag       |data_out<46>   |    9.194|
+mux_flag       |data_out<47>   |    9.439|
+mux_flag       |data_out<48>   |    9.240|
+mux_flag       |data_out<49>   |    9.317|
+mux_flag       |data_out<50>   |    9.160|
+mux_flag       |data_out<51>   |    9.560|
+mux_flag       |data_out<52>   |    9.260|
+mux_flag       |data_out<53>   |    9.626|
+mux_flag       |data_out<54>   |    9.361|
+mux_flag       |data_out<55>   |    9.724|
+mux_flag       |data_out<56>   |    9.521|
+mux_flag       |data_out<57>   |    9.677|
+mux_flag       |data_out<58>   |    9.764|
+mux_flag       |data_out<59>   |    9.989|
+mux_flag       |data_out<60>   |   10.632|
+mux_flag       |data_out<61>   |    9.984|
+mux_flag       |data_out<62>   |   10.076|
+mux_flag       |data_out<63>   |   10.114|
+mux_flag       |data_out<64>   |   10.163|
+mux_flag       |data_out<65>   |   10.333|
+mux_flag       |data_out<66>   |    8.699|
+mux_flag       |data_out<67>   |    8.767|
+mux_flag       |data_out<68>   |    9.790|
+mux_flag       |data_out<69>   |    9.929|
+mux_flag       |data_out<70>   |   10.293|
+mux_flag       |data_out<71>   |   10.148|
+mux_flag       |data_out<72>   |   10.099|
+mux_flag       |data_out<73>   |   10.312|
+mux_flag       |data_out<74>   |   10.066|
+mux_flag       |data_out<75>   |   10.267|
+mux_flag       |data_out<76>   |   10.436|
+mux_flag       |data_out<77>   |   10.083|
+mux_flag       |data_out<78>   |    9.503|
+mux_flag       |data_out<79>   |    9.688|
+mux_flag       |data_out<80>   |    9.613|
+mux_flag       |data_out<81>   |    9.836|
+mux_flag       |data_out<82>   |    9.602|
+mux_flag       |data_out<83>   |    9.713|
+mux_flag       |data_out<84>   |   10.520|
+mux_flag       |data_out<85>   |   10.478|
+mux_flag       |data_out<86>   |    9.759|
+mux_flag       |data_out<87>   |    9.879|
+mux_flag       |data_out<88>   |   10.305|
+mux_flag       |data_out<89>   |   10.262|
+mux_flag       |data_out<90>   |   10.901|
+mux_flag       |data_out<91>   |   10.855|
+mux_flag       |data_out<92>   |   10.801|
+mux_flag       |data_out<93>   |   10.759|
+mux_flag       |data_out<94>   |   10.301|
+mux_flag       |data_out<95>   |   10.417|
+mux_flag       |data_out<96>   |   11.205|
+mux_flag       |data_out<97>   |   11.165|
+mux_flag       |data_out<98>   |   11.183|
+mux_flag       |data_out<99>   |   11.261|
+mux_flag       |data_out<100>  |    7.946|
+mux_flag       |data_out<101>  |    7.752|
+mux_flag       |data_out<102>  |    8.234|
+mux_flag       |data_out<103>  |    8.416|
+mux_flag       |data_out<104>  |    7.967|
+mux_flag       |data_out<105>  |    8.082|
+mux_flag       |data_out<106>  |    8.450|
+mux_flag       |data_out<107>  |    8.633|
+mux_flag       |data_out<108>  |    7.793|
+mux_flag       |data_out<109>  |    7.909|
+mux_flag       |data_out<110>  |    8.545|
+mux_flag       |data_out<111>  |    8.517|
+mux_flag       |data_out<112>  |    8.804|
+mux_flag       |data_out<113>  |    8.800|
+mux_flag       |data_out<114>  |   10.426|
+mux_flag       |data_out<115>  |   10.450|
+mux_flag       |data_out<116>  |   11.479|
+mux_flag       |data_out<117>  |   11.485|
+mux_flag       |data_out<118>  |   10.171|
+mux_flag       |data_out<119>  |   10.118|
+mux_flag       |data_out<120>  |   11.058|
+mux_flag       |data_out<121>  |   10.564|
+mux_flag       |data_out<122>  |   10.374|
+mux_flag       |data_out<123>  |   10.259|
+mux_flag       |data_out<124>  |   10.528|
+mux_flag       |data_out<125>  |   10.482|
+mux_flag       |data_out<126>  |    9.991|
+mux_flag       |data_out<127>  |   10.087|
+mux_flag       |data_out<128>  |    8.314|
+mux_flag       |data_out<129>  |    8.598|
+mux_flag       |data_out<130>  |    8.778|
+mux_flag       |data_out<131>  |    8.911|
+mux_flag       |data_out<132>  |    9.509|
+mux_flag       |data_out<133>  |    9.317|
+mux_flag       |data_out<134>  |    8.557|
+mux_flag       |data_out<135>  |    8.779|
+---------------+---------------+---------+
+
+
+Analysis completed Wed May 22 06:25:25 2024 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 1115 MB
+
+
+

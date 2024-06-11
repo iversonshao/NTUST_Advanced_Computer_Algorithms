@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/ise/mux/smux.xst" -ofn "/home/ise/mux/smux.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim smux.ngc smux_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7vx330t-ffg1157-2 smux.ngc smux.ngd  
+map -intstyle ise -p xc7vx330t-ffg1157-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o smux_map.ncd smux.ngd smux.pcf 
+par -w -intstyle ise -ol high -mt off smux_map.ncd smux.ncd smux.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml smux.twx smux.ncd -o smux.twr smux.pcf 
+netgen -intstyle ise -s 2  -pcf smux.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim smux.ncd smux_timesim.v 

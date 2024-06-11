@@ -1,0 +1,2 @@
+verilog work "netgen/par/smux_timesim.v"
+verilog work "smux_tb.v"

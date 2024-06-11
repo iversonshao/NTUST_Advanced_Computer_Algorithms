@@ -1,0 +1,1428 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.01 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.01 secs
+ 
+--> 
+Reading design: fft_chip.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "fft_chip.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "fft_chip"
+Output Format                      : NGC
+Target Device                      : xc7vx330t-2-ffg1157
+
+---- Source Options
+Top Module Name                    : fft_chip
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/ise/NTUST_Advanced_Computer_Algorithms/butterfly/multi16.v" into library work
+Parsing module <multi16>.
+Analyzing Verilog file "/home/ise/NTUST_Advanced_Computer_Algorithms/sp/s_p.v" into library work
+Parsing module <s_p>.
+Analyzing Verilog file "/home/ise/NTUST_Advanced_Computer_Algorithms/reg/reg1.v" into library work
+Parsing module <reg1>.
+Analyzing Verilog file "/home/ise/NTUST_Advanced_Computer_Algorithms/ps/p_s.v" into library work
+Parsing module <p_s>.
+Analyzing Verilog file "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/mux.v" into library work
+Parsing module <mux>.
+Analyzing Verilog file "/home/ise/NTUST_Advanced_Computer_Algorithms/ctrl/ctrl.v" into library work
+Parsing module <ctrl>.
+Analyzing Verilog file "/home/ise/NTUST_Advanced_Computer_Algorithms/butterfly/butterfly.v" into library work
+Parsing module <butterfly>.
+Analyzing Verilog file "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/fft.v" into library work
+Parsing module <fft>.
+Analyzing Verilog file "/home/ise/NTUST_Advanced_Computer_Algorithms/fftchip/fft_chip.v" into library work
+Parsing module <fft_chip>.
+WARNING:HDLCompiler:248 - "/home/ise/NTUST_Advanced_Computer_Algorithms/fftchip/fft_chip.v" Line 36: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "/home/ise/NTUST_Advanced_Computer_Algorithms/fftchip/fft_chip.v" Line 44: Block identifier is required on this block
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <fft_chip>.
+
+Elaborating module <IBUF>.
+
+Elaborating module <OBUF>.
+
+Elaborating module <fft>.
+
+Elaborating module <ctrl>.
+WARNING:HDLCompiler:413 - "/home/ise/NTUST_Advanced_Computer_Algorithms/ctrl/ctrl.v" Line 56: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "/home/ise/NTUST_Advanced_Computer_Algorithms/ctrl/ctrl.v" Line 59: Result of 4-bit expression is truncated to fit in 3-bit target.
+
+Elaborating module <s_p>.
+WARNING:HDLCompiler:1127 - "/home/ise/NTUST_Advanced_Computer_Algorithms/sp/s_p.v" Line 70: Assignment to s_p_flag_mux ignored, since the identifier is never used
+
+Elaborating module <mux>.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/mux.v" Line 39: Signal <counter> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/mux.v" Line 40: Signal <R4> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/mux.v" Line 52: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/mux.v" Line 57: Signal <counter> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/mux.v" Line 58: Signal <data_in_3> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/mux.v" Line 60: Signal <R1> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/mux.v" Line 64: Signal <counter> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/mux.v" Line 65: Signal <data_in_3> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/mux.v" Line 67: Signal <R2> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/mux.v" Line 71: Signal <counter> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/mux.v" Line 72: Signal <data_in_3> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/mux.v" Line 74: Signal <R3> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/mux.v" Line 78: Signal <counter> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/mux.v" Line 79: Signal <data_in_3> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/mux.v" Line 81: Signal <R4> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+
+Elaborating module <butterfly>.
+
+Elaborating module <multi16>.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/butterfly/multi16.v" Line 42: Signal <in_17bit_b> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/butterfly/multi16.v" Line 43: Signal <in_17bit_b> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/butterfly/multi16.v" Line 44: Signal <in_17bit_b> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/butterfly/multi16.v" Line 45: Signal <in_17bit_b> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/butterfly/multi16.v" Line 46: Signal <in_17bit_b> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/butterfly/multi16.v" Line 47: Signal <in_17bit_b> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/butterfly/multi16.v" Line 48: Signal <in_17bit_b> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/ise/NTUST_Advanced_Computer_Algorithms/butterfly/multi16.v" Line 49: Signal <in_17bit_b> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "/home/ise/NTUST_Advanced_Computer_Algorithms/butterfly/butterfly.v" Line 243: Result of 18-bit expression is truncated to fit in 17-bit target.
+WARNING:HDLCompiler:413 - "/home/ise/NTUST_Advanced_Computer_Algorithms/butterfly/butterfly.v" Line 244: Result of 18-bit expression is truncated to fit in 17-bit target.
+WARNING:HDLCompiler:1127 - "/home/ise/NTUST_Advanced_Computer_Algorithms/butterfly/butterfly.v" Line 256: Assignment to temp_0 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/ise/NTUST_Advanced_Computer_Algorithms/butterfly/butterfly.v" Line 257: Assignment to temp_1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/ise/NTUST_Advanced_Computer_Algorithms/butterfly/butterfly.v" Line 258: Assignment to temp_2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/ise/NTUST_Advanced_Computer_Algorithms/butterfly/butterfly.v" Line 259: Assignment to temp_3 ignored, since the identifier is never used
+
+Elaborating module <reg1>.
+
+Elaborating module <p_s>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <fft_chip>.
+    Related source file is "/home/ise/NTUST_Advanced_Computer_Algorithms/fftchip/fft_chip.v".
+    Summary:
+	no macro.
+Unit <fft_chip> synthesized.
+
+Synthesizing Unit <fft>.
+    Related source file is "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/fft.v".
+    Summary:
+	no macro.
+Unit <fft> synthesized.
+
+Synthesizing Unit <ctrl>.
+    Related source file is "/home/ise/NTUST_Advanced_Computer_Algorithms/ctrl/ctrl.v".
+        STOP = 3'b000
+        MUX_IDLE = 1'b0
+        ROT_IDLE = 3'b000
+        DEMUX_IDLE = 1'b0
+        S_P_SEL_0 = 1'b0
+        S_P_SEL_1 = 1'b0
+        S_P_SEL_2 = 1'b0
+        S_P_SEL_3 = 1'b0
+        REG_SEL_0 = 1'b1
+        REG_SEL_1 = 1'b1
+        REG_SEL_2 = 1'b1
+        REG_SEL_3 = 1'b1
+        P_S_SEL_0 = 1'b0
+        P_S_SEL_1 = 1'b0
+        P_S_SEL_2 = 1'b0
+        P_S_SEL_3 = 1'b0
+    Found 3-bit register for signal <rotation>.
+    Found 3-bit register for signal <core_tick>.
+    Found 1-bit register for signal <mux_flag>.
+    Found 1-bit register for signal <demux_flag>.
+    Found 3-bit adder for signal <core_tick[2]_GND_5_o_add_3_OUT> created at line 59.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <ctrl> synthesized.
+
+Synthesizing Unit <s_p>.
+    Related source file is "/home/ise/NTUST_Advanced_Computer_Algorithms/sp/s_p.v".
+    Found 4-bit register for signal <counter>.
+    Found 1-bit register for signal <s_p_flag_out>.
+    Found 136-bit register for signal <data_out_1>.
+    Found 34-bit register for signal <R15>.
+    Found 34-bit register for signal <R14>.
+    Found 34-bit register for signal <R13>.
+    Found 34-bit register for signal <R12>.
+    Found 34-bit register for signal <R11>.
+    Found 34-bit register for signal <R10>.
+    Found 34-bit register for signal <R9>.
+    Found 34-bit register for signal <R8>.
+    Found 34-bit register for signal <R7>.
+    Found 34-bit register for signal <R6>.
+    Found 34-bit register for signal <R5>.
+    Found 34-bit register for signal <R4>.
+    Found 34-bit register for signal <R3>.
+    Found 34-bit register for signal <R2>.
+    Found 34-bit register for signal <R1>.
+    Found 34-bit register for signal <R0>.
+    Found 4-bit adder for signal <counter[3]_GND_6_o_add_1_OUT> created at line 55.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred 685 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <s_p> synthesized.
+
+Synthesizing Unit <mux>.
+    Related source file is "/home/ise/NTUST_Advanced_Computer_Algorithms/fft/mux.v".
+WARNING:Xst:647 - Input <data_in_3<135:34>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 4-bit register for signal <counter>.
+    Found 4-bit adder for signal <counter[3]_GND_7_o_add_3_OUT> created at line 52.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<33>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<32>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<31>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<30>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<29>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<28>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<27>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<26>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<25>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<24>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<23>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<22>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<21>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<20>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<19>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<18>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<17>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<16>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<15>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<14>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R1<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<33>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<32>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<31>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<30>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<29>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<28>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<27>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<26>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<25>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<24>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<23>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<22>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<21>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<20>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<19>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<18>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<17>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<16>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<15>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<14>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R2<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<33>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<32>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<31>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<30>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<29>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<28>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<27>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<26>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<25>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<24>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<23>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<22>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<21>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<20>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<19>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<18>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<17>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<16>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<15>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<14>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R3<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<33>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<32>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<31>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<30>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<29>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<28>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<27>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<26>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<25>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<24>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<23>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<22>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<21>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<20>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<19>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<18>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<17>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<16>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<15>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<14>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R4<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 D-type flip-flop(s).
+	inferred 136 Latch(s).
+Unit <mux> synthesized.
+
+Synthesizing Unit <butterfly>.
+    Related source file is "/home/ise/NTUST_Advanced_Computer_Algorithms/butterfly/butterfly.v".
+        para0000 = 8'b00000000
+        para3827 = 8'b00110001
+        parn3827 = 8'b11001111
+        para7071 = 8'b01011010
+        parn7071 = 8'b10100110
+        para9239 = 8'b01110110
+        parn9239 = 8'b10001010
+        para1111 = 8'b01111111
+        parn1111 = 8'b10000001
+    Found 17-bit subtractor for signal <temp_2_real> created at line 246.
+    Found 17-bit subtractor for signal <temp_1_real> created at line 250.
+    Found 17-bit subtractor for signal <temp_3_real> created at line 252.
+    Found 17-bit subtractor for signal <n0148> created at line 266.
+    Found 17-bit subtractor for signal <out_1_real> created at line 266.
+    Found 17-bit subtractor for signal <n0151> created at line 267.
+    Found 17-bit subtractor for signal <out_1_imag> created at line 267.
+    Found 17-bit subtractor for signal <temp_0_real[16]_temp_1_imag[16]_sub_45_OUT> created at line 269.
+    Found 17-bit subtractor for signal <n0154> created at line 269.
+    Found 17-bit subtractor for signal <temp_0_imag[16]_temp_2_imag[16]_sub_49_OUT> created at line 270.
+    Found 17-bit subtractor for signal <out_2_imag> created at line 270.
+    Found 17-bit subtractor for signal <temp_0_real[16]_temp_2_real[16]_sub_52_OUT> created at line 271.
+    Found 17-bit subtractor for signal <out_3_real> created at line 271.
+    Found 17-bit subtractor for signal <temp_0_imag[16]_temp_1_real[16]_sub_54_OUT> created at line 272.
+    Found 17-bit subtractor for signal <n0163> created at line 272.
+    Found 17-bit adder for signal <temp_2_imag> created at line 247.
+    Found 17-bit adder for signal <temp_1_imag> created at line 251.
+    Found 17-bit adder for signal <temp_3_imag> created at line 253.
+    Found 17-bit adder for signal <n0133> created at line 263.
+    Found 17-bit adder for signal <n0136> created at line 263.
+    Found 17-bit adder for signal <out_0_real> created at line 263.
+    Found 17-bit adder for signal <n0142> created at line 264.
+    Found 17-bit adder for signal <n0145> created at line 264.
+    Found 17-bit adder for signal <out_0_imag> created at line 264.
+    Found 17-bit adder for signal <temp_0_real[16]_temp_2_real[16]_add_39_OUT> created at line 266.
+    Found 17-bit adder for signal <temp_0_imag[16]_temp_2_imag[16]_add_42_OUT> created at line 267.
+    Found 17-bit adder for signal <out_2_real> created at line 269.
+    Found 17-bit adder for signal <temp_0_imag[16]_temp_1_real[16]_add_47_OUT> created at line 270.
+    Found 17-bit adder for signal <temp_0_real[16]_temp_1_imag[16]_add_50_OUT> created at line 271.
+    Found 17-bit adder for signal <out_3_imag> created at line 272.
+    Found 8x48-bit Read Only RAM for signal <_n0174>
+    Summary:
+	inferred   1 RAM(s).
+	inferred  30 Adder/Subtractor(s).
+Unit <butterfly> synthesized.
+
+Synthesizing Unit <multi16>.
+    Related source file is "/home/ise/NTUST_Advanced_Computer_Algorithms/butterfly/multi16.v".
+    Found 17-bit adder for signal <in_17bit[16]_GND_145_o_add_2_OUT> created at line 36.
+    Found 22-bit adder for signal <n0128[21:0]> created at line 42.
+    Found 23-bit adder for signal <n0131> created at line 42.
+    Found 21-bit adder for signal <n0134[20:0]> created at line 44.
+    Found 22-bit adder for signal <n0137[21:0]> created at line 44.
+    Found 24-bit adder for signal <n0140> created at line 44.
+    Found 20-bit adder for signal <n0143[19:0]> created at line 46.
+    Found 22-bit adder for signal <n0146[21:0]> created at line 46.
+    Found 23-bit adder for signal <n0149[22:0]> created at line 46.
+    Found 24-bit adder for signal <n0152> created at line 46.
+    Found 1-bit adder for signal <flag> created at line 55.
+    Found 17-bit adder for signal <mul_b[16]_GND_145_o_add_88_OUT> created at line 59.
+WARNING:Xst:737 - Found 1-bit latch for signal <neg_mul<23>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <neg_mul<22>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <neg_mul<21>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <neg_mul<20>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <neg_mul<19>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <neg_mul<18>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <neg_mul<17>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <neg_mul<16>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <neg_mul<15>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <neg_mul<14>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <neg_mul<13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <neg_mul<12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <neg_mul<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <neg_mul<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <neg_mul<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <neg_mul<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <neg_mul<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred  12 Adder/Subtractor(s).
+	inferred  17 Latch(s).
+	inferred   3 Multiplexer(s).
+Unit <multi16> synthesized.
+
+Synthesizing Unit <reg1>.
+    Related source file is "/home/ise/NTUST_Advanced_Computer_Algorithms/reg/reg1.v".
+    Found 2-bit register for signal <counter1>.
+    Found 1-bit register for signal <reg_flag_mux>.
+    Found 34-bit register for signal <R8>.
+    Found 34-bit register for signal <R9>.
+    Found 34-bit register for signal <R10>.
+    Found 34-bit register for signal <R11>.
+    Found 34-bit register for signal <R4>.
+    Found 34-bit register for signal <R5>.
+    Found 34-bit register for signal <R6>.
+    Found 34-bit register for signal <R7>.
+    Found 34-bit register for signal <R0>.
+    Found 34-bit register for signal <R1>.
+    Found 34-bit register for signal <R2>.
+    Found 34-bit register for signal <R3>.
+    Found 34-bit register for signal <R12>.
+    Found 34-bit register for signal <R13>.
+    Found 34-bit register for signal <R14>.
+    Found 34-bit register for signal <R15>.
+    Found 2-bit register for signal <counter2>.
+    Found 136-bit register for signal <data_out_2>.
+    Found 2-bit adder for signal <counter1[1]_GND_171_o_add_0_OUT> created at line 55.
+    Found 2-bit adder for signal <counter2[1]_GND_171_o_add_55_OUT> created at line 107.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred 685 D-type flip-flop(s).
+Unit <reg1> synthesized.
+
+Synthesizing Unit <p_s>.
+    Related source file is "/home/ise/NTUST_Advanced_Computer_Algorithms/ps/p_s.v".
+    Found 4-bit register for signal <counter_2>.
+    Found 2-bit register for signal <counter_1>.
+    Found 1-bit register for signal <p_s_flag_out>.
+    Found 34-bit register for signal <R1>.
+    Found 34-bit register for signal <R5>.
+    Found 34-bit register for signal <R9>.
+    Found 34-bit register for signal <R13>.
+    Found 34-bit register for signal <R0>.
+    Found 34-bit register for signal <R4>.
+    Found 34-bit register for signal <R8>.
+    Found 34-bit register for signal <R12>.
+    Found 34-bit register for signal <R3>.
+    Found 34-bit register for signal <R7>.
+    Found 34-bit register for signal <R11>.
+    Found 34-bit register for signal <R15>.
+    Found 34-bit register for signal <R2>.
+    Found 34-bit register for signal <R6>.
+    Found 34-bit register for signal <R10>.
+    Found 34-bit register for signal <R14>.
+    Found 34-bit register for signal <data_out_3>.
+    Found 2-bit adder for signal <counter_1[1]_GND_172_o_add_1_OUT> created at line 60.
+    Found 4-bit adder for signal <counter_2[3]_GND_172_o_add_54_OUT> created at line 105.
+    Found 34-bit 16-to-1 multiplexer for signal <counter_2[3]_R3[33]_wide_mux_58_OUT> created at line 123.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred 585 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+Unit <p_s> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 8x48-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 181
+ 1-bit adder                                           : 12
+ 17-bit adder                                          : 39
+ 17-bit subtractor                                     : 15
+ 2-bit adder                                           : 3
+ 20-bit adder                                          : 12
+ 21-bit adder                                          : 12
+ 22-bit adder                                          : 36
+ 23-bit adder                                          : 24
+ 24-bit adder                                          : 24
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 3
+# Registers                                            : 64
+ 1-bit register                                        : 5
+ 136-bit register                                      : 2
+ 2-bit register                                        : 3
+ 3-bit register                                        : 2
+ 34-bit register                                       : 49
+ 4-bit register                                        : 3
+# Latches                                              : 340
+ 1-bit latch                                           : 340
+# Multiplexers                                         : 42
+ 17-bit 2-to-1 multiplexer                             : 36
+ 2-bit 2-to-1 multiplexer                              : 1
+ 3-bit 2-to-1 multiplexer                              : 2
+ 34-bit 16-to-1 multiplexer                            : 1
+ 4-bit 2-to-1 multiplexer                              : 2
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+INFO:Xst:2261 - The FF/Latch <rotation_2> in Unit <ctrl0> is equivalent to the following FF/Latch, which will be removed : <mux_flag> 
+
+Synthesizing (advanced) Unit <butterfly>.
+	The following adders/subtractors are grouped into adder tree <Msub_temp_1_real1> :
+ 	<multiBRR/Mmux_out_rs> in block <butterfly>, 	<multiBII/Mmux_out_rs> in block <butterfly>.
+	The following adders/subtractors are grouped into adder tree <Msub_temp_2_real1> :
+ 	<multiCRR/Mmux_out_rs> in block <butterfly>, 	<multiCII/Mmux_out_rs> in block <butterfly>.
+	The following adders/subtractors are grouped into adder tree <Madd_temp_1_imag1> :
+ 	<multiBRI/Mmux_out_rs> in block <butterfly>, 	<multiBIR/Mmux_out_rs> in block <butterfly>.
+	The following adders/subtractors are grouped into adder tree <Madd_temp_2_imag1> :
+ 	<multiCRI/Mmux_out_rs> in block <butterfly>, 	<multiCIR/Mmux_out_rs> in block <butterfly>.
+	The following adders/subtractors are grouped into adder tree <Msub_temp_3_real1> :
+ 	<multiDRR/Mmux_out_rs> in block <butterfly>, 	<multiDII/Mmux_out_rs> in block <butterfly>.
+	The following adders/subtractors are grouped into adder tree <Madd_temp_3_imag1> :
+ 	<multiDRI/Mmux_out_rs> in block <butterfly>, 	<multiDIR/Mmux_out_rs> in block <butterfly>.
+	The following adders/subtractors are grouped into adder tree <Madd_out_2_real1> :
+ 	<Msub_temp_0_real[16]_temp_1_imag[16]_sub_45_OUT> in block <butterfly>, 	<Msub_n0154> in block <butterfly>, 	<Madd_out_2_real> in block <butterfly>.
+	The following adders/subtractors are grouped into adder tree <Msub_out_1_real1> :
+ 	<Msub_n0148> in block <butterfly>, 	<Madd_temp_0_real[16]_temp_2_real[16]_add_39_OUT> in block <butterfly>, 	<Msub_out_1_real> in block <butterfly>.
+	The following adders/subtractors are grouped into adder tree <Madd_out_0_real1> :
+ 	<Madd_n0133> in block <butterfly>, 	<Madd_n0136> in block <butterfly>, 	<Madd_out_0_real> in block <butterfly>.
+	The following adders/subtractors are grouped into adder tree <Msub_out_3_real1> :
+ 	<Madd_temp_0_real[16]_temp_1_imag[16]_add_50_OUT> in block <butterfly>, 	<Msub_temp_0_real[16]_temp_2_real[16]_sub_52_OUT> in block <butterfly>, 	<Msub_out_3_real> in block <butterfly>.
+	The following adders/subtractors are grouped into adder tree <Msub_out_1_imag1> :
+ 	<Msub_n0151> in block <butterfly>, 	<Madd_temp_0_imag[16]_temp_2_imag[16]_add_42_OUT> in block <butterfly>, 	<Msub_out_1_imag> in block <butterfly>.
+	The following adders/subtractors are grouped into adder tree <Madd_out_0_imag1> :
+ 	<Madd_n0142> in block <butterfly>, 	<Madd_n0145> in block <butterfly>, 	<Madd_out_0_imag> in block <butterfly>.
+	The following adders/subtractors are grouped into adder tree <Madd_out_3_imag1> :
+ 	<Msub_temp_0_imag[16]_temp_1_real[16]_sub_54_OUT> in block <butterfly>, 	<Msub_n0163> in block <butterfly>, 	<Madd_out_3_imag> in block <butterfly>.
+	The following adders/subtractors are grouped into adder tree <Msub_out_2_imag1> :
+ 	<Madd_temp_0_imag[16]_temp_1_real[16]_add_47_OUT> in block <butterfly>, 	<Msub_temp_0_imag[16]_temp_2_imag[16]_sub_49_OUT> in block <butterfly>, 	<Msub_out_2_imag> in block <butterfly>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0174> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 48-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <rotation>      |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <butterfly> synthesized (advanced).
+
+Synthesizing (advanced) Unit <multi16>.
+	The following adders/subtractors are grouped into adder tree <Madd_n01521> :
+ 	<Madd_n0143[19:0]> in block <multi16>, 	<Madd_n0146[21:0]> in block <multi16>, 	<Madd_n0149[22:0]> in block <multi16>, 	<Madd_n0152> in block <multi16>.
+	The following adders/subtractors are grouped into adder tree <Madd_n01401> :
+ 	<Madd_n0134[20:0]> in block <multi16>, 	<Madd_n0137[21:0]> in block <multi16>, 	<Madd_n0140> in block <multi16>.
+Unit <multi16> synthesized (advanced).
+
+Synthesizing (advanced) Unit <mux>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <mux> synthesized (advanced).
+
+Synthesizing (advanced) Unit <p_s>.
+The following registers are absorbed into counter <counter_2>: 1 register on signal <counter_2>.
+The following registers are absorbed into counter <counter_1>: 1 register on signal <counter_1>.
+Unit <p_s> synthesized (advanced).
+
+Synthesizing (advanced) Unit <reg1>.
+The following registers are absorbed into counter <counter1>: 1 register on signal <counter1>.
+The following registers are absorbed into counter <counter2>: 1 register on signal <counter2>.
+Unit <reg1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <s_p>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <s_p> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 8x48-bit single-port distributed Read Only RAM        : 1
+# Adders/Subtractors                                   : 49
+ 1-bit adder                                           : 12
+ 17-bit adder                                          : 12
+ 22-bit adder                                          : 12
+ 23-bit adder                                          : 12
+ 3-bit adder                                           : 1
+# Adder Trees                                          : 38
+ 17-bit / 4-inputs adder tree                          : 14
+ 24-bit / 4-inputs adder tree                          : 12
+ 24-bit / 5-inputs adder tree                          : 12
+# Counters                                             : 6
+ 2-bit up counter                                      : 3
+ 4-bit up counter                                      : 3
+# Registers                                            : 1949
+ Flip-Flops                                            : 1949
+# Multiplexers                                         : 231
+ 1-bit 2-to-1 multiplexer                              : 204
+ 17-bit 2-to-1 multiplexer                             : 24
+ 3-bit 2-to-1 multiplexer                              : 2
+ 34-bit 16-to-1 multiplexer                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <rotation_2> in Unit <ctrl> is equivalent to the following FF/Latch, which will be removed : <mux_flag> 
+
+Optimizing unit <fft_chip> ...
+
+Optimizing unit <s_p> ...
+
+Optimizing unit <ctrl> ...
+
+Optimizing unit <mux> ...
+
+Optimizing unit <reg1> ...
+
+Optimizing unit <p_s> ...
+
+Optimizing unit <butterfly> ...
+WARNING:Xst:1294 - Latch <multiDIR/neg_mul_9> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDIR/neg_mul_7> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDIR/neg_mul_8> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDIR/neg_mul_12> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDIR/neg_mul_10> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDIR/neg_mul_11> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDIR/neg_mul_13> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDIR/neg_mul_14> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDIR/neg_mul_17> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDIR/neg_mul_15> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDIR/neg_mul_16> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDIR/neg_mul_18> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDIR/neg_mul_19> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDIR/neg_mul_22> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDIR/neg_mul_20> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDIR/neg_mul_21> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDIR/neg_mul_23> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDII/neg_mul_7> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDII/neg_mul_8> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDII/neg_mul_11> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDII/neg_mul_9> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDII/neg_mul_10> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDII/neg_mul_12> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDII/neg_mul_13> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDII/neg_mul_16> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDII/neg_mul_14> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDII/neg_mul_15> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDII/neg_mul_17> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDII/neg_mul_18> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDII/neg_mul_21> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDII/neg_mul_19> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDII/neg_mul_20> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDII/neg_mul_22> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDII/neg_mul_23> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRI/neg_mul_7> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRI/neg_mul_8> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRI/neg_mul_11> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRI/neg_mul_9> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRI/neg_mul_10> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRI/neg_mul_12> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRI/neg_mul_13> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRI/neg_mul_16> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRI/neg_mul_14> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRI/neg_mul_15> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRI/neg_mul_17> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRI/neg_mul_18> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRI/neg_mul_21> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRI/neg_mul_19> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRI/neg_mul_20> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRI/neg_mul_22> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRI/neg_mul_23> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRR/neg_mul_7> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRR/neg_mul_10> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRR/neg_mul_8> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRR/neg_mul_9> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRR/neg_mul_13> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRR/neg_mul_11> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRR/neg_mul_12> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRR/neg_mul_16> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRR/neg_mul_14> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRR/neg_mul_15> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRR/neg_mul_17> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRR/neg_mul_18> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRR/neg_mul_21> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRR/neg_mul_19> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRR/neg_mul_20> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRR/neg_mul_22> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiDRR/neg_mul_23> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCIR/neg_mul_7> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCIR/neg_mul_10> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCIR/neg_mul_8> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCIR/neg_mul_9> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCIR/neg_mul_11> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCIR/neg_mul_12> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCIR/neg_mul_15> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCIR/neg_mul_13> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCIR/neg_mul_14> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCIR/neg_mul_16> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCIR/neg_mul_17> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCIR/neg_mul_20> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCIR/neg_mul_18> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCIR/neg_mul_19> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCIR/neg_mul_21> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCIR/neg_mul_22> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCIR/neg_mul_23> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCII/neg_mul_7> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCII/neg_mul_10> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCII/neg_mul_8> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCII/neg_mul_9> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCII/neg_mul_11> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCII/neg_mul_12> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCII/neg_mul_15> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCII/neg_mul_13> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCII/neg_mul_14> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCII/neg_mul_16> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCII/neg_mul_17> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCII/neg_mul_20> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCII/neg_mul_18> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCII/neg_mul_19> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCII/neg_mul_21> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCII/neg_mul_22> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCII/neg_mul_23> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRI/neg_mul_9> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRI/neg_mul_7> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRI/neg_mul_8> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRI/neg_mul_10> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRI/neg_mul_11> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRI/neg_mul_14> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRI/neg_mul_12> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRI/neg_mul_13> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRI/neg_mul_17> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRI/neg_mul_15> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRI/neg_mul_16> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRI/neg_mul_20> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRI/neg_mul_18> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRI/neg_mul_19> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRI/neg_mul_21> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRI/neg_mul_22> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRI/neg_mul_23> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRR/neg_mul_9> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRR/neg_mul_7> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRR/neg_mul_8> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRR/neg_mul_10> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRR/neg_mul_11> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRR/neg_mul_14> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRR/neg_mul_12> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRR/neg_mul_13> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRR/neg_mul_15> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRR/neg_mul_16> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRR/neg_mul_19> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRR/neg_mul_17> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRR/neg_mul_18> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRR/neg_mul_20> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRR/neg_mul_21> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRR/neg_mul_22> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiCRR/neg_mul_23> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBIR/neg_mul_9> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBIR/neg_mul_7> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBIR/neg_mul_8> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBIR/neg_mul_10> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBIR/neg_mul_11> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBIR/neg_mul_14> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBIR/neg_mul_12> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBIR/neg_mul_13> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBIR/neg_mul_15> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBIR/neg_mul_16> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBIR/neg_mul_19> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBIR/neg_mul_17> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBIR/neg_mul_18> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBIR/neg_mul_20> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBIR/neg_mul_21> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBIR/neg_mul_22> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBIR/neg_mul_23> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBII/neg_mul_8> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBII/neg_mul_7> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBII/neg_mul_9> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBII/neg_mul_10> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBII/neg_mul_13> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBII/neg_mul_11> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBII/neg_mul_12> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBII/neg_mul_14> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBII/neg_mul_15> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBII/neg_mul_18> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBII/neg_mul_16> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBII/neg_mul_17> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBII/neg_mul_21> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBII/neg_mul_19> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBII/neg_mul_20> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBII/neg_mul_22> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBII/neg_mul_23> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRI/neg_mul_8> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRI/neg_mul_7> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRI/neg_mul_9> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRI/neg_mul_10> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRI/neg_mul_13> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRI/neg_mul_11> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRI/neg_mul_12> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRI/neg_mul_14> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRI/neg_mul_15> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRI/neg_mul_18> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRI/neg_mul_16> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRI/neg_mul_17> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRI/neg_mul_19> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRI/neg_mul_20> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRI/neg_mul_23> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRI/neg_mul_21> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRI/neg_mul_22> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRR/neg_mul_7> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRR/neg_mul_8> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRR/neg_mul_9> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRR/neg_mul_12> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRR/neg_mul_10> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRR/neg_mul_11> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRR/neg_mul_13> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRR/neg_mul_14> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRR/neg_mul_17> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRR/neg_mul_15> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRR/neg_mul_16> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRR/neg_mul_18> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRR/neg_mul_19> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRR/neg_mul_22> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRR/neg_mul_20> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRR/neg_mul_21> is equivalent to a wire in block <butterfly>.
+WARNING:Xst:1294 - Latch <multiBRR/neg_mul_23> is equivalent to a wire in block <butterfly>.
+INFO:Xst:2261 - The FF/Latch <inst_fft/reg10/R15_17> in Unit <fft_chip> is equivalent to the following FF/Latch, which will be removed : <inst_fft/reg10/R13_17> 
+INFO:Xst:2261 - The FF/Latch <inst_fft/reg10/R11_0> in Unit <fft_chip> is equivalent to the following FF/Latch, which will be removed : <inst_fft/reg10/R9_0> 
+INFO:Xst:2261 - The FF/Latch <inst_fft/p_s0/R15_17> in Unit <fft_chip> is equivalent to the following FF/Latch, which will be removed : <inst_fft/p_s0/R7_17> 
+INFO:Xst:2261 - The FF/Latch <inst_fft/p_s0/counter_1_0> in Unit <fft_chip> is equivalent to the following FF/Latch, which will be removed : <inst_fft/p_s0/counter_2_0> 
+INFO:Xst:2261 - The FF/Latch <inst_fft/reg10/R7_0> in Unit <fft_chip> is equivalent to the following FF/Latch, which will be removed : <inst_fft/reg10/R5_0> 
+INFO:Xst:2261 - The FF/Latch <inst_fft/p_s0/counter_1_1> in Unit <fft_chip> is equivalent to the following FF/Latch, which will be removed : <inst_fft/p_s0/counter_2_1> 
+INFO:Xst:2261 - The FF/Latch <inst_fft/reg10/R1_0> in Unit <fft_chip> is equivalent to the following FF/Latch, which will be removed : <inst_fft/reg10/R3_0> 
+INFO:Xst:2261 - The FF/Latch <inst_fft/reg10/R11_17> in Unit <fft_chip> is equivalent to the following FF/Latch, which will be removed : <inst_fft/reg10/R9_17> 
+INFO:Xst:2261 - The FF/Latch <inst_fft/p_s0/R13_0> in Unit <fft_chip> is equivalent to the following FF/Latch, which will be removed : <inst_fft/p_s0/R5_0> 
+INFO:Xst:2261 - The FF/Latch <inst_fft/p_s0/R4_0> in Unit <fft_chip> is equivalent to the following FF/Latch, which will be removed : <inst_fft/p_s0/R12_0> 
+INFO:Xst:2261 - The FF/Latch <inst_fft/p_s0/R14_17> in Unit <fft_chip> is equivalent to the following FF/Latch, which will be removed : <inst_fft/p_s0/R6_17> 
+INFO:Xst:2261 - The FF/Latch <inst_fft/reg10/R15_0> in Unit <fft_chip> is equivalent to the following FF/Latch, which will be removed : <inst_fft/reg10/R13_0> 
+INFO:Xst:2261 - The FF/Latch <inst_fft/p_s0/R14_0> in Unit <fft_chip> is equivalent to the following FF/Latch, which will be removed : <inst_fft/p_s0/R6_0> 
+INFO:Xst:2261 - The FF/Latch <inst_fft/p_s0/R15_0> in Unit <fft_chip> is equivalent to the following FF/Latch, which will be removed : <inst_fft/p_s0/R7_0> 
+INFO:Xst:2261 - The FF/Latch <inst_fft/reg10/R7_17> in Unit <fft_chip> is equivalent to the following FF/Latch, which will be removed : <inst_fft/reg10/R5_17> 
+INFO:Xst:2261 - The FF/Latch <inst_fft/reg10/R1_17> in Unit <fft_chip> is equivalent to the following FF/Latch, which will be removed : <inst_fft/reg10/R3_17> 
+INFO:Xst:2261 - The FF/Latch <inst_fft/p_s0/R13_17> in Unit <fft_chip> is equivalent to the following FF/Latch, which will be removed : <inst_fft/p_s0/R5_17> 
+INFO:Xst:2261 - The FF/Latch <inst_fft/p_s0/R4_17> in Unit <fft_chip> is equivalent to the following FF/Latch, which will be removed : <inst_fft/p_s0/R12_17> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block fft_chip, actual ratio is 2.
+FlipFlop inst_fft/ctrl0/rotation_2 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1949
+ Flip-Flops                                            : 1949
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : fft_chip.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 7223
+#      GND                         : 1
+#      INV                         : 9
+#      LUT1                        : 21
+#      LUT2                        : 210
+#      LUT3                        : 912
+#      LUT4                        : 664
+#      LUT5                        : 967
+#      LUT6                        : 1704
+#      MUXCY                       : 1304
+#      MUXF7                       : 172
+#      MUXF8                       : 34
+#      VCC                         : 1
+#      XORCY                       : 1224
+# FlipFlops/Latches                : 2085
+#      FD                          : 136
+#      FDC                         : 23
+#      FDCE                        : 2
+#      FDE                         : 1786
+#      FDRE                        : 2
+#      LD                          : 136
+# Clock Buffers                    : 5
+#      BUFG                        : 5
+# IO Buffers                       : 70
+#      IBUF                        : 36
+#      OBUF                        : 34
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7vx330tffg1157-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            2085  out of  408000     0%  
+ Number of Slice LUTs:                 4487  out of  204000     2%  
+    Number used as Logic:              4487  out of  204000     2%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   6000
+   Number with an unused Flip Flop:    3915  out of   6000    65%  
+   Number with an unused LUT:          1513  out of   6000    25%  
+   Number of fully used LUT-FF pairs:   572  out of   6000     9%  
+   Number of unique control sets:        34
+
+IO Utilization: 
+ Number of IOs:                          70
+ Number of bonded IOBs:                  70  out of    600    11%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                5  out of     32    15%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+----------------------------------------------------------------------------------------+----------------------------+-------+
+Clock Signal                                                                            | Clock buffer(FF name)      | Load  |
+----------------------------------------------------------------------------------------+----------------------------+-------+
+clk                                                                                     | IBUF+BUFG                  | 1949  |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_12_o(inst_fft/mux0/GND_7_o_GND_7_o_equal_12_o<3>1:O)| BUFG(*)(inst_fft/mux0/R4_0)| 34    |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_10_o(inst_fft/mux0/GND_7_o_GND_7_o_equal_10_o<3>1:O)| BUFG(*)(inst_fft/mux0/R3_0)| 34    |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_8_o(inst_fft/mux0/GND_7_o_GND_7_o_equal_8_o1:O)     | BUFG(*)(inst_fft/mux0/R2_0)| 34    |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_6_o(inst_fft/mux0/GND_7_o_GND_7_o_equal_6_o1:O)     | BUFG(*)(inst_fft/mux0/R1_0)| 34    |
+----------------------------------------------------------------------------------------+----------------------------+-------+
+(*) These 4 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 10.602ns (Maximum Frequency: 94.325MHz)
+   Minimum input arrival time before clock: 1.125ns
+   Maximum output required time after clock: 0.575ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 10.602ns (frequency: 94.325MHz)
+  Total number of paths / destination ports: 516591911417 / 3195
+-------------------------------------------------------------------------
+Delay:               10.602ns (Levels of Logic = 27)
+  Source:            inst_fft/mux0/counter_0 (FF)
+  Destination:       inst_fft/reg10/R15_33 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: inst_fft/mux0/counter_0 to inst_fft/reg10/R15_33
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              9   0.236   0.567  inst_fft/mux0/counter_0 (inst_fft/mux0/counter_0)
+     LUT4:I0->O          404   0.043   0.549  inst_fft/mux0/GND_7_o_GND_7_o_equal_1_o<3>1 (inst_fft/mux0/GND_7_o_GND_7_o_equal_1_o)
+     LUT5:I4->O           17   0.043   0.693  inst_fft/mux0/data_out<122>1 (inst_fft/data_3<122>)
+     LUT6:I1->O            2   0.043   0.608  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_cy<0>81_SW0_SW5 (N1234)
+     LUT6:I1->O            1   0.043   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_cy<0>81_SW0_G (N1812)
+     MUXF7:I1->O           1   0.178   0.495  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_cy<0>81_SW0 (N600)
+     LUT6:I3->O            3   0.043   0.362  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_cy<0>91 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_cy<0>8)
+     LUT6:I5->O            5   0.043   0.373  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_cy<0>111 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_cy<0>10)
+     LUT6:I5->O            5   0.043   0.373  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_cy<0>131 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_cy<0>12)
+     LUT6:I5->O            2   0.043   0.355  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_xor<0>161 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_1518)
+     LUT3:I2->O            1   0.043   0.350  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd2010 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd2010)
+     LUT4:I3->O            1   0.043   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd20_lut<0>16 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd20_lut<0>16)
+     MUXCY:S->O            1   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd20_cy<0>_15 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd20_cy<0>16)
+     XORCY:CI->O           1   0.262   0.350  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd20_xor<0>_16 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_1720)
+     LUT6:I5->O            1   0.043   0.000  inst_fft/butterfly0/mux3511 (inst_fft/butterfly0/multiDRI/Mmux_out_rs_A<10>)
+     MUXCY:S->O            1   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd99_cy<10> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd99_cy<10>)
+     XORCY:CI->O           2   0.262   0.355  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd99_xor<11> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_11138)
+     LUT3:I2->O            1   0.043   0.350  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd10111 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd10111)
+     LUT4:I3->O            1   0.043   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd101_lut<0>12 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd101_lut<0>12)
+     MUXCY:S->O            1   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd101_cy<0>_11 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd101_cy<0>12)
+     XORCY:CI->O           4   0.262   0.367  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd101_xor<0>_12 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_13104)
+     LUT2:I1->O            1   0.043   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd115_lut<13> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd115_lut<13>)
+     MUXCY:S->O            1   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd115_cy<13> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd115_cy<13>)
+     XORCY:CI->O           2   0.262   0.500  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd115_xor<14> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_14115)
+     LUT3:I0->O            1   0.043   0.350  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd11614 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd11615)
+     LUT4:I3->O            1   0.043   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd116_lut<0>15 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd116_lut<0>15)
+     MUXCY:S->O            0   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd116_cy<0>_14 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd116_cy<0>15)
+     XORCY:CI->O           8   0.262   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd116_xor<0>_15 (inst_fft/data_4<84>)
+     FDE:D                    -0.000          inst_fft/reg10/R10_16
+    ----------------------------------------
+    Total                     10.602ns (3.602ns logic, 7.000ns route)
+                                       (34.0% logic, 66.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'inst_fft/mux0/GND_7_o_GND_7_o_equal_12_o'
+  Clock period: 10.006ns (frequency: 99.936MHz)
+  Total number of paths / destination ports: 1294600173 / 34
+-------------------------------------------------------------------------
+Delay:               10.006ns (Levels of Logic = 26)
+  Source:            inst_fft/mux0/R4_20 (LATCH)
+  Destination:       inst_fft/mux0/R4_16 (LATCH)
+  Source Clock:      inst_fft/mux0/GND_7_o_GND_7_o_equal_12_o falling
+  Destination Clock: inst_fft/mux0/GND_7_o_GND_7_o_equal_12_o falling
+
+  Data Path: inst_fft/mux0/R4_20 to inst_fft/mux0/R4_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               3   0.330   0.615  inst_fft/mux0/R4_20 (inst_fft/mux0/R4_20)
+     LUT5:I0->O           17   0.043   0.693  inst_fft/mux0/data_out<122>1 (inst_fft/data_3<122>)
+     LUT6:I1->O            2   0.043   0.608  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_cy<0>81_SW0_SW5 (N1234)
+     LUT6:I1->O            1   0.043   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_cy<0>81_SW0_G (N1812)
+     MUXF7:I1->O           1   0.178   0.495  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_cy<0>81_SW0 (N600)
+     LUT6:I3->O            3   0.043   0.362  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_cy<0>91 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_cy<0>8)
+     LUT6:I5->O            5   0.043   0.373  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_cy<0>111 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_cy<0>10)
+     LUT6:I5->O            5   0.043   0.373  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_cy<0>131 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_cy<0>12)
+     LUT6:I5->O            2   0.043   0.355  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd18_xor<0>161 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_1518)
+     LUT3:I2->O            1   0.043   0.350  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd2010 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd2010)
+     LUT4:I3->O            1   0.043   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd20_lut<0>16 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd20_lut<0>16)
+     MUXCY:S->O            1   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd20_cy<0>_15 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd20_cy<0>16)
+     XORCY:CI->O           1   0.262   0.350  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd20_xor<0>_16 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_1720)
+     LUT6:I5->O            1   0.043   0.000  inst_fft/butterfly0/mux3511 (inst_fft/butterfly0/multiDRI/Mmux_out_rs_A<10>)
+     MUXCY:S->O            1   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd99_cy<10> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd99_cy<10>)
+     XORCY:CI->O           2   0.262   0.355  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd99_xor<11> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_11138)
+     LUT3:I2->O            1   0.043   0.350  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd10111 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd10111)
+     LUT4:I3->O            1   0.043   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd101_lut<0>12 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd101_lut<0>12)
+     MUXCY:S->O            1   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd101_cy<0>_11 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd101_cy<0>12)
+     XORCY:CI->O           4   0.262   0.367  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd101_xor<0>_12 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_13104)
+     LUT2:I1->O            1   0.043   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd118_lut<13> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd118_lut<13>)
+     MUXCY:S->O            1   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd118_cy<13> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd118_cy<13>)
+     XORCY:CI->O           2   0.262   0.355  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd118_xor<14> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_14118)
+     LUT3:I2->O            1   0.043   0.350  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd11914 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd11915)
+     LUT4:I3->O            1   0.043   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_lut<0>15 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_lut<0>15)
+     MUXCY:S->O            0   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>_14 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>15)
+     XORCY:CI->O          12   0.262   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_xor<0>_15 (inst_fft/data_4<16>)
+     LD:D                     -0.034          inst_fft/mux0/R4_16
+    ----------------------------------------
+    Total                     10.006ns (3.653ns logic, 6.353ns route)
+                                       (36.5% logic, 63.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'inst_fft/mux0/GND_7_o_GND_7_o_equal_10_o'
+  Clock period: 8.677ns (frequency: 115.242MHz)
+  Total number of paths / destination ports: 455165175 / 34
+-------------------------------------------------------------------------
+Delay:               8.677ns (Levels of Logic = 33)
+  Source:            inst_fft/mux0/R3_17 (LATCH)
+  Destination:       inst_fft/mux0/R3_16 (LATCH)
+  Source Clock:      inst_fft/mux0/GND_7_o_GND_7_o_equal_10_o falling
+  Destination Clock: inst_fft/mux0/GND_7_o_GND_7_o_equal_10_o falling
+
+  Data Path: inst_fft/mux0/R3_17 to inst_fft/mux0/R3_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               3   0.330   0.615  inst_fft/mux0/R3_17 (inst_fft/mux0/R3_17)
+     LUT5:I0->O            1   0.043   0.000  inst_fft/mux0/data_out<85>12 (inst_fft/mux0/data_out<85>11)
+     MUXCY:S->O            1   0.238   0.000  inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<0> (inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<0>)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<1> (inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<1>)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<2> (inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<2>)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<3> (inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<3>)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<4> (inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<4>)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<5> (inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<5>)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<6> (inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<6>)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<7> (inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<7>)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<8> (inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<8>)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<9> (inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<9>)
+     XORCY:CI->O           3   0.262   0.362  inst_fft/butterfly0/multiCRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_xor<10> (inst_fft/butterfly0/multiCRI/in_17bit[16]_GND_145_o_add_2_OUT<10>)
+     LUT3:I2->O           19   0.043   0.440  inst_fft/butterfly0/multiCRI/Mmux_in_17bit_b31 (inst_fft/butterfly0/multiCRI/in_17bit_b<10>)
+     MUXCY:DI->O           1   0.228   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd43_cy<12> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd43_cy<12>)
+     XORCY:CI->O           2   0.262   0.355  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd43_xor<13> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_1543)
+     LUT3:I2->O            1   0.043   0.350  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd4414 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd4414)
+     LUT4:I3->O            1   0.043   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd44_lut<0>16 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd44_lut<0>16)
+     MUXCY:S->O            1   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd44_cy<0>_15 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd44_cy<0>16)
+     XORCY:CI->O           1   0.262   0.350  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd44_xor<0>_16 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_1744)
+     LUT6:I5->O            1   0.043   0.000  inst_fft/butterfly0/mux10311 (inst_fft/butterfly0/multiCRI/Mmux_out_rs_A<10>)
+     MUXCY:S->O            1   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd96_cy<10> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd96_cy<10>)
+     XORCY:CI->O           2   0.262   0.355  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd96_xor<11> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_11135)
+     LUT3:I2->O            1   0.043   0.350  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd9811 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd9812)
+     LUT4:I3->O            1   0.043   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd98_lut<0>12 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd98_lut<0>12)
+     MUXCY:S->O            1   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd98_cy<0>_11 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd98_cy<0>12)
+     XORCY:CI->O           4   0.262   0.422  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd98_xor<0>_12 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_13101)
+     LUT2:I0->O            1   0.043   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd118_lut<13> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd118_lut<13>)
+     MUXCY:S->O            1   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd118_cy<13> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd118_cy<13>)
+     XORCY:CI->O           2   0.262   0.355  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd118_xor<14> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_14118)
+     LUT3:I2->O            1   0.043   0.350  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd11914 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd11915)
+     LUT4:I3->O            1   0.043   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_lut<0>15 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_lut<0>15)
+     MUXCY:S->O            0   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>_14 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>15)
+     XORCY:CI->O          12   0.262   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_xor<0>_15 (inst_fft/data_4<16>)
+     LD:D                     -0.034          inst_fft/mux0/R3_16
+    ----------------------------------------
+    Total                      8.677ns (4.372ns logic, 4.306ns route)
+                                       (50.4% logic, 49.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'inst_fft/mux0/GND_7_o_GND_7_o_equal_8_o'
+  Clock period: 9.618ns (frequency: 103.975MHz)
+  Total number of paths / destination ports: 388670376 / 34
+-------------------------------------------------------------------------
+Delay:               9.618ns (Levels of Logic = 31)
+  Source:            inst_fft/mux0/R2_17 (LATCH)
+  Destination:       inst_fft/mux0/R2_16 (LATCH)
+  Source Clock:      inst_fft/mux0/GND_7_o_GND_7_o_equal_8_o falling
+  Destination Clock: inst_fft/mux0/GND_7_o_GND_7_o_equal_8_o falling
+
+  Data Path: inst_fft/mux0/R2_17 to inst_fft/mux0/R2_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               3   0.330   0.507  inst_fft/mux0/R2_17 (inst_fft/mux0/R2_17)
+     LUT5:I2->O            1   0.043   0.000  inst_fft/mux0/data_out<51>12 (inst_fft/mux0/data_out<51>11)
+     MUXCY:S->O            1   0.238   0.000  inst_fft/butterfly0/multiBRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<0> (inst_fft/butterfly0/multiBRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<0>)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/multiBRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<1> (inst_fft/butterfly0/multiBRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<1>)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/multiBRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<2> (inst_fft/butterfly0/multiBRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<2>)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/multiBRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<3> (inst_fft/butterfly0/multiBRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<3>)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/multiBRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<4> (inst_fft/butterfly0/multiBRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<4>)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/multiBRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<5> (inst_fft/butterfly0/multiBRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_cy<5>)
+     XORCY:CI->O          11   0.262   0.406  inst_fft/butterfly0/multiBRI/Madd_in_17bit[16]_GND_145_o_add_2_OUT_xor<6> (inst_fft/butterfly0/multiBRI/in_17bit[16]_GND_145_o_add_2_OUT<6>)
+     LUT3:I2->O            3   0.043   0.615  inst_fft/butterfly0/multiBRI/Mmux_in_17bit_b141_1 (inst_fft/butterfly0/multiBRI/Mmux_in_17bit_b141)
+     LUT6:I1->O            4   0.043   0.512  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd74_cy<0>131_SW1 (N729)
+     LUT6:I3->O            1   0.043   0.603  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd74_cy<0>111_SW4 (N904)
+     LUT6:I1->O            3   0.043   0.351  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd74_cy<0>131 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd74_cy<0>12)
+     MUXF7:S->O            2   0.234   0.355  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd74_xor<0>151 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_1474)
+     LUT3:I2->O            1   0.043   0.350  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd769 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd769)
+     LUT4:I3->O            1   0.043   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd76_lut<0>15 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd76_lut<0>15)
+     MUXCY:S->O            1   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd76_cy<0>_14 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd76_cy<0>15)
+     XORCY:CI->O           1   0.262   0.350  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd76_xor<0>_15 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_1676)
+     LUT6:I5->O            1   0.043   0.350  inst_fft/butterfly0/multiBRI/in_8bit[7]_GND_145_o_Select_49_o<9> (inst_fft/butterfly0/multiBRI/neg_mul<16>)
+     LUT5:I4->O            1   0.043   0.000  inst_fft/butterfly0/mux18611 (inst_fft/butterfly0/multiBRI/Mmux_out_rs_A<9>)
+     MUXCY:S->O            1   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd93_cy<9> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd93_cy<9>)
+     MUXCY:CI->O           1   0.013   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd93_cy<10> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd93_cy<10>)
+     MUXCY:CI->O           1   0.013   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd93_cy<11> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd93_cy<11>)
+     XORCY:CI->O           2   0.262   0.355  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd93_xor<12> (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_12109)
+     LUT3:I2->O            1   0.043   0.350  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd9512 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd9513)
+     LUT4:I3->O            1   0.043   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd95_lut<0>13 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd95_lut<0>13)
+     MUXCY:S->O            1   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd95_cy<0>_12 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd95_cy<0>13)
+     XORCY:CI->O           8   0.262   0.444  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd95_xor<0>_13 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd_1495)
+     LUT3:I1->O            1   0.043   0.350  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd11914 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd11915)
+     LUT4:I3->O            1   0.043   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_lut<0>15 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_lut<0>15)
+     MUXCY:S->O            0   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>_14 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>15)
+     XORCY:CI->O          12   0.262   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_xor<0>_15 (inst_fft/data_4<16>)
+     LD:D                     -0.034          inst_fft/mux0/R2_16
+    ----------------------------------------
+    Total                      9.618ns (3.718ns logic, 5.900ns route)
+                                       (38.7% logic, 61.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'inst_fft/mux0/GND_7_o_GND_7_o_equal_6_o'
+  Clock period: 2.383ns (frequency: 419.718MHz)
+  Total number of paths / destination ports: 818 / 34
+-------------------------------------------------------------------------
+Delay:               2.383ns (Levels of Logic = 19)
+  Source:            inst_fft/mux0/R1_0 (LATCH)
+  Destination:       inst_fft/mux0/R1_16 (LATCH)
+  Source Clock:      inst_fft/mux0/GND_7_o_GND_7_o_equal_6_o falling
+  Destination Clock: inst_fft/mux0/GND_7_o_GND_7_o_equal_6_o falling
+
+  Data Path: inst_fft/mux0/R1_0 to inst_fft/mux0/R1_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.330   0.350  inst_fft/mux0/R1_0 (inst_fft/mux0/R1_0)
+     LUT5:I4->O            8   0.043   0.534  inst_fft/mux0/data_out<0>1 (inst_fft/data_3<0>)
+     LUT3:I0->O            1   0.043   0.350  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd1191)
+     LUT4:I3->O            1   0.043   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_lut<0>1 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_lut<0>1)
+     MUXCY:S->O            1   0.238   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>_0 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>1)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>_1 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>2)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>_2 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>3)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>_3 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>4)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>_4 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>5)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>_5 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>6)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>_6 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>7)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>_7 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>8)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>_8 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>9)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>_9 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>10)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>_10 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>11)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>_11 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>12)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>_12 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>13)
+     MUXCY:CI->O           1   0.014   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>_13 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>14)
+     MUXCY:CI->O           0   0.014   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>_14 (inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_cy<0>15)
+     XORCY:CI->O          12   0.262   0.000  inst_fft/butterfly0/ADDERTREE_INTERNAL_Madd119_xor<0>_15 (inst_fft/data_4<16>)
+     LD:D                     -0.034          inst_fft/mux0/R1_16
+    ----------------------------------------
+    Total                      2.383ns (1.148ns logic, 1.235ns route)
+                                       (48.2% logic, 51.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 571 / 571
+-------------------------------------------------------------------------
+Offset:              1.125ns (Levels of Logic = 2)
+  Source:            rst_n (PAD)
+  Destination:       inst_fft/s_p0/counter_3 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst_n to inst_fft/s_p0/counter_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.000   0.339  rst_n_ibuf (rst_n_buf)
+     INV:I->O             27   0.054   0.468  inst_fft/s_p0/rst_n_inv1_INV_0 (inst_fft/ctrl0/rst_n_inv)
+     FDC:CLR                   0.264          inst_fft/ctrl0/demux_flag
+    ----------------------------------------
+    Total                      1.125ns (0.318ns logic, 0.807ns route)
+                                       (28.3% logic, 71.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 34 / 34
+-------------------------------------------------------------------------
+Offset:              0.575ns (Levels of Logic = 1)
+  Source:            inst_fft/p_s0/data_out_3_33 (FF)
+  Destination:       data_out<33> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: inst_fft/p_s0/data_out_3_33 to data_out<33>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.236   0.339  inst_fft/p_s0/data_out_3_33 (inst_fft/p_s0/data_out_3_33)
+     OBUF:I->O                 0.000          [33].data_out_obuf (data_out<33>)
+    ----------------------------------------
+    Total                      0.575ns (0.236ns logic, 0.339ns route)
+                                       (41.0% logic, 59.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+----------------------------------------+---------+---------+---------+---------+
+                                        | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------------------+---------+---------+---------+---------+
+clk                                     |   10.602|         |         |         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_10_o|         |    8.822|         |         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_12_o|         |   10.151|         |         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_6_o |         |    2.383|         |         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_8_o |         |    9.618|         |         |
+----------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock inst_fft/mux0/GND_7_o_GND_7_o_equal_10_o
+----------------------------------------+---------+---------+---------+---------+
+                                        | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------------------+---------+---------+---------+---------+
+clk                                     |         |         |   10.457|         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_10_o|         |         |    8.677|         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_12_o|         |         |   10.006|         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_6_o |         |         |    2.383|         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_8_o |         |         |    9.618|         |
+----------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock inst_fft/mux0/GND_7_o_GND_7_o_equal_12_o
+----------------------------------------+---------+---------+---------+---------+
+                                        | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------------------+---------+---------+---------+---------+
+clk                                     |         |         |   10.457|         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_10_o|         |         |    8.677|         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_12_o|         |         |   10.006|         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_6_o |         |         |    2.383|         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_8_o |         |         |    9.618|         |
+----------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock inst_fft/mux0/GND_7_o_GND_7_o_equal_6_o
+----------------------------------------+---------+---------+---------+---------+
+                                        | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------------------+---------+---------+---------+---------+
+clk                                     |         |         |   10.457|         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_10_o|         |         |    8.677|         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_12_o|         |         |   10.006|         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_6_o |         |         |    2.383|         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_8_o |         |         |    9.618|         |
+----------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock inst_fft/mux0/GND_7_o_GND_7_o_equal_8_o
+----------------------------------------+---------+---------+---------+---------+
+                                        | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------------------+---------+---------+---------+---------+
+clk                                     |         |         |   10.457|         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_10_o|         |         |    8.677|         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_12_o|         |         |   10.006|         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_6_o |         |         |    2.383|         |
+inst_fft/mux0/GND_7_o_GND_7_o_equal_8_o |         |         |    9.618|         |
+----------------------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 33.00 secs
+Total CPU time to Xst completion: 12.71 secs
+ 
+--> 
+
+
+Total memory usage is 611768 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  392 (   0 filtered)
+Number of infos    :   22 (   0 filtered)
+

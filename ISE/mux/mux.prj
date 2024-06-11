@@ -1,0 +1,3 @@
+verilog work "smux.v"
+verilog work "counter.v"
+verilog work "mux.v"

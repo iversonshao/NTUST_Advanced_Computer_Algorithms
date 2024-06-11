@@ -1,0 +1,22 @@
+ISim log file
+Running: /home/ise/mux/smux_tb_isim_par.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/mux/smux_tb_isim_par.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+INFO: SDF backannotation was successful with SDF file netgen/par/smux_timesim.sdf, for root module /smux_tb/uut/.
+Finished circuit initialization process.
+Test case 1: mux_flag = 0, counter = 2, data_out = 00fedcba9876543210fedcba9876543210
+Test case 2: mux_flag = 0, counter = 14, data_out = 00fedcba9876543210fedcba9876543210
+Test case 3: mux_flag = 1, counter = 2, data_out = 0081a3456f91cbb210fedebce06a2a6d0f
+Test case 4: mux_flag = 1, counter = 15, data_out = 000123456789abcdef0123456789abcdef
+Stopped at time : 140 ns : File "/home/ise/mux/smux_tb.v" Line 85
+# exit 0

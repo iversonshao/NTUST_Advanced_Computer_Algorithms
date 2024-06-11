@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "simprims_ver" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/NTUST_Advanced_Computer_Algorithms/fftchip/fft_chip_tb_isim_par.exe" -prj "/home/ise/NTUST_Advanced_Computer_Algorithms/fftchip/fft_chip_tb_par.prj" "work.fft_chip_tb" "work.glbl" 
